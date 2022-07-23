@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://riddler.oss-cn-shanghai.aliyuncs.com/upload/wangz.png",
+  logo: "https://oss.w2gd.top/upload/wangz.png",
 
   repo: "https://github.com/wardendon?tab=repositories",
 
@@ -32,7 +32,7 @@ export default hopeTheme({
 
   blog: {
     // roundAvatar: true,
-    description: "一个前端开发者",
+    description: "一位前台端菜服务员",
     intro: "/intro.html",
     medias: {
       Gmail: "mailto:w2gdong@gmail.com",
@@ -43,7 +43,11 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      // 加密 guide/encrypt.html
+      "/guide/encrypt.html": ["joker"],
+      "/black/farewell/2020TheirLetter.html": ["2020"],
+      "/black/farewell/2021TheirLetter.html": ["2021"],
+      "/literary/sigh/山入安记.html": ["joker"]
     },
   },
 

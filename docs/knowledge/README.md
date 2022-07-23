@@ -1,9 +1,8 @@
 ---
-title: 未来文笏
+title: 寻找无双
 index: false
 icon: creative
 category:
-  - 轻盈
 article: false
 ---
 

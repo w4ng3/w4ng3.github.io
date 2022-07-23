@@ -5,7 +5,6 @@ category:
   - CategoryA
 tag:
   - tag A
-  - tag B
 ---
 
 # 文章 1

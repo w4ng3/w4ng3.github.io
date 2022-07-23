@@ -1,4 +1,4 @@
-export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-4eaf9f84","v-08a2b06d","v-06edd7ce","v-0538ff2f","v-03842690","v-78726316","v-190648d0","v-0e503981","v-fffb8e28","v-4c863446","v-bf720700","v-0978b044","v-5c61a91c"]}},"encrypted":{"/":{"path":"/encrypted/","keys":["v-bf720700"]}},"slide":{"/":{"path":"/slide/","keys":["v-0e503981"]}},"star":{"/":{"path":"/star/","keys":["v-4eaf9f84","v-0538ff2f"]}},"timeline":{"/":{"path":"/timeline/","keys":["v-08a2b06d","v-06edd7ce","v-0538ff2f","v-03842690","v-78726316","v-190648d0","v-4eaf9f84"]}}}
+export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-78726316","v-190648d0","v-03842690","v-fffb8e28"]}},"encrypted":{"/":{"path":"/encrypted/","keys":[]}},"slide":{"/":{"path":"/slide/","keys":[]}},"star":{"/":{"path":"/star/","keys":[]}},"timeline":{"/":{"path":"/timeline/","keys":["v-78726316","v-190648d0","v-03842690"]}}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

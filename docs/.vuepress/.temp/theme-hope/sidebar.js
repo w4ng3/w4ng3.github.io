@@ -1,1 +1,1 @@
-export const sidebarData = {"/guide/":["page.md","markdown.md","disable.md","encrypt.md"],"/literary/":["light.md","swift.md"]}
+export const sidebarData = {"/guide/":["page.md","markdown.md"],"/literary/sigh/":["山入安记.md"],"/knowledge/spiritual/":[],"/black/farewell/":["2020TheirLetter.md","2021TheirLetter.md"]}

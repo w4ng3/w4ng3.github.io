@@ -2,10 +2,10 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
-heroImage: https://riddler.oss-cn-shanghai.aliyuncs.com/upload/wangz.png
+title: 主页
+heroImage: https://oss.w2gd.top/upload/wangz.png
 heroText: WD
-bgImage: https://riddler.oss-cn-shanghai.aliyuncs.com/GoTham/GoTham9.jpeg
+bgImage: https://oss.w2gd.top/GoTham/GoTham9.jpeg
 heroFullScreen: false
 tagline: Z世代终将会与自己想要的世界双向奔赴
 projects:
@@ -27,12 +27,12 @@ projects:
   - icon: article
     name: 黑铁时代
     desc: 黑铁时代的象征是那支鹅毛笔
-    link: https://你的文章链接
+    link: /black/
 
   - icon: friend
     name: 寻找无双
     desc: 知识的迭代是人类进步的推力
-    link: https://你的伙伴链接
+    link: /knowledge/
 
   - icon: /logo.svg
     name: 未来文笏
