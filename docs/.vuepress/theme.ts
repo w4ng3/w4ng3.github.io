@@ -23,12 +23,14 @@ export default hopeTheme({
 
   // sidebar
   sidebar: sidebar,
-
-  footer: "默认页脚",
+  // 默认页脚
+  footer: "",
+  // 显示编辑链接
+  editLink: false,
 
   displayFooter: true,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word"],
 
   blog: {
     // roundAvatar: true,
@@ -43,11 +45,14 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      // 加密 guide/encrypt.html
       "/guide/encrypt.html": ["joker"],
       "/black/farewell/2020TheirLetter.html": ["2020"],
       "/black/farewell/2021TheirLetter.html": ["2021"],
-      "/literary/sigh/山入安记.html": ["joker"]
+      "/literary/sigh/山入安记.html": ["joker"],
+      "/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的": ["joker"],
+      "/knowledge/spiritual/金融帝国主义如何剥削全世界.html": ["joker"],
+      "/knowledge/spiritual/资本主义的本质是什么？": ["joker"],
+      "/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？": ["joker"],
     },
   },
 
@@ -88,5 +93,11 @@ export default hopeTheme({
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
     },
+    copyright: {
+      global: true,
+      // disableCopy: true,
+      // disableSelection: true
+
+    }
   },
 });

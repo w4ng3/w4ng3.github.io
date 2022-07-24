@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-3e61a924\",\"path\":\"/knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html\",\"title\":\"从基金到比特币，金融资本如何隐形剥削所有打工人？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"从基金到比特币，金融资本如何隐形剥削所有打工人？\",\"icon\":\"page\",\"date\":\"2022-07-23T00:00:00.000Z\",\"author\":\"Velpro514 @坠茵落溷\",\"category\":[\"社会学\"],\"copyright\":\"(CC)BY-NC-SA 许可协议\",\"article\":false,\"summary\":\"从基金到比特币，金融资本如何隐形剥削所有打工人？ 本文为 B 站 UP 主 学院派Academia 的视频 ——【金融资本论】从基金到比特币，金融资本如何隐形剥削所有打工人？—— 文案。 金融最大的危害只是让你亏钱吗？不，美国最新的马克思学派研究告诉我们，金融化将重塑劳工结构、规训工人阶级，最终无限放大资本的杠杆和话语权。这场战争，我们无人可以置身事外。 在\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WD\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"从基金到比特币，金融资本如何隐形剥削所有打工人？\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Velpro514 @坠茵落溷\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-07-23T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"大而不倒：金融利维坦主义\",\"slug\":\"大而不倒-金融利维坦主义\",\"children\":[]},{\"level\":2,\"title\":\"金融化转型：加速的资本主义\",\"slug\":\"金融化转型-加速的资本主义\",\"children\":[]},{\"level\":2,\"title\":\"不确定性的边缘化打工人时代\",\"slug\":\"不确定性的边缘化打工人时代\",\"children\":[]},{\"level\":2,\"title\":\"为什么职场越来越残酷了?\",\"slug\":\"为什么职场越来越残酷了\",\"children\":[]},{\"level\":2,\"title\":\"资本绳下的傀儡主权\",\"slug\":\"资本绳下的傀儡主权\",\"children\":[]},{\"level\":2,\"title\":\"世纪变迁，百年幽灵\",\"slug\":\"世纪变迁-百年幽灵\",\"children\":[]},{\"level\":2,\"title\":\"来源\",\"slug\":\"来源\",\"children\":[]}],\"readingTime\":{\"minutes\":39.25,\"words\":11776},\"copyright\":\"著作权归Velpro514 @坠茵落溷所有\\n原文链接：https://vuepress-theme-hope-v2-demo.mrhope.site/knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html\",\"filePathRelative\":\"knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？.md\",\"localizedDate\":\"2022年7月23日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

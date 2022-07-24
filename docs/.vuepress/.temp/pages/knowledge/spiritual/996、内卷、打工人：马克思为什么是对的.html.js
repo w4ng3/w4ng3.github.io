@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-63a98246\",\"path\":\"/knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html\",\"title\":\"996、内卷、打工人：马克思为什么是对的\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"996、内卷、打工人：马克思为什么是对的\",\"icon\":\"page\",\"date\":\"2022-07-23T00:00:00.000Z\",\"author\":\"Velpro514 @坠茵落溷\",\"category\":[\"社会学\"],\"copyright\":\"(CC)BY-NC-SA 许可协议\",\"article\":false,\"summary\":\"本文为B站UP主学院派Academia的视频 ——【硬核社会学】996、内卷、打工人：马克思为什么是对的（上）—— 文案。 2020 年的今天，作为一个理性的人，你很难不承认的一个事实是： 排除表面上的政治、文化和社会差异，整个人类社会所运行的最基础、最核心的系统 —— 仍然是资本主义。 无论各国政府依照自身情势运行的是这套系统的哪个变种，毫无疑问的是，他们\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WD\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"996、内卷、打工人：马克思为什么是对的\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Velpro514 @坠茵落溷\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-07-23T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"Human Nature 人性论\",\"slug\":\"human-nature-人性论\",\"children\":[]},{\"level\":2,\"title\":\"Capitalism Condition 资本主义之性质\",\"slug\":\"capitalism-condition-资本主义之性质\",\"children\":[]},{\"level\":2,\"title\":\"The Division of Labor 劳动分工\",\"slug\":\"the-division-of-labor-劳动分工\",\"children\":[]},{\"level\":2,\"title\":\"Four Alienation 四种异化\",\"slug\":\"four-alienation-四种异化\",\"children\":[]},{\"level\":2,\"title\":\"Surplus Value 剩余价值理论\",\"slug\":\"surplus-value-剩余价值理论\",\"children\":[]},{\"level\":2,\"title\":\"Why Not Resist 为什么我们不反抗\",\"slug\":\"why-not-resist-为什么我们不反抗\",\"children\":[]},{\"level\":2,\"title\":\"来源\",\"slug\":\"来源\",\"children\":[]}],\"readingTime\":{\"minutes\":50.34,\"words\":15103},\"copyright\":\"著作权归Velpro514 @坠茵落溷所有\\n原文链接：https://vuepress-theme-hope-v2-demo.mrhope.site/knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html\",\"filePathRelative\":\"knowledge/spiritual/996、内卷、打工人：马克思为什么是对的.md\",\"localizedDate\":\"2022年7月23日\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

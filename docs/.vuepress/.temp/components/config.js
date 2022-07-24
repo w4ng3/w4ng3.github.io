@@ -1,9 +1,9 @@
-import { useStyleTag } from "/Users/w2gd/Desktop/WD-Blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/composables";
+import { useStyleTag } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "/Users/w2gd/Desktop/WD-Blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/Badge";
-import FontIcon from "/Users/w2gd/Desktop/WD-Blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import BackToTop from "/Users/w2gd/Desktop/WD-Blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
+import Badge from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/Badge";
+import FontIcon from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
+import BackToTop from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.85/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({
