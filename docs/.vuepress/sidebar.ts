@@ -3,6 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar(
   {
     "/guide/": "structure",
+    "/code/vue/": "structure",
     "/literary/":[
       "",
       "/literary/light",
@@ -31,8 +32,7 @@ export default sidebar(
         prefix: "farewell/",
         collapsable: true,
         children: "structure",
-      },
-    ]
+      }],
   }
 
 //  [

@@ -7,19 +7,9 @@ export default navbar([
   {
     text: "代码笔记",
     icon: "edit",
-    prefix: "/posts/",
+    prefix: "/code/",
     children: [
-      // {
-      //   text: "文章 1-4",
-      //   icon: "edit",
-      //   prefix: "article/",
-      //   children: [
-      //     { text: "文章 1", icon: "edit", link: "article1" },
-      //     { text: "文章 2", icon: "edit", link: "article2" },
-      //     "article3",
-      //     "article4",
-      //   ],
-      // },
+      { text: "Vue.js", icon: "vue", link: "vue/异步组件" },
     ],
   },
 ]);
