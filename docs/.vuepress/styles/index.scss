@@ -1,10 +1,13 @@
 .blog-hero {
   h1 {
     font-style: italic;
+    color: #f07c82;
+    font-size: 50px !important;
   }
   .description {
-    color: #fa5d19;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #bc84a8;
     font-size: 25px !important;
-    font-weight: bold;
+    opacity: 0.6 !important;
   }
 }

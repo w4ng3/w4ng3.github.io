@@ -3,11 +3,11 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: https://oss.w2gd.top/upload/wangz.png
-heroText: WD
-bgImage: https://oss.w2gd.top/GoTham/GoTham9.jpeg
-heroFullScreen: false
-tagline: Z世代终将会与自己想要的世界双向奔赴
+heroImage: https://oss.w2gd.top/blog/joker.png
+heroText: warden@王東
+bgImage: https://oss.w2gd.top/GoTham/GoTham2.png
+heroFullScreen: true
+tagline: 什么都看在眼里，而什么都漠然视之
 projects:
   - icon: project
     name: WEB前端

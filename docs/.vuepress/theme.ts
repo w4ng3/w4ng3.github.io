@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://oss.w2gd.top/upload/wangz.png",
+  logo: "https://oss.w2gd.top/blog/joker.png",
 
   repo: "https://github.com/wardendon?tab=repositories",
 
@@ -29,6 +29,8 @@ export default hopeTheme({
   editLink: false,
 
   displayFooter: true,
+  // 暗色主题切换
+  // darkmode:"toggle",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word"],
 
@@ -95,9 +97,6 @@ export default hopeTheme({
     },
     copyright: {
       global: true,
-      // disableCopy: true,
-      // disableSelection: true
-
     }
   },
 });

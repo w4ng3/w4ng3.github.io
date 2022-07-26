@@ -5,9 +5,12 @@ category:
   - CategoryA
 tag:
   - tag A
+sticky: true
 ---
 
-# 文章 1
+# 在markdown里使用自定义Vue组件
+
+<MyComponent content="在markdown里使用自定义Vue组件"/>
 
 ## 标题 2
 
@@ -16,3 +19,6 @@ tag:
 ### 标题 3
 
 这里是内容。
+<script setup>
+import MyComponent from "@MyComponent";
+</script>
