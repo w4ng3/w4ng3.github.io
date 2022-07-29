@@ -13,7 +13,7 @@ HTTP中的KeepAlive可以避免连接频繁地销毁/创建，与HTTP中的keepA
 ```vue
 <template>
   <Tab v-if="currentTab === 1"></Tab>
-  <Tab v-if="currentTab === 2"></Tab>
+  <Tab v-else-if="currentTab === 2"></Tab>
   <Tab v-else></Tab>
 </template>
 ```
@@ -23,7 +23,7 @@ HTTP中的KeepAlive可以避免连接频繁地销毁/创建，与HTTP中的keepA
   <!-- 使用 KeepAlive 组件包裹-->
   <KeepAlive>
     <Tab v-if="currentTab === 1"></Tab>
-    <Tab v-if="currentTab === 2"></Tab>
+    <Tab v-else-if="currentTab === 2"></Tab>
     <Tab v-else></Tab>
   </KeepAlive>
 </template>
