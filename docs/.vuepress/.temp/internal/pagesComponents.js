@@ -7,6 +7,10 @@ export const pagesComponents = {
   "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/home.html.vue")),
   // path: /slide.html
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/slide.html.vue")),
+  // path: /black/
+  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
+  // path: /knowledge/
+  "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/markdown.html
@@ -19,14 +23,6 @@ export const pagesComponents = {
   "v-78726316": defineAsyncComponent(() => import(/* webpackChunkName: "v-78726316" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/light.html.vue")),
   // path: /literary/swift.html
   "v-190648d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-190648d0" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/swift.html.vue")),
-  // path: /black/
-  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
-  // path: /knowledge/
-  "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
-  // path: /literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html
-  "v-5c6e816c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c6e816c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/山入安记.html.vue")),
-  // path: /posts/article/useComponentsInMd.html
-  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
   // path: /black/farewell/2020TheirLetter.html
   "v-0a7c4342": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a7c4342" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2020TheirLetter.html.vue")),
   // path: /black/farewell/2021TheirLetter.html
@@ -41,8 +37,14 @@ export const pagesComponents = {
   "v-73bc1031": defineAsyncComponent(() => import(/* webpackChunkName: "v-73bc1031" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/资本主义的本质是什么？.html.vue")),
   // path: /knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html
   "v-5e2c641c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e2c641c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/金融帝国主义如何剥削全世界.html.vue")),
+  // path: /literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html
+  "v-5c6e816c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c6e816c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/山入安记.html.vue")),
+  // path: /posts/article/useComponentsInMd.html
+  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
   // path: /code/vue/%E5%86%85%E7%BD%AE%E7%BB%84%E4%BB%B6KeepAlive.html
   "v-6ef429c6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6ef429c6" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/内置组件KeepAlive.html.vue")),
+  // path: /code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html
+  "v-0f7d1bf2": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f7d1bf2" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/在Vue中使用JSX语法.html.vue")),
   // path: /code/vue/%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6.html
   "v-2c0dae4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c0dae4e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/异步组件.html.vue")),
   // path: /code/vue/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0%E4%B8%8E%E8%99%9A%E6%8B%9FDOM.html
@@ -77,4 +79,6 @@ export const pagesComponents = {
   "v-ced3bc52": defineAsyncComponent(() => import(/* webpackChunkName: "v-ced3bc52" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/组件优化/index.html.vue")),
   // path: /category/vue/
   "v-65f6d381": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6d381" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/vue/index.html.vue")),
+  // path: /tag/%E5%90%83%E9%A5%B1%E6%92%91%E7%9A%84/
+  "v-c7b31620": defineAsyncComponent(() => import(/* webpackChunkName: "v-c7b31620" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/吃饱撑的/index.html.vue")),
 }

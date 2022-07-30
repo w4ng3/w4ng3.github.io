@@ -32,7 +32,7 @@ export default hopeTheme({
   // 暗色主题切换
   // darkmode:"toggle",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag","Word"],
 
   blog: {
     // roundAvatar: true,
