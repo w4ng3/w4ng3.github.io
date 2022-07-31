@@ -7,6 +7,7 @@ category:
   - Vue
 tag:
   - 吃饱撑的
+order: 13
 ---
 渲染函数在代码易读性上比模版差很多，代码写起来很痛苦，
 这就是为什么会有一个 <a href="https://github.com/vuejs/babel-plugin-jsx">Babel</a> 插件，用于在 Vue 中使用 JSX 语法，它可以让我们回到更接近于模板的语法上。

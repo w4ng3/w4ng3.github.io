@@ -7,6 +7,7 @@ category:
   - Vue
 tag:
   - 组件优化
+order: 11
 ---
 HTTP中的KeepAlive可以避免连接频繁地销毁/创建，与HTTP中的keepAlive类似，Vue.js内建的KeepAlive组件可以避免一个组件被频繁创建地销毁/重建。  
 假设我们的页面中有一组`<Tab>组件`，如下面的代码所示：
