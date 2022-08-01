@@ -113,6 +113,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "寻找无双",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "未来文笏",
     "headers": [
       {
@@ -151,225 +165,6 @@ export const searchIndex = [
       }
     ],
     "path": "/literary/swift.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "寻找无双",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "内置组件 KeepAlive",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Props：",
-        "slug": "props",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Demo Tab切换",
-        "slug": "demo-tab切换",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Demo 回退页面不刷新",
-        "slug": "demo-回退页面不刷新",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/vue/%E5%86%85%E7%BD%AE%E7%BB%84%E4%BB%B6KeepAlive.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在Vue中使用JSX语法",
-    "headers": [
-      {
-        "level": 2,
-        "title": "对比 template 和 jsx/tsx 的优缺点",
-        "slug": "对比-template-和-jsx-tsx-的优缺点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JSX简明语法",
-        "slug": "jsx简明语法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Demo Vite + Vue + JSX",
-        "slug": "demo-vite-vue-jsx",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Demo 在setup surge 中使用jsx",
-        "slug": "demo-在setup-surge-中使用jsx",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "异步组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "组件最基本的使用方式",
-        "slug": "组件最基本的使用方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "异步组件（基本用法）",
-        "slug": "异步组件-基本用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "Demo 按需加载不同组件",
-            "slug": "demo-按需加载不同组件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "defineAsyncComponent函数",
-        "slug": "defineasynccomponent函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "异步组件（高阶用法）",
-        "slug": "异步组件-高阶用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "Demo 延迟与超时",
-            "slug": "demo-延迟与超时",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Demo 重试机制",
-            "slug": "demo-重试机制",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/vue/%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "渲染函数与虚拟DOM",
-    "headers": [
-      {
-        "level": 2,
-        "title": "虚拟DOM的性能到底如何？",
-        "slug": "虚拟dom的性能到底如何",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "About",
-        "slug": "about",
-        "children": [
-          {
-            "level": 3,
-            "title": "h 函数",
-            "slug": "h-函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 JavaScript 代替模板功能",
-            "slug": "使用-javascript-代替模板功能",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Demo 锚点标题.js",
-        "slug": "demo-锚点标题-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Demo 在setup surge 里使用",
-        "slug": "demo-在setup-surge-里使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用JSX",
-        "slug": "使用jsx",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/vue/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0%E4%B8%8E%E8%99%9A%E6%8B%9FDOM.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "自定义抽象组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "实现一个 debounce 组件，对子组件的 click 事件进行拦截",
-        "slug": "实现一个-debounce-组件-对子组件的-click-事件进行拦截",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/vue/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%BD%E8%B1%A1%E7%BB%84%E4%BB%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -747,6 +542,271 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Map和Set",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Map 的引入",
+        "slug": "map-的引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Map",
+        "slug": "map",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Set",
+        "slug": "set",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/js/Map&Set.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Node.js",
+    "headers": [],
+    "path": "/code/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "TypeScript",
+    "headers": [
+      {
+        "level": 2,
+        "title": "语法特性",
+        "slug": "语法特性",
+        "children": []
+      }
+    ],
+    "path": "/code/ts/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "内置组件 KeepAlive",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Props：",
+        "slug": "props",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Demo Tab切换",
+        "slug": "demo-tab切换",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Demo 回退页面不刷新",
+        "slug": "demo-回退页面不刷新",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/vue/%E5%86%85%E7%BD%AE%E7%BB%84%E4%BB%B6KeepAlive.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在Vue中使用JSX语法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "对比 template 和 jsx/tsx 的优缺点",
+        "slug": "对比-template-和-jsx-tsx-的优缺点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JSX简明语法",
+        "slug": "jsx简明语法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Demo Vite + Vue + JSX",
+        "slug": "demo-vite-vue-jsx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Demo 在setup surge 中使用jsx",
+        "slug": "demo-在setup-surge-中使用jsx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "异步组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "组件最基本的使用方式",
+        "slug": "组件最基本的使用方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "异步组件（基本用法）",
+        "slug": "异步组件-基本用法",
+        "children": [
+          {
+            "level": 3,
+            "title": "Demo 按需加载不同组件",
+            "slug": "demo-按需加载不同组件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "defineAsyncComponent函数",
+        "slug": "defineasynccomponent函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "异步组件（高阶用法）",
+        "slug": "异步组件-高阶用法",
+        "children": [
+          {
+            "level": 3,
+            "title": "Demo 延迟与超时",
+            "slug": "demo-延迟与超时",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Demo 重试机制",
+            "slug": "demo-重试机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/vue/%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "渲染函数与虚拟DOM",
+    "headers": [
+      {
+        "level": 2,
+        "title": "虚拟DOM的性能到底如何？",
+        "slug": "虚拟dom的性能到底如何",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "About",
+        "slug": "about",
+        "children": [
+          {
+            "level": 3,
+            "title": "h 函数",
+            "slug": "h-函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 JavaScript 代替模板功能",
+            "slug": "使用-javascript-代替模板功能",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Demo 锚点标题.js",
+        "slug": "demo-锚点标题-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Demo 在setup surge 里使用",
+        "slug": "demo-在setup-surge-里使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用JSX",
+        "slug": "使用jsx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/vue/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0%E4%B8%8E%E8%99%9A%E6%8B%9FDOM.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "自定义抽象组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "实现一个 debounce 组件，对子组件的 click 事件进行拦截",
+        "slug": "实现一个-debounce-组件-对子组件的-click-事件进行拦截",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/vue/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%BD%E8%B1%A1%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Flutter",
+    "headers": [],
+    "path": "/code/flutter/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -831,9 +891,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "vuepress 分类",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/category/vuepress/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -845,9 +905,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vuepress 分类",
+    "title": "JavaScript 分类",
     "headers": [],
-    "path": "/category/vuepress/",
+    "path": "/category/javascript/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -855,6 +915,34 @@ export const searchIndex = [
     "title": "吃饱撑的 标签",
     "headers": [],
     "path": "/tag/%E5%90%83%E9%A5%B1%E6%92%91%E7%9A%84/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "NodeJS 分类",
+    "headers": [],
+    "path": "/category/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "typescript 分类",
+    "headers": [],
+    "path": "/category/typescript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue 分类",
+    "headers": [],
+    "path": "/category/vue/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "flutter 分类",
+    "headers": [],
+    "path": "/category/flutter/",
     "pathLocale": "/",
     "extraFields": []
   }

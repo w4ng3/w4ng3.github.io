@@ -9,20 +9,20 @@ bgImage: https://oss.w2gd.top/GoTham/GoTham2.png
 heroFullScreen: true
 tagline: 什么都看在眼里，而什么都漠然视之
 projects:
-  - icon: javascript
-    name: WEB前端
-    desc: 
-    link: https://v3.cn.vuejs.org/
+  # - icon: javascript
+  #   name: WEB前端
+  #   desc: 
+  #   link: https://v3.cn.vuejs.org/
 
-  - icon: dart
-    name: Flutter
-    desc: 
-    link: http://laomengit.com/
+  # - icon: dart
+  #   name: Flutter
+  #   desc: 
+  #   link: http://laomengit.com/
 
-  - icon: java
-    name: JAVA
-    desc: 
-    link: https://spring.io/
+  # - icon: java
+  #   name: JAVA
+  #   desc: 
+  #   link: https://spring.io/
 
   - icon: module
     name: 黑铁时代

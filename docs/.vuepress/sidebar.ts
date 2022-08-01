@@ -4,6 +4,9 @@ export default sidebar(
   {
     "/guide/": "structure",
     "/code/vue/": "structure",
+    "/code/js/": "structure",
+    "/code/ts/": "structure",
+    "/code/nodejs/": "structure",
     "/literary/":[
       "",
       "/literary/light",
