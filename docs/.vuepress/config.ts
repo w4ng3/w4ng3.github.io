@@ -2,13 +2,18 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme";
 import { path } from "@vuepress/utils";
 import { searchPlugin } from "@vuepress/plugin-search";
-import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+// import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "WD",
   description: "我的精神家园",
   base: "/",
-
+  alias: {
+    // 给组件路径创建别名
+    "@MyComponent": path.resolve(__dirname, "components"),
+    // 替换组件：将别名定向到自己的组件
+    // "@theme-hope/module/blog/components/BlogHero": path.resolve(__dirname,"components/BlogHero.vue")
+  },
   theme,
   plugins: [
     searchPlugin({
@@ -18,10 +23,11 @@ export default defineUserConfig({
         },
       },
     }),
+    // 爬虫搜索
     // docsearchPlugin({
-    //   appId: "LDBQGQC8Q9",
-    //   apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-    //   indexName: "mrhope",
+    //   appId: "",
+    //   apiKey: "",
+    //   indexName: "",
     //   locales: {
     //     "/": {
     //       placeholder: "搜索",
@@ -67,10 +73,4 @@ export default defineUserConfig({
     //   },
     // }),
   ],
-  alias: {
-    // 给组件路径创建别名
-    "@MyComponent": path.resolve(__dirname, "components"),
-    // 替换组件：将别名定向到自己的组件
-    // "@theme-hope/module/blog/components/BlogHero": path.resolve(__dirname,"components/BlogHero.vue")
-  },
 });

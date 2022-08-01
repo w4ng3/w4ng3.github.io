@@ -28,48 +28,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/literary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "轻盈",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "children": []
-      }
-    ],
-    "path": "/literary/light.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "迅速",
-    "headers": [
-      {
-        "level": 2,
-        "title": "卡尔维诺",
-        "slug": "卡尔维诺",
-        "children": []
-      }
-    ],
-    "path": "/literary/swift.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "主要功能与配置演示",
     "headers": [
       {
@@ -155,6 +113,48 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "未来文笏",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/literary/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "轻盈",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "children": []
+      }
+    ],
+    "path": "/literary/light.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "迅速",
+    "headers": [
+      {
+        "level": 2,
+        "title": "卡尔维诺",
+        "slug": "卡尔维诺",
+        "children": []
+      }
+    ],
+    "path": "/literary/swift.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "寻找无双",
     "headers": [
       {
@@ -165,112 +165,6 @@ export const searchIndex = [
       }
     ],
     "path": "/knowledge/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2020他们的告别",
-    "headers": [
-      {
-        "level": 2,
-        "title": "12月15日 北交大大三学生",
-        "slug": "_12月15日-北交大大三学生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "12/15 四川泸州小学生",
-        "slug": "_12-15-四川泸州小学生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11月19日 武汉工程大学 学生",
-        "slug": "_11月19日-武汉工程大学-学生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10/20 成都理工大学深夜东风渠",
-        "slug": "_10-20-成都理工大学深夜东风渠",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10/15  成都大学党委书记",
-        "slug": "_10-15-成都大学党委书记",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10/13 大连理工大学研三学生",
-        "slug": "_10-13-大连理工大学研三学生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9/9 江苏南通13岁女孩",
-        "slug": "_9-9-江苏南通13岁女孩",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8/18  晚南京航空航天大学某生",
-        "slug": "_8-18-晚南京航空航天大学某生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6/8 福建鼓山镇 六年级女孩",
-        "slug": "_6-8-福建鼓山镇-六年级女孩",
-        "children": []
-      }
-    ],
-    "path": "/black/farewell/2020TheirLetter.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2021他们的告别",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3/4 游戏女孩逃离伪封建式大家长",
-        "slug": "_3-4-游戏女孩逃离伪封建式大家长",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3/7  济南大学女生",
-        "slug": "_3-7-济南大学女生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4/18  西安一小学12岁女孩",
-        "slug": "_4-18-西安一小学12岁女孩",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5/5 江南大学临床医学男生",
-        "slug": "_5-5-江南大学临床医学男生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5/21  腾讯科兴大楼一实习生跳楼",
-        "slug": "_5-21-腾讯科兴大楼一实习生跳楼",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8/16  南汇14岁初二女孩跳楼",
-        "slug": "_8-16-南汇14岁初二女孩跳楼",
-        "children": []
-      }
-    ],
-    "path": "/black/farewell/2021TheirLetter.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -476,6 +370,139 @@ export const searchIndex = [
       }
     ],
     "path": "/code/vue/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%BD%E8%B1%A1%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2020他们的告别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "12月15日 北交大大三学生",
+        "slug": "_12月15日-北交大大三学生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "12/15 四川泸州小学生",
+        "slug": "_12-15-四川泸州小学生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11月19日 武汉工程大学 学生",
+        "slug": "_11月19日-武汉工程大学-学生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10/20 成都理工大学深夜东风渠",
+        "slug": "_10-20-成都理工大学深夜东风渠",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10/15  成都大学党委书记",
+        "slug": "_10-15-成都大学党委书记",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10/13 大连理工大学研三学生",
+        "slug": "_10-13-大连理工大学研三学生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9/9 江苏南通13岁女孩",
+        "slug": "_9-9-江苏南通13岁女孩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8/18  晚南京航空航天大学某生",
+        "slug": "_8-18-晚南京航空航天大学某生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6/8 福建鼓山镇 六年级女孩",
+        "slug": "_6-8-福建鼓山镇-六年级女孩",
+        "children": []
+      }
+    ],
+    "path": "/black/farewell/2020TheirLetter.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2021他们的告别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3/4 游戏女孩逃离伪封建式大家长",
+        "slug": "_3-4-游戏女孩逃离伪封建式大家长",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3/7  济南大学女生",
+        "slug": "_3-7-济南大学女生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4/18  西安一小学12岁女孩",
+        "slug": "_4-18-西安一小学12岁女孩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5/5 江南大学临床医学男生",
+        "slug": "_5-5-江南大学临床医学男生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5/21  腾讯科兴大楼一实习生跳楼",
+        "slug": "_5-21-腾讯科兴大楼一实习生跳楼",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8/16  南汇14岁初二女孩跳楼",
+        "slug": "_8-16-南汇14岁初二女孩跳楼",
+        "children": []
+      }
+    ],
+    "path": "/black/farewell/2021TheirLetter.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在markdown里使用自定义Vue组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": ".vuepress/config.js",
+        "slug": "vuepress-config-js",
+        "children": [
+          {
+            "level": 3,
+            "title": "MyComponent.vue",
+            "slug": "mycomponent-vue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "md",
+        "slug": "md",
+        "children": []
+      }
+    ],
+    "path": "/posts/article/useComponentsInMd.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -720,33 +747,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "在markdown里使用自定义Vue组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": ".vuepress/config.js",
-        "slug": "vuepress-config-js",
-        "children": [
-          {
-            "level": 3,
-            "title": "MyComponent.vue",
-            "slug": "mycomponent-vue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "md",
-        "slug": "md",
-        "children": []
-      }
-    ],
-    "path": "/posts/article/useComponentsInMd.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -803,9 +803,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏 分类",
+    "title": "使用指南 分类",
     "headers": [],
-    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -817,9 +817,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
+    "title": "未来文笏 分类",
     "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },

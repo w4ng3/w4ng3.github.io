@@ -9,32 +9,32 @@ bgImage: https://oss.w2gd.top/GoTham/GoTham2.png
 heroFullScreen: true
 tagline: 什么都看在眼里，而什么都漠然视之
 projects:
-  - icon: project
+  - icon: javascript
     name: WEB前端
     desc: 
     link: https://v3.cn.vuejs.org/
 
-  - icon: link
+  - icon: dart
     name: Flutter
     desc: 
     link: http://laomengit.com/
 
-  - icon: book
+  - icon: java
     name: JAVA
     desc: 
     link: https://spring.io/
 
-  - icon: article
+  - icon: module
     name: 黑铁时代
     desc: 黑铁时代的象征是那支鹅毛笔
     link: /black/
 
-  - icon: friend
+  - icon: mesh
     name: 寻找无双
     desc: 知识的迭代是人类进步的推力
     link: /knowledge/
 
-  - icon: /logo.svg
+  - icon: article
     name: 未来文笏
     desc: 轻逸、迅速、繁复、易见
     link: /literary/
