@@ -1,9 +1,8 @@
 ---
 icon: edit
-date: 2022-01-01
+date: 2022-07-26
 category:
   - vuepress
-sticky: true
 title: 在markdown里使用自定义Vue组件
 ---
 

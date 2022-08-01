@@ -2,10 +2,10 @@ import {
   isArray,
   isFunction,
   isString
-} from "./chunk-5Q7I234M.js";
-import "./chunk-PQECYZMI.js";
+} from "./chunk-3OYROBKS.js";
+import "./chunk-TWMXPTUB.js";
 
-// node_modules/.pnpm/@vuepress+shared@2.0.0-beta.48/node_modules/@vuepress/shared/dist/index.js
+// node_modules/.pnpm/@vuepress+shared@2.0.0-beta.49/node_modules/@vuepress/shared/dist/index.js
 var resolveHeadIdentifier = ([
   tag,
   attrs,
@@ -44,29 +44,6 @@ var formatDateString = (str, defaultDateString = "") => {
   const [, yearStr, monthStr, dayStr] = dateMatch;
   return [yearStr, monthStr.padStart(2, "0"), dayStr.padStart(2, "0")].join("-");
 };
-var htmlEscapeMap = {
-  "&": "&amp;",
-  "<": "&lt;",
-  ">": "&gt;",
-  "'": "&#39;",
-  '"': "&quot;"
-};
-var htmlEscapeRegexp = /[&<>'"]/g;
-var htmlEscape = (str) => str.replace(htmlEscapeRegexp, (char) => htmlEscapeMap[char]);
-var htmlUnescapeMap = {
-  "&amp;": "&",
-  "&#38;": "&",
-  "&lt;": "<",
-  "&#60;": "<",
-  "&gt;": ">",
-  "&#62;": ">",
-  "&apos;": "'",
-  "&#39;": "'",
-  "&quot;": '"',
-  "&#34;": '"'
-};
-var htmlUnescapeRegexp = /&(amp|#38|lt|#60|gt|#62|apos|#39|quot|#34);/g;
-var htmlUnescape = (str) => str.replace(htmlUnescapeRegexp, (char) => htmlUnescapeMap[char]);
 var isLinkFtp = (link) => link.startsWith("ftp://");
 var isLinkHttp = (link) => /^(https?:)?\/\//.test(link);
 var markdownLinkRegexp = /.md((\?|#).*)?$/;
@@ -105,8 +82,6 @@ export {
   ensureEndingSlash,
   ensureLeadingSlash,
   formatDateString,
-  htmlEscape,
-  htmlUnescape,
   isArray,
   isFunction,
   isLinkExternal,

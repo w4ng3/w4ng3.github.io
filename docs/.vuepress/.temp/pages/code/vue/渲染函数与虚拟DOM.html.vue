@@ -144,7 +144,7 @@
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>msg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="使用jsx" tabindex="-1"><a class="header-anchor" href="#使用jsx" aria-hidden="true">#</a> 使用JSX</h2>
-<p>移步另一篇：<RouterLink to="/code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html">在Vue中使用JSX语法</RouterLink></p>
+<p>移步另一篇：<a href="https://w2gd.top/code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html" target="_blank" rel="noopener noreferrer">在Vue中使用JSX语法<ExternalLinkIcon/></a></p>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://v3.cn.vuejs.org/guide/render-function.html" target="_blank" rel="noopener noreferrer">Vue.js官网——渲染函数<ExternalLinkIcon/></a></li>

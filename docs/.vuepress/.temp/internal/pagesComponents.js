@@ -3,8 +3,6 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /home.html
-  "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/home.html.vue")),
   // path: /slide.html
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/slide.html.vue")),
   // path: /black/
@@ -23,6 +21,10 @@ export const pagesComponents = {
   "v-4eaf9f84": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eaf9f84" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/guide/page.html.vue")),
   // path: /knowledge/
   "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
+  // path: /black/farewell/2020TheirLetter.html
+  "v-0a7c4342": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a7c4342" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2020TheirLetter.html.vue")),
+  // path: /black/farewell/2021TheirLetter.html
+  "v-4b6bbc60": defineAsyncComponent(() => import(/* webpackChunkName: "v-4b6bbc60" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2021TheirLetter.html.vue")),
   // path: /code/vue/%E5%86%85%E7%BD%AE%E7%BB%84%E4%BB%B6KeepAlive.html
   "v-6ef429c6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6ef429c6" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/内置组件KeepAlive.html.vue")),
   // path: /code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html
@@ -33,12 +35,6 @@ export const pagesComponents = {
   "v-ce9f40b4": defineAsyncComponent(() => import(/* webpackChunkName: "v-ce9f40b4" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/渲染函数与虚拟DOM.html.vue")),
   // path: /code/vue/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%BD%E8%B1%A1%E7%BB%84%E4%BB%B6.html
   "v-b8031ba4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b8031ba4" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/自定义抽象组件.html.vue")),
-  // path: /black/farewell/2020TheirLetter.html
-  "v-0a7c4342": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a7c4342" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2020TheirLetter.html.vue")),
-  // path: /black/farewell/2021TheirLetter.html
-  "v-4b6bbc60": defineAsyncComponent(() => import(/* webpackChunkName: "v-4b6bbc60" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2021TheirLetter.html.vue")),
-  // path: /posts/article/useComponentsInMd.html
-  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
   // path: /literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html
   "v-5c6e816c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c6e816c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/山入安记.html.vue")),
   // path: /knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html
@@ -51,6 +47,8 @@ export const pagesComponents = {
   "v-73bc1031": defineAsyncComponent(() => import(/* webpackChunkName: "v-73bc1031" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/资本主义的本质是什么？.html.vue")),
   // path: /knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html
   "v-5e2c641c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e2c641c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/金融帝国主义如何剥削全世界.html.vue")),
+  // path: /posts/article/useComponentsInMd.html
+  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/

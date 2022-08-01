@@ -167,7 +167,7 @@ const dynode = () => h('div', msg.value);
 </template>
 ```
 ## 使用JSX
-移步另一篇：[在Vue中使用JSX语法](./%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.md)
+移步另一篇：[在Vue中使用JSX语法](https://w2gd.top/code/vue/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8JSX%E8%AF%AD%E6%B3%95.html)
 ## 参考
 - [Vue.js官网——渲染函数](https://v3.cn.vuejs.org/guide/render-function.html)
 - [Vue.js官网——setup里使用渲染函数](https://v3.cn.vuejs.org/guide/composition-api-setup.html#%E4%BD%BF%E7%94%A8%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0)
