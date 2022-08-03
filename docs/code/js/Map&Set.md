@@ -1,12 +1,12 @@
 ---
 title: Map和Set
-icon: javascript
-date: 2022-06-14
+icon: map
+date: 2019-09-16
 author: Mr.Hope
 category:
   - JavaScript
 tag:
-  - 组件优化
+  - 快速上手
 order: 11
 ---
 

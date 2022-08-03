@@ -113,20 +113,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "寻找无双",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "未来文笏",
     "headers": [
       {
@@ -165,6 +151,20 @@ export const searchIndex = [
       }
     ],
     "path": "/literary/swift.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "寻找无双",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -271,33 +271,6 @@ export const searchIndex = [
       }
     ],
     "path": "/black/farewell/2021TheirLetter.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在markdown里使用自定义Vue组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": ".vuepress/config.js",
-        "slug": "vuepress-config-js",
-        "children": [
-          {
-            "level": 3,
-            "title": "MyComponent.vue",
-            "slug": "mycomponent-vue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "md",
-        "slug": "md",
-        "children": []
-      }
-    ],
-    "path": "/posts/article/useComponentsInMd.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -542,34 +515,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Map和Set",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Map 的引入",
-        "slug": "map-的引入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Map",
-        "slug": "map",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Set",
-        "slug": "set",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/js/Map&Set.html",
+    "title": "Flutter",
+    "headers": [],
+    "path": "/code/flutter/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -800,9 +748,315 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Flutter",
+    "title": "在markdown里使用自定义Vue组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": ".vuepress/config.js",
+        "slug": "vuepress-config-js",
+        "children": [
+          {
+            "level": 3,
+            "title": "MyComponent.vue",
+            "slug": "mycomponent-vue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "md",
+        "slug": "md",
+        "children": []
+      }
+    ],
+    "path": "/posts/article/useComponentsInMd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "数组",
+    "headers": [
+      {
+        "level": 2,
+        "title": "数组的创建",
+        "slug": "数组的创建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "访问元素",
+        "slug": "访问元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组的长度",
+        "slug": "数组的长度",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "操作数组",
+        "slug": "操作数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "indexOf",
+            "slug": "indexof",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "slice",
+            "slug": "slice",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "push 和 pop",
+            "slug": "push-和-pop",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "unshift 和 shift",
+            "slug": "unshift-和-shift",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "sort",
+            "slug": "sort",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "reverse",
+            "slug": "reverse",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "splice",
+            "slug": "splice",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "concat",
+            "slug": "concat",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "join",
+            "slug": "join",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "过滤: filter",
+            "slug": "过滤-filter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "格式化数组: map",
+            "slug": "格式化数组-map",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "检验数组: every&some",
+            "slug": "检验数组-every-some",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遍历数组: forEach",
+            "slug": "遍历数组-foreach",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "累加: reduce",
+            "slug": "累加-reduce",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找元素: find",
+            "slug": "查找元素-find",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找元素下标: findIndex",
+            "slug": "查找元素下标-findindex",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "includes",
+            "slug": "includes",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Array.isArray()",
+            "slug": "array-isarray",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Array.from",
+            "slug": "array-from",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "多维数组",
+        "slug": "多维数组",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组常用算法",
+        "slug": "数组常用算法",
+        "children": [
+          {
+            "level": 3,
+            "title": "数组去重算法",
+            "slug": "数组去重算法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "随机样本",
+            "slug": "随机样本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遍历二位数组",
+            "slug": "遍历二位数组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "深/浅克隆",
+        "slug": "深-浅克隆",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "更多介绍",
+        "slug": "更多介绍",
+        "children": []
+      }
+    ],
+    "path": "/code/js/Array.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Map和Set",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Map 的引入",
+        "slug": "map-的引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Map",
+        "slug": "map",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Set",
+        "slug": "set",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/js/Map&Set.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JavaScript",
     "headers": [],
-    "path": "/code/flutter/",
+    "path": "/code/js/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "字符串",
+    "headers": [
+      {
+        "level": 2,
+        "title": "多行字符串",
+        "slug": "多行字符串",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "模板字符串",
+        "slug": "模板字符串",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "操作字符串",
+        "slug": "操作字符串",
+        "children": [
+          {
+            "level": 3,
+            "title": "toUpperCase",
+            "slug": "touppercase",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "toLowerCase",
+            "slug": "tolowercase",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "indexOf",
+            "slug": "indexof",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "substring",
+            "slug": "substring",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "更多介绍",
+        "slug": "更多介绍",
+        "children": []
+      }
+    ],
+    "path": "/code/js/String.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -891,9 +1145,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vuepress 分类",
+    "title": "flutter 分类",
     "headers": [],
-    "path": "/category/vuepress/",
+    "path": "/category/flutter/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -905,9 +1159,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript 分类",
+    "title": "NodeJS 分类",
     "headers": [],
-    "path": "/category/javascript/",
+    "path": "/category/nodejs/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -919,16 +1173,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "NodeJS 分类",
+    "title": "typescript 分类",
     "headers": [],
-    "path": "/category/nodejs/",
+    "path": "/category/typescript/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "typescript 分类",
+    "title": "快速上手 标签",
     "headers": [],
-    "path": "/category/typescript/",
+    "path": "/tag/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -940,9 +1194,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "flutter 分类",
+    "title": "vuepress 分类",
     "headers": [],
-    "path": "/category/flutter/",
+    "path": "/category/vuepress/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JavaScript 分类",
+    "headers": [],
+    "path": "/category/javascript/",
     "pathLocale": "/",
     "extraFields": []
   }

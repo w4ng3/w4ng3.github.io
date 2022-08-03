@@ -7,6 +7,7 @@ export default sidebar(
     "/code/js/": "structure",
     "/code/ts/": "structure",
     "/code/nodejs/": "structure",
+    "/code/flutter/": "structure",
     "/literary/":[
       "",
       "/literary/light",

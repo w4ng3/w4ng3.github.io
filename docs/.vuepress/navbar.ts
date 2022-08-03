@@ -10,7 +10,7 @@ export default navbar([
     prefix: "/code/",
     children: [
       { text: "Vue.js", icon: "vue", link: "vue/异步组件" },
-      { text: "JavaScript", icon: "javascript", link: "js/Map&Set" },
+      { text: "JavaScript", icon: "javascript", link: "js/" },
       { text: "TypeScript", icon: "typescript", link: "ts/" },
       { text: "Node.js", icon: "nodeJS", link: "nodejs/" },
       { text: "Flutter", icon: "dart", link: "flutter/" },
