@@ -17,5 +17,7 @@
 <li><a href="https://v3.cn.vuejs.org/guide/typescript-support.html#typescript-%E6%94%AF%E6%8C%81" target="_blank" rel="noopener noreferrer">Vue官网-TypeScript 支持<ExternalLinkIcon/></a></li>
 <li><a href="https://mrhope.site/code/language/typescript/engineering/lint.html" target="_blank" rel="noopener noreferrer">TS代码检查<ExternalLinkIcon/></a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/99343202" target="_blank" rel="noopener noreferrer">优雅的在vue中使用TypeScript<ExternalLinkIcon/></a></li>
+<li><a href="https://class-component.vuejs.org/" target="_blank" rel="noopener noreferrer">vue-class-component<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/kaorun343/vue-property-decorator" target="_blank" rel="noopener noreferrer">装饰器<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>

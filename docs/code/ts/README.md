@@ -22,3 +22,5 @@ category:
 - [Vue官网-TypeScript 支持](https://v3.cn.vuejs.org/guide/typescript-support.html#typescript-%E6%94%AF%E6%8C%81)
 - [TS代码检查](https://mrhope.site/code/language/typescript/engineering/lint.html)
 - [优雅的在vue中使用TypeScript](https://zhuanlan.zhihu.com/p/99343202)
+- [vue-class-component](https://class-component.vuejs.org/)
+- [装饰器](https://github.com/kaorun343/vue-property-decorator)
