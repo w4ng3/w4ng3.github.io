@@ -14,7 +14,6 @@
 <ul>
 <li><a href="https://mrhope.site/code/language/typescript/basics/" target="_blank" rel="noopener noreferrer">TS基础教程<ExternalLinkIcon/></a></li>
 <li><a href="https://mrhope.site/code/language/typescript/advanced/" target="_blank" rel="noopener noreferrer">TS进阶教程<ExternalLinkIcon/></a></li>
-<li><a href="https://v3.cn.vuejs.org/guide/typescript-support.html#typescript-%E6%94%AF%E6%8C%81" target="_blank" rel="noopener noreferrer">Vue官网-TypeScript 支持<ExternalLinkIcon/></a></li>
 <li><a href="https://mrhope.site/code/language/typescript/engineering/lint.html" target="_blank" rel="noopener noreferrer">TS代码检查<ExternalLinkIcon/></a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/99343202" target="_blank" rel="noopener noreferrer">优雅的在vue中使用TypeScript<ExternalLinkIcon/></a></li>
 </ul>

@@ -1,6 +1,6 @@
 ---
 title: JavaScript
-index: false
+index: true
 icon: javascript
 category:
   - JavaScript

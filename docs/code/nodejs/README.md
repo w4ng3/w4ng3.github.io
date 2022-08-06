@@ -1,6 +1,6 @@
 ---
 title: Node.js
-index: false
+index: true
 icon: nodeJS
 category:
   - NodeJS
