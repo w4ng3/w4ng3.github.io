@@ -11,6 +11,8 @@ export default defineUserConfig({
   alias: {
     // 给组件路径创建别名
     "@MyComponent": path.resolve(__dirname, "components"),
+    "@Hooks": path.resolve(__dirname, "hooks"),
+    
     // 替换组件：将别名定向到自己的组件
     // "@theme-hope/module/blog/components/BlogHero": path.resolve(__dirname,"components/BlogHero.vue")
   },

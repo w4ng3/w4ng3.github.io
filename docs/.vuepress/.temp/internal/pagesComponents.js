@@ -5,8 +5,6 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /slide.html
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/slide.html.vue")),
-  // path: /knowledge/
-  "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/markdown.html
@@ -19,18 +17,8 @@ export const pagesComponents = {
   "v-78726316": defineAsyncComponent(() => import(/* webpackChunkName: "v-78726316" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/light.html.vue")),
   // path: /literary/swift.html
   "v-190648d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-190648d0" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/swift.html.vue")),
-  // path: /black/
-  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
-  // path: /knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html
-  "v-63a98246": defineAsyncComponent(() => import(/* webpackChunkName: "v-63a98246" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的.html.vue")),
-  // path: /knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html
-  "v-3e61a924": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e61a924" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？.html.vue")),
-  // path: /knowledge/spiritual/%E6%B6%88%E8%B4%B9%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%9A%E6%8E%A7%E5%88%B6%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B0%E5%AE%97%E6%95%99.html
-  "v-3ea32f42": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ea32f42" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/消费资本主义：控制世界的新宗教.html.vue")),
-  // path: /knowledge/spiritual/%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.html
-  "v-73bc1031": defineAsyncComponent(() => import(/* webpackChunkName: "v-73bc1031" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/资本主义的本质是什么？.html.vue")),
-  // path: /knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html
-  "v-5e2c641c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e2c641c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/金融帝国主义如何剥削全世界.html.vue")),
+  // path: /knowledge/
+  "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
   // path: /code/flutter/
   "v-2d12431c": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d12431c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/flutter/index.html.vue")),
   // path: /code/js/Array.html
@@ -43,6 +31,8 @@ export const pagesComponents = {
   "v-0a16c76a": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a16c76a" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/js/String.html.vue")),
   // path: /code/nodejs/
   "v-28ad0a1b": defineAsyncComponent(() => import(/* webpackChunkName: "v-28ad0a1b" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/nodejs/index.html.vue")),
+  // path: /black/
+  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
   // path: /code/ts/
   "v-ba480f32": defineAsyncComponent(() => import(/* webpackChunkName: "v-ba480f32" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/ts/index.html.vue")),
   // path: /code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html
@@ -65,6 +55,16 @@ export const pagesComponents = {
   "v-b8031ba4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b8031ba4" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/自定义抽象组件.html.vue")),
   // path: /literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html
   "v-5c6e816c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c6e816c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/山入安记.html.vue")),
+  // path: /knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html
+  "v-63a98246": defineAsyncComponent(() => import(/* webpackChunkName: "v-63a98246" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的.html.vue")),
+  // path: /knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html
+  "v-3e61a924": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e61a924" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？.html.vue")),
+  // path: /knowledge/spiritual/%E6%B6%88%E8%B4%B9%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%9A%E6%8E%A7%E5%88%B6%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B0%E5%AE%97%E6%95%99.html
+  "v-3ea32f42": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ea32f42" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/消费资本主义：控制世界的新宗教.html.vue")),
+  // path: /knowledge/spiritual/%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.html
+  "v-73bc1031": defineAsyncComponent(() => import(/* webpackChunkName: "v-73bc1031" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/资本主义的本质是什么？.html.vue")),
+  // path: /knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html
+  "v-5e2c641c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e2c641c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/金融帝国主义如何剥削全世界.html.vue")),
   // path: /posts/article/useComponentsInMd.html
   "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
   // path: /black/farewell/2020TheirLetter.html
@@ -111,8 +111,8 @@ export const pagesComponents = {
   "v-6c5e4d32": defineAsyncComponent(() => import(/* webpackChunkName: "v-6c5e4d32" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/typescript/index.html.vue")),
   // path: /tag/api/
   "v-b31616ba": defineAsyncComponent(() => import(/* webpackChunkName: "v-b31616ba" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/api/index.html.vue")),
-  // path: /tag/hooks/
-  "v-2e1c5366": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e1c5366" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/hooks/index.html.vue")),
+  // path: /tag/hook/
+  "v-288bedde": defineAsyncComponent(() => import(/* webpackChunkName: "v-288bedde" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/hook/index.html.vue")),
   // path: /category/vue/
   "v-65f6d381": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6d381" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/vue/index.html.vue")),
   // path: /tag/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/

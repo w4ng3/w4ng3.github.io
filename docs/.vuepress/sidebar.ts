@@ -25,7 +25,7 @@ export default sidebar(
         text: "当代精神文明建设考",
         icon: "creative",
         prefix: "spiritual/",
-        collapsable: true,
+        collapsable: false,
         children: "structure",
       }],
     "/black/": [
