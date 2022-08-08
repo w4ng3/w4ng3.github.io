@@ -14,6 +14,62 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "寻找无双",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "未来文笏",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/literary/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "轻盈",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "children": []
+      }
+    ],
+    "path": "/literary/light.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "迅速",
+    "headers": [
+      {
+        "level": 2,
+        "title": "卡尔维诺",
+        "slug": "卡尔维诺",
+        "children": []
+      }
+    ],
+    "path": "/literary/swift.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "主要功能与配置演示",
     "headers": [
       {
@@ -99,58 +155,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏",
+    "title": "黑铁时代",
     "headers": [
       {
         "level": 2,
-        "title": "目录",
-        "slug": "目录",
+        "title": "黑铁公寓",
+        "slug": "黑铁公寓",
         "children": []
       }
     ],
-    "path": "/literary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "轻盈",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "children": []
-      }
-    ],
-    "path": "/literary/light.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "迅速",
-    "headers": [
-      {
-        "level": 2,
-        "title": "卡尔维诺",
-        "slug": "卡尔维诺",
-        "children": []
-      }
-    ],
-    "path": "/literary/swift.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "寻找无双",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/",
+    "path": "/black/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -455,20 +469,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "黑铁时代",
-    "headers": [
-      {
-        "level": 2,
-        "title": "黑铁公寓",
-        "slug": "黑铁公寓",
-        "children": []
-      }
-    ],
-    "path": "/black/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "TypeScript",
     "headers": [
       {
@@ -513,6 +513,20 @@ export const searchIndex = [
       }
     ],
     "path": "/code/ts/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Web端PostObject直传阿里云OSS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Vue项目上传图片到OSS",
+        "slug": "vue项目上传图片到oss",
+        "children": []
+      }
+    ],
+    "path": "/code/utils/aliyunOSS-upload.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -793,32 +807,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "山入安记",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.",
-        "slug": "_1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.",
-        "slug": "_2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.",
-        "slug": "_3",
-        "children": []
-      }
-    ],
-    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "996、内卷、打工人：马克思为什么是对的",
     "headers": [
       {
@@ -1033,29 +1021,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "在markdown里使用自定义Vue组件",
+    "title": "山入安记",
     "headers": [
       {
         "level": 2,
-        "title": ".vuepress/config.js",
-        "slug": "vuepress-config-js",
-        "children": [
-          {
-            "level": 3,
-            "title": "MyComponent.vue",
-            "slug": "mycomponent-vue",
-            "children": []
-          }
-        ]
+        "title": "1.",
+        "slug": "_1",
+        "children": []
       },
       {
         "level": 2,
-        "title": "md",
-        "slug": "md",
+        "title": "2.",
+        "slug": "_2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.",
+        "slug": "_3",
         "children": []
       }
     ],
-    "path": "/posts/article/useComponentsInMd.html",
+    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1166,6 +1153,33 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "在markdown里使用自定义Vue组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": ".vuepress/config.js",
+        "slug": "vuepress-config-js",
+        "children": [
+          {
+            "level": 3,
+            "title": "MyComponent.vue",
+            "slug": "mycomponent-vue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "md",
+        "slug": "md",
+        "children": []
+      }
+    ],
+    "path": "/posts/article/useComponentsInMd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1222,9 +1236,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
+    "title": "未来文笏 分类",
     "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1236,9 +1250,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏 分类",
+    "title": "使用指南 分类",
     "headers": [],
-    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1299,9 +1313,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "OSS 标签",
+    "headers": [],
+    "path": "/tag/oss/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "api 标签",
     "headers": [],
     "path": "/tag/api/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue 分类",
+    "headers": [],
+    "path": "/category/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1313,9 +1341,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "utils 分类",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/category/utils/",
     "pathLocale": "/",
     "extraFields": []
   },
