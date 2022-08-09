@@ -84,6 +84,11 @@ img {
 ```
 ![上传图片到oss](https://oss.w2gd.top/blog/1659968721000.gif)
 
+### 自己封装上传工具
+也可以不安装`ali-oss`，自己封装上传工具,定制policy。
+[代码仓库](https://github.com/wardendon/uploadFileToOSS)
+
+
 ## 服务端签名后直传
 在客户端通过JavaScript代码完成签名，无需过多配置，即可实现直传，非常方便。但是客户端通过JavaScript把AccesssKey ID和AccessKey Secret写在代码里面有泄露的风险，强烈建议使用[服务端签名后直传](https://help.aliyun.com/document_detail/31926.htm?spm=a2c4g.11186623.0.0.1b9e4f77HUmpYT#concept-en4-sjy-5db)或者[使用STS临时访问凭证访问OSS](https://help.aliyun.com/document_detail/100624.htm?spm=a2c4g.11186623.0.0.1b9e344enBNbM0#concept-xzh-nzk-2gb)
 
