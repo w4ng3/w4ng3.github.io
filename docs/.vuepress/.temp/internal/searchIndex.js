@@ -28,7 +28,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "寻找无双",
+    "title": "未来文笏",
     "headers": [
       {
         "level": 2,
@@ -37,7 +37,35 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/knowledge/",
+    "path": "/literary/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "轻盈",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "children": []
+      }
+    ],
+    "path": "/literary/light.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "迅速",
+    "headers": [
+      {
+        "level": 2,
+        "title": "卡尔维诺",
+        "slug": "卡尔维诺",
+        "children": []
+      }
+    ],
+    "path": "/literary/swift.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -127,7 +155,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏",
+    "title": "寻找无双",
     "headers": [
       {
         "level": 2,
@@ -136,35 +164,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/literary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "轻盈",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "children": []
-      }
-    ],
-    "path": "/literary/light.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "迅速",
-    "headers": [
-      {
-        "level": 2,
-        "title": "卡尔维诺",
-        "slug": "卡尔维诺",
-        "children": []
-      }
-    ],
-    "path": "/literary/swift.html",
+    "path": "/knowledge/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -271,6 +271,273 @@ export const searchIndex = [
       }
     ],
     "path": "/black/farewell/2021TheirLetter.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "山入安记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.",
+        "slug": "_1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.",
+        "slug": "_2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.",
+        "slug": "_3",
+        "children": []
+      }
+    ],
+    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在markdown里使用自定义Vue组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": ".vuepress/config.js",
+        "slug": "vuepress-config-js",
+        "children": [
+          {
+            "level": 3,
+            "title": "MyComponent.vue",
+            "slug": "mycomponent-vue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "md",
+        "slug": "md",
+        "children": []
+      }
+    ],
+    "path": "/posts/article/useComponentsInMd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "996、内卷、打工人：马克思为什么是对的",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Human Nature 人性论",
+        "slug": "human-nature-人性论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Capitalism Condition 资本主义之性质",
+        "slug": "capitalism-condition-资本主义之性质",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "The Division of Labor 劳动分工",
+        "slug": "the-division-of-labor-劳动分工",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Four Alienation 四种异化",
+        "slug": "four-alienation-四种异化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Surplus Value 剩余价值理论",
+        "slug": "surplus-value-剩余价值理论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Why Not Resist 为什么我们不反抗",
+        "slug": "why-not-resist-为什么我们不反抗",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "从基金到比特币，金融资本如何隐形剥削所有打工人？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "大而不倒：金融利维坦主义",
+        "slug": "大而不倒-金融利维坦主义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "金融化转型：加速的资本主义",
+        "slug": "金融化转型-加速的资本主义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "不确定性的边缘化打工人时代",
+        "slug": "不确定性的边缘化打工人时代",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "为什么职场越来越残酷了?",
+        "slug": "为什么职场越来越残酷了",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "资本绳下的傀儡主权",
+        "slug": "资本绳下的傀儡主权",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "世纪变迁，百年幽灵",
+        "slug": "世纪变迁-百年幽灵",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "消费资本主义：控制世界的新宗教",
+    "headers": [
+      {
+        "level": 2,
+        "title": "文章",
+        "slug": "文章",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "视频",
+        "slug": "视频",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "马克思主义文库",
+        "slug": "马克思主义文库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/spiritual/%E6%B6%88%E8%B4%B9%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%9A%E6%8E%A7%E5%88%B6%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B0%E5%AE%97%E6%95%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "资本主义的本质是什么？2 万字超硬核马克思解析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "《国富论》生产要素三元论",
+        "slug": "《国富论》生产要素三元论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "《国富论》 市场与 “自由”",
+        "slug": "《国富论》-市场与-自由",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "马克思：资本主义神话，我是你的破壁人",
+        "slug": "马克思-资本主义神话-我是你的破壁人",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "韦伯：理性祛魅后的世界无法逃离的铁笼斗兽场",
+        "slug": "韦伯-理性祛魅后的世界无法逃离的铁笼斗兽场",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/spiritual/%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "金融帝国主义如何剥削全世界？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "马克思学派如何看待当下经济",
+        "slug": "马克思学派如何看待当下经济",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "马克思：资本主义如何走向金融化",
+        "slug": "马克思-资本主义如何走向金融化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "希法亭：金融资本的诞生",
+        "slug": "希法亭-金融资本的诞生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "列宁：垄断性金融如何成为帝国主义",
+        "slug": "列宁-垄断性金融如何成为帝国主义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "马列之后：金融后现代革命的疯狂",
+        "slug": "马列之后-金融后现代革命的疯狂",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "来源",
+        "slug": "来源",
+        "children": []
+      }
+    ],
+    "path": "/knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -627,6 +894,37 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
+        "title": "安装",
+        "slug": "安装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "简单入门",
+        "slug": "简单入门",
+        "children": [
+          {
+            "level": 3,
+            "title": "定时刷新",
+            "slug": "定时刷新",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自动答题",
+            "slug": "自动答题",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "好用的脚本推荐",
+        "slug": "好用的脚本推荐",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "Vue3 + tampermonkey",
         "slug": "vue3-tampermonkey",
         "children": []
@@ -964,273 +1262,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "996、内卷、打工人：马克思为什么是对的",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Human Nature 人性论",
-        "slug": "human-nature-人性论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Capitalism Condition 资本主义之性质",
-        "slug": "capitalism-condition-资本主义之性质",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "The Division of Labor 劳动分工",
-        "slug": "the-division-of-labor-劳动分工",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Four Alienation 四种异化",
-        "slug": "four-alienation-四种异化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Surplus Value 剩余价值理论",
-        "slug": "surplus-value-剩余价值理论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Why Not Resist 为什么我们不反抗",
-        "slug": "why-not-resist-为什么我们不反抗",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "从基金到比特币，金融资本如何隐形剥削所有打工人？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "大而不倒：金融利维坦主义",
-        "slug": "大而不倒-金融利维坦主义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "金融化转型：加速的资本主义",
-        "slug": "金融化转型-加速的资本主义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "不确定性的边缘化打工人时代",
-        "slug": "不确定性的边缘化打工人时代",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "为什么职场越来越残酷了?",
-        "slug": "为什么职场越来越残酷了",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "资本绳下的傀儡主权",
-        "slug": "资本绳下的傀儡主权",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "世纪变迁，百年幽灵",
-        "slug": "世纪变迁-百年幽灵",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/spiritual/%E4%BB%8E%E5%9F%BA%E9%87%91%E5%88%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%8C%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%E5%A6%82%E4%BD%95%E9%9A%90%E5%BD%A2%E5%89%A5%E5%89%8A%E6%89%80%E6%9C%89%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "消费资本主义：控制世界的新宗教",
-    "headers": [
-      {
-        "level": 2,
-        "title": "文章",
-        "slug": "文章",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "视频",
-        "slug": "视频",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "马克思主义文库",
-        "slug": "马克思主义文库",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/spiritual/%E6%B6%88%E8%B4%B9%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%EF%BC%9A%E6%8E%A7%E5%88%B6%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B0%E5%AE%97%E6%95%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "资本主义的本质是什么？2 万字超硬核马克思解析",
-    "headers": [
-      {
-        "level": 2,
-        "title": "《国富论》生产要素三元论",
-        "slug": "《国富论》生产要素三元论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "《国富论》 市场与 “自由”",
-        "slug": "《国富论》-市场与-自由",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "马克思：资本主义神话，我是你的破壁人",
-        "slug": "马克思-资本主义神话-我是你的破壁人",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "韦伯：理性祛魅后的世界无法逃离的铁笼斗兽场",
-        "slug": "韦伯-理性祛魅后的世界无法逃离的铁笼斗兽场",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/spiritual/%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "金融帝国主义如何剥削全世界？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "马克思学派如何看待当下经济",
-        "slug": "马克思学派如何看待当下经济",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "马克思：资本主义如何走向金融化",
-        "slug": "马克思-资本主义如何走向金融化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "希法亭：金融资本的诞生",
-        "slug": "希法亭-金融资本的诞生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "列宁：垄断性金融如何成为帝国主义",
-        "slug": "列宁-垄断性金融如何成为帝国主义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "马列之后：金融后现代革命的疯狂",
-        "slug": "马列之后-金融后现代革命的疯狂",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "来源",
-        "slug": "来源",
-        "children": []
-      }
-    ],
-    "path": "/knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在markdown里使用自定义Vue组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": ".vuepress/config.js",
-        "slug": "vuepress-config-js",
-        "children": [
-          {
-            "level": 3,
-            "title": "MyComponent.vue",
-            "slug": "mycomponent-vue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "md",
-        "slug": "md",
-        "children": []
-      }
-    ],
-    "path": "/posts/article/useComponentsInMd.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "山入安记",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.",
-        "slug": "_1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.",
-        "slug": "_2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.",
-        "slug": "_3",
-        "children": []
-      }
-    ],
-    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1287,9 +1318,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
+    "title": "未来文笏 分类",
     "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1301,9 +1332,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏 分类",
+    "title": "使用指南 分类",
     "headers": [],
-    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1315,9 +1346,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "flutter 分类",
+    "title": "vuepress 分类",
     "headers": [],
-    "path": "/category/flutter/",
+    "path": "/category/vuepress/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1329,9 +1360,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript 分类",
+    "title": "flutter 分类",
     "headers": [],
-    "path": "/category/javascript/",
+    "path": "/category/flutter/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1343,9 +1374,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "NodeJS 分类",
+    "title": "JavaScript 分类",
     "headers": [],
-    "path": "/category/nodejs/",
+    "path": "/category/javascript/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1357,9 +1388,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "typescript 分类",
+    "title": "NodeJS 分类",
     "headers": [],
-    "path": "/category/typescript/",
+    "path": "/category/nodejs/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1371,16 +1402,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "api 标签",
+    "title": "typescript 分类",
     "headers": [],
-    "path": "/tag/api/",
+    "path": "/category/typescript/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "api 标签",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/tag/api/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1392,9 +1423,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "utils 分类",
+    "title": "Vue 分类",
     "headers": [],
-    "path": "/category/utils/",
+    "path": "/category/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1406,9 +1437,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vuepress 分类",
+    "title": "utils 分类",
     "headers": [],
-    "path": "/category/vuepress/",
+    "path": "/category/utils/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -1,6 +1,6 @@
 ---
 title: 油猴脚本简单使用
-icon: 
+icon: icon-tool
 date: 2022-08-10
 category:
   - utils
