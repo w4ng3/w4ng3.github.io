@@ -28,7 +28,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏",
+    "title": "寻找无双",
     "headers": [
       {
         "level": 2,
@@ -37,35 +37,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/literary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "轻盈",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "children": []
-      }
-    ],
-    "path": "/literary/light.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "迅速",
-    "headers": [
-      {
-        "level": 2,
-        "title": "卡尔维诺",
-        "slug": "卡尔维诺",
-        "children": []
-      }
-    ],
-    "path": "/literary/swift.html",
+    "path": "/knowledge/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -155,7 +127,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "寻找无双",
+    "title": "未来文笏",
     "headers": [
       {
         "level": 2,
@@ -164,7 +136,47 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/knowledge/",
+    "path": "/literary/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "轻逸",
+    "headers": [
+      {
+        "level": 2,
+        "title": "“轻”的三种不同含义",
+        "slug": "轻-的三种不同含义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "柏尔修斯的力量",
+        "slug": "柏尔修斯的力量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于轻的意象",
+        "slug": "关于轻的意象",
+        "children": []
+      }
+    ],
+    "path": "/literary/light.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "迅速",
+    "headers": [
+      {
+        "level": 2,
+        "title": "卡尔维诺",
+        "slug": "卡尔维诺",
+        "children": []
+      }
+    ],
+    "path": "/literary/swift.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -268,6 +280,12 @@ export const searchIndex = [
         "title": "8/16  南汇14岁初二女孩跳楼",
         "slug": "_8-16-南汇14岁初二女孩跳楼",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "11/28  25岁摄影师鹿道森在微博公开发表长文遗书后失联",
+        "slug": "_11-28-25岁摄影师鹿道森在微博公开发表长文遗书后失联",
+        "children": []
       }
     ],
     "path": "/black/farewell/2021TheirLetter.html",
@@ -275,55 +293,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "山入安记",
+    "title": "2022他们的告别",
     "headers": [
       {
         "level": 2,
-        "title": "1.",
-        "slug": "_1",
+        "title": "1月21日 河北寻亲男孩刘学州留遗书自杀身亡",
+        "slug": "_1月21日-河北寻亲男孩刘学州留遗书自杀身亡",
         "children": []
       },
       {
         "level": 2,
-        "title": "2.",
-        "slug": "_2",
+        "title": "2月16日 41岁男子海口公园自缢",
+        "slug": "_2月16日-41岁男子海口公园自缢",
         "children": []
       },
       {
         "level": 2,
-        "title": "3.",
-        "slug": "_3",
+        "title": "8月 一男子在朋友圈留下遗书后服药自杀，网友刷到后报警救下",
+        "slug": "_8月-一男子在朋友圈留下遗书后服药自杀-网友刷到后报警救下",
         "children": []
       }
     ],
-    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在markdown里使用自定义Vue组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": ".vuepress/config.js",
-        "slug": "vuepress-config-js",
-        "children": [
-          {
-            "level": 3,
-            "title": "MyComponent.vue",
-            "slug": "mycomponent-vue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "md",
-        "slug": "md",
-        "children": []
-      }
-    ],
-    "path": "/posts/article/useComponentsInMd.html",
+    "path": "/black/farewell/2022TheirLetter.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -545,6 +536,61 @@ export const searchIndex = [
     "title": "Flutter",
     "headers": [],
     "path": "/code/flutter/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Node.js",
+    "headers": [],
+    "path": "/code/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "TypeScript",
+    "headers": [
+      {
+        "level": 2,
+        "title": "语法特性",
+        "slug": "语法特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "toLearn",
+        "slug": "tolearn",
+        "children": []
+      }
+    ],
+    "path": "/code/ts/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue + Ts 实现TodoList",
+    "headers": [
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在Vue中使用注解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "children": []
+      }
+    ],
+    "path": "/code/ts/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -831,61 +877,6 @@ export const searchIndex = [
       }
     ],
     "path": "/code/js/String.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Node.js",
-    "headers": [],
-    "path": "/code/nodejs/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "TypeScript",
-    "headers": [
-      {
-        "level": 2,
-        "title": "语法特性",
-        "slug": "语法特性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "toLearn",
-        "slug": "tolearn",
-        "children": []
-      }
-    ],
-    "path": "/code/ts/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue + Ts 实现TodoList",
-    "headers": [
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在Vue中使用注解",
-    "headers": [
-      {
-        "level": 2,
-        "title": "参考",
-        "slug": "参考",
-        "children": []
-      }
-    ],
-    "path": "/code/ts/%E5%9C%A8Vue%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1262,6 +1253,59 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "在markdown里使用自定义Vue组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": ".vuepress/config.js",
+        "slug": "vuepress-config-js",
+        "children": [
+          {
+            "level": 3,
+            "title": "MyComponent.vue",
+            "slug": "mycomponent-vue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "md",
+        "slug": "md",
+        "children": []
+      }
+    ],
+    "path": "/posts/article/useComponentsInMd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "山入安记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.",
+        "slug": "_1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.",
+        "slug": "_2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.",
+        "slug": "_3",
+        "children": []
+      }
+    ],
+    "path": "/literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1318,9 +1362,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "未来文笏 分类",
+    "title": "使用指南 分类",
     "headers": [],
-    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1332,9 +1376,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
+    "title": "未来文笏 分类",
     "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/category/%E6%9C%AA%E6%9D%A5%E6%96%87%E7%AC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1342,20 +1386,6 @@ export const searchIndex = [
     "title": "迅速 标签",
     "headers": [],
     "path": "/tag/%E8%BF%85%E9%80%9F/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vuepress 分类",
-    "headers": [],
-    "path": "/category/vuepress/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "快速上手 标签",
-    "headers": [],
-    "path": "/tag/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1374,9 +1404,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript 分类",
+    "title": "NodeJS 分类",
     "headers": [],
-    "path": "/category/javascript/",
+    "path": "/category/nodejs/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1388,9 +1418,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "NodeJS 分类",
+    "title": "typescript 分类",
     "headers": [],
-    "path": "/category/nodejs/",
+    "path": "/category/typescript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "快速上手 标签",
+    "headers": [],
+    "path": "/tag/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1402,9 +1439,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "typescript 分类",
+    "title": "Vue 分类",
     "headers": [],
-    "path": "/category/typescript/",
+    "path": "/category/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1416,6 +1453,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "JavaScript 分类",
+    "headers": [],
+    "path": "/category/javascript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "hook 标签",
     "headers": [],
     "path": "/tag/hook/",
@@ -1423,9 +1467,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "utils 分类",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/category/utils/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1437,9 +1481,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "utils 分类",
+    "title": "vuepress 分类",
     "headers": [],
-    "path": "/category/utils/",
+    "path": "/category/vuepress/",
     "pathLocale": "/",
     "extraFields": []
   },

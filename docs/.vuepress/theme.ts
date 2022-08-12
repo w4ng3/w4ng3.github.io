@@ -50,6 +50,7 @@ export default hopeTheme({
       "/guide/encrypt.html": ["joker"],
       "/black/farewell/2020TheirLetter.html": ["2020"],
       "/black/farewell/2021TheirLetter.html": ["2021"],
+      "/black/farewell/2022TheirLetter.html": ["2022"],
       "/literary/sigh/山入安记.html": ["joker"],
       "/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的": ["joker"],
       "/knowledge/spiritual/金融帝国主义如何剥削全世界.html": ["joker"],

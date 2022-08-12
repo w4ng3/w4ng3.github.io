@@ -63,7 +63,7 @@
 <p>Compostion API最核心要解决的问题并不是逻辑复用，而是<mark>逻辑关注点分离</mark>。因为应用生命周期60%时间都是在维护的，而维护性体现在代码是否符合单一职责原则，单一职责就是把相同的业务代码内聚到一个地方。</p>
 <p>所以你不要过于纠结代码是否需要复用，应用适当的冗余反而增加应用的维护性，《架构整洁之道》书中提到：对于大多数应用，可维护性比可重用性更加重要。</p>
 </blockquote>
-<p>可参考另一篇的<RouterLink to="/code/ts/vue%2Bts%E5%AE%9E%E7%8E%B0TodoList.html">TodoList Demo</RouterLink>,将承载具体的业务逻辑分离到<code v-pre>todoAction.ts</code>里。</p>
+<p>可参考另一篇的<a href="https://w2gd.top/code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html" target="_blank" rel="noopener noreferrer">TodoList Demo<ExternalLinkIcon/></a>,将承载具体的业务逻辑分离到<code v-pre>todoAction.ts</code>里。</p>
 <h2 id="vueuse" tabindex="-1"><a class="header-anchor" href="#vueuse" aria-hidden="true">#</a> VueUse</h2>
 <p>VueUse是vue3的一个hook库，帮我们封装了一些常用的功能。
 <a href="https://vueuse.org/guide/" target="_blank" rel="noopener noreferrer">官网指南<ExternalLinkIcon/></a></p>

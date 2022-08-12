@@ -83,7 +83,7 @@ const { x, y } = useMousePosition()
 >
 > 所以你不要过于纠结代码是否需要复用，应用适当的冗余反而增加应用的维护性，《架构整洁之道》书中提到：对于大多数应用，可维护性比可重用性更加重要。
 
-可参考另一篇的[TodoList Demo](../ts/vue%2Bts%E5%AE%9E%E7%8E%B0TodoList.md),将承载具体的业务逻辑分离到`todoAction.ts`里。
+可参考另一篇的[TodoList Demo](https://w2gd.top/code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html),将承载具体的业务逻辑分离到`todoAction.ts`里。
 
 ## VueUse
 VueUse是vue3的一个hook库，帮我们封装了一些常用的功能。
