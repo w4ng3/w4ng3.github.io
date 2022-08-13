@@ -13,6 +13,6 @@ Dart诞⽣于2011年，号称要取代JavaScript。但是过去的⼏年中⼀�
 :::
 
 ## Dart 学习
-<PDF url="https://oss.w2gd.top/pdf/Dartlearning.pdf" />
-
+<!-- <PDF url="https://oss.w2gd.top/pdf/Dartlearning.pdf" /> -->
+- [PDF文档](https://oss.w2gd.top/pdf/Dartlearning.pdf)
 - [官网指南](https://dart.cn/guides)

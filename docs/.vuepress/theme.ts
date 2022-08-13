@@ -92,6 +92,6 @@ export default hopeTheme({
     copyright: {
       global: true,
     },
-    components:["PDF"]
+    // components:["PDF"]
   },
 });

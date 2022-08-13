@@ -1,15 +1,15 @@
 import { useStyleTag } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
+import Badge from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/Badge";
 import FontIcon from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import PDF from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/PDF";
 import BackToTop from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({
   enhance: ({ app }) => {
+    app.component("Badge", Badge);
     app.component("FontIcon", FontIcon);
-    app.component("PDF", PDF);
     
   },
   setup: () => {
