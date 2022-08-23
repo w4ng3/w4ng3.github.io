@@ -77,5 +77,5 @@ s<span class="token punctuation">.</span><span class="token function">indexOf</s
 s<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 从索引 0 开始到 5(不包括 5)，返回 'hello'</span>
 s<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 从索引 7 开始到结束，返回 'world'</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="更多介绍" tabindex="-1"><a class="header-anchor" href="#更多介绍" aria-hidden="true">#</a> 更多介绍</h2>
-<p>更系统的介绍详见 <RouterLink to="/code/types/string.html">数据结构 / 字符串</RouterLink></p>
+<p>更系统的介绍详见 <a href="https://mrhope.site/code/language/js/types/string.html" target="_blank" rel="noopener noreferrer">数据结构 / 字符串<ExternalLinkIcon/></a></p>
 </div></template>

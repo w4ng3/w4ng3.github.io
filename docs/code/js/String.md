@@ -161,4 +161,4 @@ JavaScript 为字符串提供了一些常用方法，注意，调用这些方法
 
 ## 更多介绍
 
-更系统的介绍详见 [数据结构 / 字符串](../types/string.md)
+更系统的介绍详见 [数据结构 / 字符串](https://mrhope.site/code/language/js/types/string.html)

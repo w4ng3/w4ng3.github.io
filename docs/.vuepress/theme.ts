@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "https://github.com/wardendon?tab=repositories",
 
-  docsDir: "demo/src",
+  docsDir: "docs",
 
   // navbar
   navbar: navbar,
@@ -92,6 +92,6 @@ export default hopeTheme({
     copyright: {
       global: true,
     },
-    // components:["PDF"]
+    components:["PDF","Badge","CodePen"]
   },
 });
