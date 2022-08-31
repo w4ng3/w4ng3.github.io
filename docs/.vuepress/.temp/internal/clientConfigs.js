@@ -10,7 +10,7 @@ import clientConfig8 from '/Users/w2gd/Desktop/wardendon.github.io/node_modules/
 import clientConfig9 from '/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/md-enhance/config.js'
 import clientConfig10 from '/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-photo-swipe@2.0.0-beta.87/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
 import clientConfig11 from '/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/theme-hope/config.js'
-import clientConfig12 from '/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/@vuepress+plugin-search@2.0.0-beta.49/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import clientConfig12 from '/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/@vuepress+plugin-docsearch@2.0.0-beta.49/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
