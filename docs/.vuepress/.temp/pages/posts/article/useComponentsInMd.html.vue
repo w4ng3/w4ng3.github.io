@@ -1,4 +1,5 @@
 <template><div><MyComponent/>
+<p><img src="https://w2gd.oss-cn-nanjing.aliyuncs.com/up/lem.png" alt="lem" loading="lazy"></p>
 <h2 id="vuepress-config-js" tabindex="-1"><a class="header-anchor" href="#vuepress-config-js" aria-hidden="true">#</a> .vuepress/config.js</h2>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineUserConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress"</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> theme <span class="token keyword">from</span> <span class="token string">"./theme"</span><span class="token punctuation">;</span>

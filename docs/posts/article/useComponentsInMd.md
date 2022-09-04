@@ -8,6 +8,8 @@ title: 在markdown里使用自定义Vue组件
 
 <MyComponent/>
 
+![lem](https://w2gd.oss-cn-nanjing.aliyuncs.com/up/lem.png)
+
 ## .vuepress/config.js
 
 ```js
