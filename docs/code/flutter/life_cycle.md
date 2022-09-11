@@ -1,6 +1,6 @@
 ---
 title: Flutter的生命周期
-icon: flutter
+icon: 
 date: 2022-09-11
 category: flutter
 order: 4
@@ -8,27 +8,26 @@ author:
   name: "mqxu"
   url: "https://github.com/mqxu"
 ---
-# flutter的生命周期
 
 ## state的生命周期
+
 State 的生命周期可以分为 3 个阶段
 - `创建`（插入视图树）：State 初始化时会依次执行 ：构造方法 -> initState -> didChangeDependencies -> build，随后完成页面渲染。
 - `更新`（在视图树中存在）： Widget 的状态更新，主要由 3 个方法触发：setState、didchangeDependencies 与 didUpdateWidget。
 - `销毁`（从视图树中移除）：组件被移除或是页面销毁的时候，系统会调用 deactivate 和 dispose 这两个方法，来移除或销毁组件
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png)
-
-<center>State生命周期图</center>
+State生命周期图
 
 ---
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png)
-<center>几种常见场景下State生命周期图</center>
+几种常见场景下State生命周期图
 
 ---
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png)
-<center>State生命周期中方法调用对比</center>
+State生命周期中方法调用对比
 
 
 ## App的生命周期
@@ -43,6 +42,7 @@ State 的生命周期可以分为 3 个阶段
 
 
 ## Demo 监听State生命周期
+
 ```dart
 import 'package:flutter/material.dart';
 /// @Description  生命周期

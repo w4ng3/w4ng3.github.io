@@ -1,19 +1,18 @@
-<template><div><h1 id="flutter的生命周期" tabindex="-1"><a class="header-anchor" href="#flutter的生命周期" aria-hidden="true">#</a> flutter的生命周期</h1>
-<h2 id="state的生命周期" tabindex="-1"><a class="header-anchor" href="#state的生命周期" aria-hidden="true">#</a> state的生命周期</h2>
+<template><div><h2 id="state的生命周期" tabindex="-1"><a class="header-anchor" href="#state的生命周期" aria-hidden="true">#</a> state的生命周期</h2>
 <p>State 的生命周期可以分为 3 个阶段</p>
 <ul>
 <li><code v-pre>创建</code>（插入视图树）：State 初始化时会依次执行 ：构造方法 -&gt; initState -&gt; didChangeDependencies -&gt; build，随后完成页面渲染。</li>
 <li><code v-pre>更新</code>（在视图树中存在）： Widget 的状态更新，主要由 3 个方法触发：setState、didchangeDependencies 与 didUpdateWidget。</li>
 <li><code v-pre>销毁</code>（从视图树中移除）：组件被移除或是页面销毁的时候，系统会调用 deactivate 和 dispose 这两个方法，来移除或销毁组件</li>
 </ul>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png" alt="Img" loading="lazy"></p>
-<center>State生命周期图</center>
+<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png" alt="Img" loading="lazy">
+State生命周期图</p>
 <hr>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png" alt="Img" loading="lazy"></p>
-<center>几种常见场景下State生命周期图</center>
+<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png" alt="Img" loading="lazy">
+几种常见场景下State生命周期图</p>
 <hr>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png" alt="Img" loading="lazy"></p>
-<center>State生命周期中方法调用对比</center>
+<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png" alt="Img" loading="lazy">
+State生命周期中方法调用对比</p>
 <h2 id="app的生命周期" tabindex="-1"><a class="header-anchor" href="#app的生命周期" aria-hidden="true">#</a> App的生命周期</h2>
 <p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145438.png" alt="Img" loading="lazy"></p>
 <ul>
