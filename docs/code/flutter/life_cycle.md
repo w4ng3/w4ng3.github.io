@@ -17,18 +17,23 @@ State 的生命周期可以分为 3 个阶段
 - `销毁`（从视图树中移除）：组件被移除或是页面销毁的时候，系统会调用 deactivate 和 dispose 这两个方法，来移除或销毁组件
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png)
+:::center
 State生命周期图
+:::
 
 ---
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png)
+:::center
 几种常见场景下State生命周期图
+:::
 
 ---
 
 ![Img](./FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png)
+:::center
 State生命周期中方法调用对比
-
+:::
 
 ## App的生命周期
 
