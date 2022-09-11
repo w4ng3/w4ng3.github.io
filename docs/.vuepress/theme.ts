@@ -84,10 +84,21 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      enableAll: true,
+      // enableAll: true, // 全部开启
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
+      align: true,
+      codetabs: true,
+      demo: true,
+      flowchart: true,
+      footnote: true,
+      imageMark: true,
+      mermaid: true,
+      sub: true,
+      sup: true,
+      tex: true,
+      vpre: true,
     },
     copyright: {
       global: true,

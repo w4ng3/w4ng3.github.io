@@ -1,6 +1,6 @@
 ---
 title: go_router声明式路由
-icon: flutter
+icon: dart
 date: 2022-09-11
 category: flutter
 order: 6

@@ -91,7 +91,7 @@ exports<span class="token punctuation">.</span>upload <span class="token operato
 exports<span class="token punctuation">.</span>route <span class="token operator">=</span> route<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://oss.w2gd.top/blog/httpserver.gif" alt="post请求" loading="lazy"></p>
+<p><img src="https://oss.w2gd.top/blog/httpserver.gif" alt="post请求"></p>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://www.nodebeginner.org/index-zh-cn.html" target="_blank" rel="noopener noreferrer">Node入门<ExternalLinkIcon/></a></li>

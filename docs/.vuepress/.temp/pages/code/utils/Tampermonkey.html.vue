@@ -4,7 +4,7 @@
 <h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
 <p><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">Chrome应用商店：Tampermonkey<ExternalLinkIcon/></a></p>
 <p>安装完成后，点击浏览器右上角出现的油猴插件，添加新脚本</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/b3bcbb7ca7880a042998f8643e8994a4.png" alt="模版内容" loading="lazy"></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/b3bcbb7ca7880a042998f8643e8994a4.png" alt="模版内容"></p>
 <p>模板中会预设部分元数据，用于定义脚本的名称、版本号、更新方式、运行页面、权限等功能</p>
 <p>常见的元数据包含：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// @name - 油猴脚本的名称</span>

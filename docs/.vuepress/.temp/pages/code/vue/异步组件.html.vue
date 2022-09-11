@@ -85,7 +85,7 @@ div.flex
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://oss.w2gd.top/blog/asyncComp.png" alt="asyncComp.png" loading="lazy"></p>
+<p><img src="https://oss.w2gd.top/blog/asyncComp.png" alt="asyncComp.png"></p>
 <h2 id="defineasynccomponent函数" tabindex="-1"><a class="header-anchor" href="#defineasynccomponent函数" aria-hidden="true">#</a> defineAsyncComponent函数</h2>
 <p>通常在异步加载组件时，我们要考虑以下几个方面：</p>
 <ul>
@@ -135,7 +135,7 @@ div.flex
 <p>suspensible：异步组件可以退出<code v-pre>&lt;Suspense&gt;</code>控制，并始终控制自己的加载状态。具体可以<a href="https://v3.cn.vuejs.org/guide/component-dynamic-async.html#%E4%B8%8E-suspense-%E4%B8%80%E8%B5%B7%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener noreferrer">参考文档<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="demo-延迟与超时" tabindex="-1"><a class="header-anchor" href="#demo-延迟与超时" aria-hidden="true">#</a> Demo 延迟与超时</h3>
-<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/async_load_error.gif" alt="Error与Loading组件" loading="lazy"></p>
+<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/async_load_error.gif" alt="Error与Loading组件"></p>
 </div>
 <CodeTabs :data='[{"title":"HomeView.vue"},{"title":"LoadComp.vue"},{"title":"ErrorComp.vue"}]' tab-id="language">
 
@@ -191,7 +191,7 @@ div.flex
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
 <h3 id="demo-重试机制" tabindex="-1"><a class="header-anchor" href="#demo-重试机制" aria-hidden="true">#</a> Demo 重试机制</h3>
-<p><img src="https://oss.w2gd.top/blog/async_retry.gif" alt="" loading="lazy"></p>
+<p><img src="https://oss.w2gd.top/blog/async_retry.gif" alt=""></p>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>logo-img</span> <span class="token punctuation">/></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hello-world</span> <span class="token attr-name">msg</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Welcome to Your Vue.js App<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>

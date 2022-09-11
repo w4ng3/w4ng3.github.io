@@ -49,7 +49,7 @@
 <h2 id="demo-tab切换" tabindex="-1"><a class="header-anchor" href="#demo-tab切换" aria-hidden="true">#</a> Demo Tab切换</h2>
 <p>实现效果：在 keepalive 包裹的输入框组件输入字符，切换到其他tab，返回，输入内容还在。<br>
 令<code v-pre>v-if</code>达到<code v-pre>v-show</code>的效果</p>
-<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/keepalive.gif" alt="keepalive-tab切换" loading="lazy"></p>
+<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/keepalive.gif" alt="keepalive-tab切换"></p>
 </div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>n-tabs</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>line<span class="token punctuation">"</span></span> <span class="token attr-name"><span class="token namespace">@update:</span>value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>handleUpdateValue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -80,7 +80,7 @@
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="demo-回退页面不刷新" tabindex="-1"><a class="header-anchor" href="#demo-回退页面不刷新" aria-hidden="true">#</a> Demo 回退页面不刷新</h2>
 <p>实现效果：切换路由，保证回退的时候不刷新页面，类似状态保持的效果。如下动图所示，首页的异步组件只请求了一次，<code v-pre>/alive</code>的输入框内容也被缓存。</p>
-<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/keepalive_route.gif" alt="keepalive-tab切换" loading="lazy"></p>
+<div style="text-align: center"><p><img src="https://oss.w2gd.top/blog/keepalive_route.gif" alt="keepalive-tab切换"></p>
 </div>
 <CodeTabs :data='[{"title":"App.vue"},{"title":"router/index.js"}]' tab-id="language">
 

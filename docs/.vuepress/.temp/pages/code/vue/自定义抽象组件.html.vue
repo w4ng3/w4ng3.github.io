@@ -52,7 +52,7 @@
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://oss.w2gd.top/blog/debounce.gif" alt="防抖" loading="lazy">
+<p><img src="https://oss.w2gd.top/blog/debounce.gif" alt="防抖">
 如上图所示，被防抖组件包裹的节点，无论连续点击多少次，都只在结束点击的一秒后触发一次
 <img
   src="https://oss.w2gd.top/blog/20220731175122.png"

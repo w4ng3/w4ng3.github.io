@@ -55,7 +55,7 @@
 <h3 id="使用-javascript-代替模板功能" tabindex="-1"><a class="header-anchor" href="#使用-javascript-代替模板功能" aria-hidden="true">#</a> 使用 JavaScript 代替模板功能</h3>
 <p><a href="https://v3.cn.vuejs.org/guide/render-function.html#%E4%BD%BF%E7%94%A8-javascript-%E4%BB%A3%E6%9B%BF%E6%A8%A1%E6%9D%BF%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">🔎官方文档<ExternalLinkIcon/></a></p>
 <h2 id="demo-锚点标题-js" tabindex="-1"><a class="header-anchor" href="#demo-锚点标题-js" aria-hidden="true">#</a> Demo 锚点标题.js</h2>
-<p><img src="https://oss.w2gd.top/blog/render.gif" alt="锚点标题" loading="lazy"></p>
+<p><img src="https://oss.w2gd.top/blog/render.gif" alt="锚点标题"></p>
 <CodeTabs :data='[{"title":"AnchoredHeading.js"},{"title":"h.scss"},{"title":"RenderView.vue"}]' tab-id="language">
 
 <template #tab0="{ title, value, isActive }">

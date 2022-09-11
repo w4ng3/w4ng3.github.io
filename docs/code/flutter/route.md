@@ -1,6 +1,6 @@
 ---
 title: 普通路由、命名路由、路由传值
-icon: flutter
+icon: dart
 date: 2022-09-11
 category: flutter
 order: 5

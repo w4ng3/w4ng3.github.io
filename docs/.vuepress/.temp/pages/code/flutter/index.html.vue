@@ -2,32 +2,32 @@
 <ul>
 <li><strong>Web 容器 ：Cordova  Ionic</strong></li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Cordova  ionic.png" alt="Cordova  ionic" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Cordova  ionic.png" alt="Cordova  ionic"></p>
 <ul>
 <li><strong>泛 Web 容器: React Native</strong></li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/ReactNative.png" alt="React Native" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/ReactNative.png" alt="React Native"></p>
 <ul>
 <li><strong>自绘引擎：Flutter</strong></li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/JIT.png" alt="JIT" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/JIT.png" alt="JIT"></p>
 <blockquote>
 <p><strong>自己去了解一下：AOT和 JIT</strong></p>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/方案对比.png" alt="方案对比" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/方案对比.png" alt="方案对比"></p>
 <h2 id="_1-2、flutter介绍" tabindex="-1"><a class="header-anchor" href="#_1-2、flutter介绍" aria-hidden="true">#</a> 1.2、Flutter介绍</h2>
 <blockquote>
 <p>Flutter 是 Google 推出并开源的移动应用开发UI框架，主打跨平台、高保真、高性能。开发者可以通过 Dart 语言开发 App，一套代码同时运行在多个平台。 Flutter 提供了丰富的组件、接口，开发者可以很快地为 Flutter 添加 Native 扩展。</p>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Flutter介绍.png" alt="Flutter介绍" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Flutter介绍.png" alt="Flutter介绍"></p>
 <p><strong>Flutter架构分层</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Flutter架构分层.png" alt="Flutter架构分层" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/Flutter架构分层.png" alt="Flutter架构分层"></p>
 <h1 id="_2、flutter环境" tabindex="-1"><a class="header-anchor" href="#_2、flutter环境" aria-hidden="true">#</a> 2、Flutter环境</h1>
 <h2 id="_2-1、环境搭建" tabindex="-1"><a class="header-anchor" href="#_2-1、环境搭建" aria-hidden="true">#</a> 2.1、环境搭建</h2>
 <p>参考：</p>
 <ul>
-<li><a href="https://book.flutterchina.club/chapter1/install_flutter.html#_1-3-1-%E5%AE%89%E8%A3%85flutter" target="_blank" rel="noopener noreferrer">https://book.flutterchina.club/chapter1/install_flutter.html#_1-3-1-安装flutter<ExternalLinkIcon/></a></li>
-<li><a href="https://doc.flutterchina.club/get-started/install/" target="_blank" rel="noopener noreferrer">https://doc.flutterchina.club/get-started/install/<ExternalLinkIcon/></a></li>
+<li>https://book.flutterchina.club/chapter1/install_flutter.html#_1-3-1-%E5%AE%89%E8%A3%85flutter</li>
+<li>https://doc.flutterchina.club/get-started/install/</li>
 </ul>
 <h2 id="_2-2、常用命令" tabindex="-1"><a class="header-anchor" href="#_2-2、常用命令" aria-hidden="true">#</a> 2.2、常用命令</h2>
 <ul>
@@ -188,7 +188,7 @@
 <p>通过自动补全功能能够让开发效率提升不少，那么如何使用自动补全功能呢？</p>
 </blockquote>
 <p>可以在Android Studio的Plugin中搜索<code v-pre>Flutter Snippets</code>这个插件然后进行安装：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622132735043.png" alt="image-20220622132735043" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622132735043.png" alt="image-20220622132735043"></p>
 <p>有了这个插件后，Android Studio 可以帮你自动补全主流widget 的代码。以下是触发自动补全各种widget 的缩写：</p>
 <ul>
 <li>stful: 创建一个有状态的 Widget</li>
@@ -203,13 +203,13 @@
 <p>虽然我们可以通过快捷键<code v-pre>option(alt)+command(ctrl)+L</code>来在提交代码是格式化，但是这种手动的方式显然不够效率。</p>
 <p>可以借助AS的保存时代码自动格式化功能来释放我们的双手：</p>
 <p>在 Settings &gt; Language &amp; Frameworks &gt; Flutter 中勾选 &quot;Format Code on Save&quot;这个选项：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622131711130.png" alt="image-20220622131711130" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622131711130.png" alt="image-20220622131711130"></p>
 <p>另外建议勾选<code v-pre>Organize imports on save</code>这个选项，它会帮你移除没有使用的导入。</p>
 <h2 id="_3-4-提取flutter代码" tabindex="-1"><a class="header-anchor" href="#_3-4-提取flutter代码" aria-hidden="true">#</a> 3.4 提取Flutter代码</h2>
 <p>Flutter最让人头疼的一点是的布局的嵌套，对于复杂的布局如果不进行任何重构的情况下会嵌套的非常深，从而降低代码的可读性不利于后期的维护。</p>
 <p>推荐的做法是将复杂的布局提取成一个函数或者一个组件，这里分享一个提取Flutter代码的技巧：</p>
 <p>选中一个比较复杂的widget，鼠标右键单击，选择 Refactor &gt; Extract Method ，然后给这个方法取一个名字，AS 可以自动把这块代码抽离出一个<code v-pre>Method</code>，并为它添加对于对应的参数：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622131925784.png" alt="image-20220622131925784" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mqxu/wiki-image@master/uPic/image-20220622131925784.png" alt="image-20220622131925784"></p>
 <blockquote>
 <p>除此之外，我们还可以借助AS来将符合条件的代码块提取成一个Widget，只需要在Refactor中选择 <strong>Extract Flutter Widget</strong>即可。</p>
 </blockquote>

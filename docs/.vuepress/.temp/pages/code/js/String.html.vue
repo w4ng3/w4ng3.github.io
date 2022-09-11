@@ -53,7 +53,7 @@ s<span class="token punctuation">[</span><span class="token number">13</span><sp
 
 s<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"X"</span><span class="token punctuation">;</span>
 <span class="token function">alert</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// s 仍然为 'Test'</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>JavaScript 为字符串提供了一些常用方法，注意，调用这些方法本身不会改变原有字符串的内容，而是<mark>返回一个新字符串:</mark></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>JavaScript 为字符串提供了一些常用方法，注意，调用这些方法本身不会改变原有字符串的内容，而是==返回一个新字符串:==</p>
 <h3 id="touppercase" tabindex="-1"><a class="header-anchor" href="#touppercase" aria-hidden="true">#</a> toUpperCase</h3>
 <p><code v-pre>toUpperCase()</code> 把一个字符串全部变为大写:</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> s <span class="token operator">=</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span>

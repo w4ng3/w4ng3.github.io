@@ -18,7 +18,7 @@
 希望新接触消费理论的诸位能更全面地理解马克思、法兰克福学派和鲍德里亚的理论，而不是拿 “科技发展” 作为一切剥削和不幸的挡箭牌。</p>
 </blockquote>
 <h2 id="马克思主义文库" tabindex="-1"><a class="header-anchor" href="#马克思主义文库" aria-hidden="true">#</a> 马克思主义文库</h2>
-<p>大陆地区访问链接：<a href="https://www.marxists.org/chinese/index.html" target="_blank" rel="noopener noreferrer">https://www.marxists.org/chinese/index.html<ExternalLinkIcon/></a></p>
+<p>大陆地区访问链接：https://www.marxists.org/chinese/index.html</p>
 <h2 id="来源" tabindex="-1"><a class="header-anchor" href="#来源" aria-hidden="true">#</a> 来源</h2>
 <p><a href="http://anvelpro.xyz/library/academia2/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>

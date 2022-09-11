@@ -52,7 +52,7 @@ SFC 享受不到 props 类型提示,受限于 SFC，组件在外部使用时 vsc
 <h2 id="jsx简明语法" tabindex="-1"><a class="header-anchor" href="#jsx简明语法" aria-hidden="true">#</a> JSX简明语法</h2>
 <p><a href="https://juejin.cn/post/7114063575122984973" target="_blank" rel="noopener noreferrer">《Vue3中使用JSX简明语法》<ExternalLinkIcon/></a></p>
 <h2 id="demo-vite-vue-jsx" tabindex="-1"><a class="header-anchor" href="#demo-vite-vue-jsx" aria-hidden="true">#</a> Demo Vite + Vue + JSX</h2>
-<p><img src="https://oss.w2gd.top/blog/20220731000050.png" alt="demo-jsx" loading="lazy"></p>
+<p><img src="https://oss.w2gd.top/blog/20220731000050.png" alt="demo-jsx"></p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>pnpm add @vitejs/plugin-vue-jsx
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><CodeTabs :data='[{"title":"JsxComp.jsx"},{"title":"Hello.vue"},{"title":"vite.config.js"}]' tab-id="language">
 

@@ -6,37 +6,37 @@
 <p>我们现在想从 HomePage 组件跳转到 SearchPage 组件。</p>
 <p>1、编写SearchPage页面，并在 HomPage 中引入</p>
 <p>2、在 HomePage 中通过下面方法跳转</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/ebefd6b2.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/ebefd6b2.png" alt="img"></p>
 <h2 id="三、基本路由跳转传值" tabindex="-1"><a class="header-anchor" href="#三、基本路由跳转传值" aria-hidden="true">#</a> 三、基本路由跳转传值</h2>
 <p>从 HomePage 组件跳转到 SearchPage 组件，并传值。</p>
 <p>给SearchPage类添加可选参数</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/a4e757e8.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/a4e757e8.png" alt="img"></p>
 <p>HomePage跳转的时候，通过构造方法传值。
-<img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/e43a511d.png" alt="img" loading="lazy"></p>
+<img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/e43a511d.png" alt="img"></p>
 <p>运行效果</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b0a4415a.gif" alt="2022-09-02 08.40.15.gif" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b0a4415a.gif" alt="2022-09-02 08.40.15.gif"></p>
 <h2 id="四、命名路由" tabindex="-1"><a class="header-anchor" href="#四、命名路由" aria-hidden="true">#</a> 四、命名路由</h2>
 <h3 id="_1、配置路由" tabindex="-1"><a class="header-anchor" href="#_1、配置路由" aria-hidden="true">#</a> 1、配置路由</h3>
 <p>在main中配置路由</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/033fee64.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/033fee64.png" alt="img"></p>
 <h3 id="_2、路由跳转" tabindex="-1"><a class="header-anchor" href="#_2、路由跳转" aria-hidden="true">#</a> 2、路由跳转</h3>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/a10d70c6.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/a10d70c6.png" alt="img"></p>
 <h2 id="五、命名路由跳转传值" tabindex="-1"><a class="header-anchor" href="#五、命名路由跳转传值" aria-hidden="true">#</a> 五、命名路由跳转传值</h2>
 <p>官方文档：<a href="https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments?_from_=227020040_59851621_233928268_4aeb228b6d4078d6b5e2a90705729d99&amp;_from_=227020040_59851621_233928268_4aeb228b6d4078d6b5e2a90705729d99" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments<ExternalLinkIcon/></a></p>
 <h3 id="_1、配置路由-1" tabindex="-1"><a class="header-anchor" href="#_1、配置路由-1" aria-hidden="true">#</a> 1、配置路由:</h3>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b1ef33f4.png" alt="carbon (3).png" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b1ef33f4.png" alt="carbon (3).png"></p>
 <h3 id="_2、路由跳转-1" tabindex="-1"><a class="header-anchor" href="#_2、路由跳转-1" aria-hidden="true">#</a> 2、路由跳转</h3>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/993891c5.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/993891c5.png" alt="img"></p>
 <h3 id="_3、接收参数" tabindex="-1"><a class="header-anchor" href="#_3、接收参数" aria-hidden="true">#</a> 3、接收参数</h3>
 <p>FormPage 页面接收参数</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/5a9214c0.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/5a9214c0.png" alt="img"></p>
 <h3 id="_4、运行效果" tabindex="-1"><a class="header-anchor" href="#_4、运行效果" aria-hidden="true">#</a> 4、运行效果</h3>
 <img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/84bfdaaa.gif" alt="2022-09-02 09.04.07.gif" />
 <h2 id="六、将命名路由单独抽离到一个文件" tabindex="-1"><a class="header-anchor" href="#六、将命名路由单独抽离到一个文件" aria-hidden="true">#</a> 六、将命名路由单独抽离到一个文件</h2>
 <p>新建一个 routes.dart 文件，将命名路由抽取到里面，写入以下代码，统一维护路由。</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/f61f77db.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/f61f77db.png" alt="img"></p>
 <p>在main.dart 中调用：</p>
-<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b3d1b57c.png" alt="img" loading="lazy"></p>
+<p><img src="@source/code/flutter/FILES/1.16-pu-tong-lu-you-ming-ming-lu-you-lu-you-chuan-zhi.md/b3d1b57c.png" alt="img"></p>
 <h2 id="七、给特定的-route-传参" tabindex="-1"><a class="header-anchor" href="#七、给特定的-route-传参" aria-hidden="true">#</a> 七、给特定的 route 传参</h2>
 <blockquote>
 <ol>

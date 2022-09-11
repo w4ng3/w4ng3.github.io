@@ -60,7 +60,7 @@
 </CodeTabs>
 <h3 id="demo-逻辑关注点分离" tabindex="-1"><a class="header-anchor" href="#demo-逻辑关注点分离" aria-hidden="true">#</a> Demo 逻辑关注点分离</h3>
 <blockquote>
-<p>Compostion API最核心要解决的问题并不是逻辑复用，而是<mark>逻辑关注点分离</mark>。因为应用生命周期60%时间都是在维护的，而维护性体现在代码是否符合单一职责原则，单一职责就是把相同的业务代码内聚到一个地方。</p>
+<p>Compostion API最核心要解决的问题并不是逻辑复用，而是==逻辑关注点分离==。因为应用生命周期60%时间都是在维护的，而维护性体现在代码是否符合单一职责原则，单一职责就是把相同的业务代码内聚到一个地方。</p>
 <p>所以你不要过于纠结代码是否需要复用，应用适当的冗余反而增加应用的维护性，《架构整洁之道》书中提到：对于大多数应用，可维护性比可重用性更加重要。</p>
 </blockquote>
 <p>可参考另一篇的<a href="https://w2gd.top/code/ts/vue+ts%E5%AE%9E%E7%8E%B0TodoList.html" target="_blank" rel="noopener noreferrer">TodoList Demo<ExternalLinkIcon/></a>,将承载具体的业务逻辑分离到<code v-pre>todoAction.ts</code>里。</p>
@@ -85,7 +85,7 @@
   <span class="token literal-property property">transition</span><span class="token operator">:</span> TransitionPresets<span class="token punctuation">.</span>easeInOutCubic
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://oss.w2gd.top/blog/vue-use.gif" alt="demo:vue-use.gif" loading="lazy"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://oss.w2gd.top/blog/vue-use.gif" alt="demo:vue-use.gif"></p>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/462631261" target="_blank" rel="noopener noreferrer">简单理解VUE3 hook<ExternalLinkIcon/></a></li>
