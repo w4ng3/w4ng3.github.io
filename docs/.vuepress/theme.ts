@@ -36,7 +36,7 @@ export default hopeTheme({
 
   blog: {
     // roundAvatar: true,
-    description: "一位前台端菜服务员",
+    description: "一位前台端菜实习生",
     intro: "/intro.html",
     medias: {
       Gmail: "mailto:w2gdong@gmail.com",
