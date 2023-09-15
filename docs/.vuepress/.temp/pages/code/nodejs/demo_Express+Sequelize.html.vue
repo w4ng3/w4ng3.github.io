@@ -3,7 +3,7 @@
 </div>
 <h2 id="项目搭建" tabindex="-1"><a class="header-anchor" href="#项目搭建" aria-hidden="true">#</a> 项目搭建</h2>
 <p>首先，创建数据库</p>
-<p><img src="http://img.w2gd.top/up/20230201191627.png" alt="创建数据库"></p>
+<p><img src="http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201191627.png" alt="创建数据库"></p>
 <p>然后创建 node 项目，配置 package.json</p>
 <div class="language-json ext-json line-numbers-mode"><pre v-pre class="language-json"><code><span class="token punctuation">{</span>
   <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"one_app_node"</span><span class="token punctuation">,</span>
@@ -26,7 +26,7 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>项目结构如下</p>
-<div style="text-align: center"><p><img src="http://img.w2gd.top/up/20230201211233.png" alt="项目结构"></p>
+<div style="text-align: center"><p><img src="http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201211233.png" alt="项目结构"></p>
 </div>
 <h2 id="连接数据库" tabindex="-1"><a class="header-anchor" href="#连接数据库" aria-hidden="true">#</a> 连接数据库</h2>
 <h3 id="先定义数据模型" tabindex="-1"><a class="header-anchor" href="#先定义数据模型" aria-hidden="true">#</a> 先定义数据模型</h3>
@@ -219,6 +219,6 @@ ideaRouter<span class="token punctuation">.</span><span class="token function">p
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ecs-部署" tabindex="-1"><a class="header-anchor" href="#ecs-部署" aria-hidden="true">#</a> ECS 部署</h2>
 <p>将文件上传到 git 仓库后下载压缩包，或者在服务器上用 git 拉取，解压后，用宝塔面板的侧边栏的网站模块，添加 Node 项目即可。</p>
-<div style="text-align: center"><img src="http://img.w2gd.top/up/20230201213043.png" height="500"/>
+<div style="text-align: center"><img src="http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201213043.png" height="500"/>
 </div>
 </div></template>

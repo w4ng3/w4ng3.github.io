@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://oss.w2gd.top/blog/joker.png",
+  logo: "https://riddler.oss-cn-shanghai.aliyuncs.com/blog/joker.png",
 
   repo: "https://github.com/wardendon?tab=repositories",
 
@@ -32,7 +32,7 @@ export default hopeTheme({
   // 暗色主题切换
   // darkmode:"toggle",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag","Word"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word"],
 
   blog: {
     // roundAvatar: true,
@@ -55,7 +55,9 @@ export default hopeTheme({
       "/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的": ["joker"],
       "/knowledge/spiritual/金融帝国主义如何剥削全世界.html": ["joker"],
       "/knowledge/spiritual/资本主义的本质是什么？": ["joker"],
-      "/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？": ["joker"],
+      "/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？": [
+        "joker",
+      ],
     },
   },
 
@@ -103,6 +105,6 @@ export default hopeTheme({
     copyright: {
       global: true,
     },
-    components:["PDF","Badge","CodePen"]
+    components: ["PDF", "Badge", "CodePen"],
   },
 });

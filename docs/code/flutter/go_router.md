@@ -5,10 +5,13 @@ date: 2022-09-11
 category: flutter
 order: 6
 ---
-# go_router声明式路由
+
+# go_router 声明式路由
 
 ## 基本使用
+
 ### 声明路由
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -63,11 +66,14 @@ void main() => runApp(MyApp());
 }
 
 ```
+
 ### 使用
+
 - go
 - push
 - pushName
 - goName
+
 ```dart
 OutlinedButton(
     onPressed: () => GoRouter.of(context).go('/about'),
@@ -87,15 +93,20 @@ OutlinedButton(
     child: const Text('设置'),
 ),
 ```
+
 ### 命名路由
+
 [Link](https://gorouter.dev/named-routes)
 
-
 ## 页面传参
+
 [go_router：params](https://gorouter.dev/parameters)
 [path_to_regexp 文档](https://pub.dev/documentation/path_to_regexp/latest/)
+
 ### params 动态链接
+
 > 动态链接的想法是用户可以为应用添加这样的对象，每个对象获得一个自身的链接，例如，一个新的 family 获得一个新的链接。这正是路由参数能做到的，例如，一个新的 family 有它自身的 ID，可以在 family 路由中变量化时使用，例：路径：/family/:fid 。
+
 ```dart
 /// 路由声明
 GoRoute(
@@ -115,7 +126,7 @@ onPressed: () => context.goNamed(
   'UserCenter',
   params: {
     'name': 'lanyj',
-    'avatar': 'http://img.w2gd.top/up/lem2.png'
+    'avatar': 'http://w2gd.oss-cn-shanghai.aliyuncs.com/up/lem2.png'
   },
 ),
 /// 参数获取
@@ -148,11 +159,13 @@ class UserCenter extends StatelessWidget {
   }
 }
 ```
+
 :::center
 <img src="./FILES/go_router.md/img-20220911003122.png" style="width:400px"/>
 :::
 
 ### queryParams 查询参数
+
 ```dart
 /// 路由声明
 GoRoute(
@@ -188,8 +201,11 @@ class SettingPage extends StatelessWidget {
   }
 }
 ```
+
 ### extra 附加参数
+
 除了传递路径参数和查询参数之外，也可以传递附加的对象作为导航的一部分。
+
 ```dart
 /// 对象类
 class User {
@@ -201,6 +217,7 @@ class User {
   User(this.name, this.avatar, this.age, this.location);
 }
 ```
+
 ```dart
 /// 路由声明
 GoRoute(
@@ -215,7 +232,7 @@ ElevatedButton(
   onPressed: () => context.pushNamed(
     'UserData',
     extra:
-        User('LanYJ', 'http://img.w2gd.top/up/lem2.png', 16, '异世界'),
+        User('LanYJ', 'http://w2gd.oss-cn-shanghai.aliyuncs.com/up/lem2.png', 16, '异世界'),
   ),
   child: const Text('个人资料'),
 )
@@ -262,11 +279,12 @@ class UserData extends StatelessWidget {
 ![Img](./FILES/go_router.md/userdata.png)
 :::
 
-## Go 与 Push的区别
+## Go 与 Push 的区别
+
 ```
 -| root
   -| detail
-  -| modal 
+  -| modal
 ```
 
 ![Img](./FILES/go_router.md/img-20220910005314.png)
@@ -276,7 +294,8 @@ class UserData extends StatelessWidget {
 另一方面，push 将始终将目标路由推送到现有导航堆栈的顶部
 
 ## 参考
+
 - [pub.dev: go_router](https://pub.dev/packages/go_router)
-- [[译]Flutter Favorite之路由包go_router - 基础篇](https://juejin.cn/post/7047035390003249189)
+- [[译]Flutter Favorite 之路由包 go_router - 基础篇](https://juejin.cn/post/7047035390003249189)
 - [官方文档](https://gorouter.dev/)
-- [使用 GoRouter ：Go 与 Push的区别](https://blog.51cto.com/jianguo/5258729)
+- [使用 GoRouter ：Go 与 Push 的区别](https://blog.51cto.com/jianguo/5258729)

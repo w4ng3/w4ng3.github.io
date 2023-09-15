@@ -9,6 +9,7 @@ category:
 
 ::: code-tabs#language
 @tab index.js
+
 ```js
 let server = require("./utils/server");
 let router = require("./router");
@@ -20,9 +21,10 @@ handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 
 server.start(router.route, handle);
-
 ```
+
 @tab server.js
+
 ```js
 let http = require("http");
 let url = require("url");
@@ -51,8 +53,10 @@ function start(route, handle) {
 
 exports.start = start;
 ```
+
 @tab requestHandles.js
-```js 
+
+```js
 let exec = require("child_process").exec;
 let querystring = require("querystring");
 
@@ -87,7 +91,9 @@ function upload(response, postData) {
 exports.start = start;
 exports.upload = upload;
 ```
+
 @tab router.js
+
 ```js
 function route(handle, pathname, response, postData) {
   console.log("About to route a request for " + pathname);
@@ -102,10 +108,12 @@ function route(handle, pathname, response, postData) {
 }
 exports.route = route;
 ```
+
 :::
-![post请求]( https://oss.w2gd.top/blog/httpserver.gif)
+![post请求](https://riddler.oss-cn-shanghai.aliyuncs.com/blog/httpserver.gif)
 
 ## 参考
-- [Node入门](https://www.nodebeginner.org/index-zh-cn.html)
-- [module.exports 、exports、export、export default的区别](https://cloud.tencent.com/developer/article/1410703)
+
+- [Node 入门](https://www.nodebeginner.org/index-zh-cn.html)
+- [module.exports 、exports、export、export default 的区别](https://cloud.tencent.com/developer/article/1410703)
 - [如何使用 Promise](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Asynchronous/Promises)

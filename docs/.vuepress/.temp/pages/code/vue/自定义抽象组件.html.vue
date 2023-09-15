@@ -1,9 +1,9 @@
-<template><div><p>诸如 <code v-pre>&lt;keep-alive&gt;</code>、<code v-pre>&lt;transition&gt;</code>、<code v-pre>&lt;transition-group&gt;</code> 和 <code v-pre>&lt;teleport&gt;</code> 等组件是Vue的内置组件，也可称为抽象组件，组件的实现是一个对象。</p>
+<template><div><p>诸如 <code v-pre>&lt;keep-alive&gt;</code>、<code v-pre>&lt;transition&gt;</code>、<code v-pre>&lt;transition-group&gt;</code> 和 <code v-pre>&lt;teleport&gt;</code> 等组件是 Vue 的内置组件，也可称为抽象组件，组件的实现是一个对象。</p>
 <blockquote>
 <p>Vue 的文档没有提这个概念，在抽象组件的生命周期过程中，我们可以对包裹的子组件监听的事件进行拦截，也可以对子组件进行 Dom 操作，从而可以对我们需要的功能进行封装，而不需要关心子组件的具体实现。</p>
 </blockquote>
 <h2 id="实现一个-debounce-组件-对子组件的-click-事件进行拦截" tabindex="-1"><a class="header-anchor" href="#实现一个-debounce-组件-对子组件的-click-事件进行拦截" aria-hidden="true">#</a> 实现一个 debounce 组件，对子组件的 click 事件进行拦截</h2>
-<p>防抖依靠 lodash.js 的debounce（防抖动）函数来实现</p>
+<p>防抖依靠 lodash.js 的 debounce（防抖动）函数来实现</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>$ pnpm add --save lodash
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>节流: n 秒内只运行一次，若在 n 秒内重复触发，只有一次生效<br>
@@ -41,21 +41,21 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>debounce</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NButton</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>++count<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>防抖计数: {{ count }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NButton</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>debounce</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token punctuation">/></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NButton</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>error<span class="token punctuation">"</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>++count<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>普通计数: {{ count }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NButton</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
-<span class="token keyword">import</span> <span class="token punctuation">{</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> debounce <span class="token keyword">from</span> <span class="token string">'../components/debounce'</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> count <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> debounce <span class="token keyword">from</span> <span class="token string">"../components/debounce"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> count <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://oss.w2gd.top/blog/debounce.gif" alt="防抖">
+<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/debounce.gif" alt="防抖">
 如上图所示，被防抖组件包裹的节点，无论连续点击多少次，都只在结束点击的一秒后触发一次
 <img
-  src="https://oss.w2gd.top/blog/20220731175122.png"
+  src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/20220731175122.png"
   alt="子组件的vnode"
   width="400"
   height="341"

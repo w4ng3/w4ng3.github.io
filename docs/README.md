@@ -3,25 +3,25 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: https://oss.w2gd.top/blog/joker.png
+heroImage: https://riddler.oss-cn-shanghai.aliyuncs.com/blog/joker.png
 heroText: warden@王東
-bgImage: https://oss.w2gd.top/GoTham/GoTham2.png
+bgImage: https://riddler.oss-cn-shanghai.aliyuncs.com/GoTham/GoTham2.png
 heroFullScreen: true
 tagline: 什么都看在眼里，而什么都漠然视之
 projects:
   # - icon: javascript
   #   name: WEB前端
-  #   desc: 
+  #   desc:
   #   link: https://v3.cn.vuejs.org/
 
   # - icon: dart
   #   name: Flutter
-  #   desc: 
+  #   desc:
   #   link: http://laomengit.com/
 
   # - icon: java
   #   name: JAVA
-  #   desc: 
+  #   desc:
   #   link: https://spring.io/
 
   - icon: module
@@ -41,4 +41,3 @@ projects:
 
 footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 赣ICP备2022005928号</a> | <a href="/about/site.html">关于网站</a>'
 ---
-

@@ -1,4 +1,4 @@
-<template><div><h1 id="go-router声明式路由" tabindex="-1"><a class="header-anchor" href="#go-router声明式路由" aria-hidden="true">#</a> go_router声明式路由</h1>
+<template><div><h1 id="go-router-声明式路由" tabindex="-1"><a class="header-anchor" href="#go-router-声明式路由" aria-hidden="true">#</a> go_router 声明式路由</h1>
 <h2 id="基本使用" tabindex="-1"><a class="header-anchor" href="#基本使用" aria-hidden="true">#</a> 基本使用</h2>
 <h3 id="声明路由" tabindex="-1"><a class="header-anchor" href="#声明路由" aria-hidden="true">#</a> 声明路由</h3>
 <div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
@@ -104,7 +104,7 @@ onPressed<span class="token punctuation">:</span> <span class="token punctuation
   <span class="token string-literal"><span class="token string">'UserCenter'</span></span><span class="token punctuation">,</span>
   params<span class="token punctuation">:</span> <span class="token punctuation">{</span>
     <span class="token string-literal"><span class="token string">'name'</span></span><span class="token punctuation">:</span> <span class="token string-literal"><span class="token string">'lanyj'</span></span><span class="token punctuation">,</span>
-    <span class="token string-literal"><span class="token string">'avatar'</span></span><span class="token punctuation">:</span> <span class="token string-literal"><span class="token string">'http://img.w2gd.top/up/lem2.png'</span></span>
+    <span class="token string-literal"><span class="token string">'avatar'</span></span><span class="token punctuation">:</span> <span class="token string-literal"><span class="token string">'http://w2gd.oss-cn-shanghai.aliyuncs.com/up/lem2.png'</span></span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 <span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token comment">/// 参数获取</span>
@@ -196,7 +196,7 @@ onPressed<span class="token punctuation">:</span> <span class="token punctuation
   onPressed<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> context<span class="token punctuation">.</span><span class="token function">pushNamed</span><span class="token punctuation">(</span>
     <span class="token string-literal"><span class="token string">'UserData'</span></span><span class="token punctuation">,</span>
     extra<span class="token punctuation">:</span>
-        <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'LanYJ'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'http://img.w2gd.top/up/lem2.png'</span></span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'异世界'</span></span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'LanYJ'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'http://w2gd.oss-cn-shanghai.aliyuncs.com/up/lem2.png'</span></span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'异世界'</span></span><span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token punctuation">)</span><span class="token punctuation">,</span>
   child<span class="token punctuation">:</span> <span class="token keyword">const</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'个人资料'</span></span><span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token punctuation">)</span>
@@ -239,18 +239,18 @@ onPressed<span class="token punctuation">:</span> <span class="token punctuation
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div style="text-align: center"><p><img src="@source/code/flutter/FILES/go_router.md/userdata.png" alt="Img"></p>
 </div>
-<h2 id="go-与-push的区别" tabindex="-1"><a class="header-anchor" href="#go-与-push的区别" aria-hidden="true">#</a> Go 与 Push的区别</h2>
+<h2 id="go-与-push-的区别" tabindex="-1"><a class="header-anchor" href="#go-与-push-的区别" aria-hidden="true">#</a> Go 与 Push 的区别</h2>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>-| root
   -| detail
-  -| modal 
+  -| modal
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/code/flutter/FILES/go_router.md/img-20220910005314.png" alt="Img"></p>
 <p>将 go 视为跳到新路线的一种方式。 如果新路由不是旧路由的子路由，这将修改底层导航堆栈。</p>
 <p>另一方面，push 将始终将目标路由推送到现有导航堆栈的顶部</p>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://pub.dev/packages/go_router" target="_blank" rel="noopener noreferrer">pub.dev: go_router<ExternalLinkIcon/></a></li>
-<li><a href="https://juejin.cn/post/7047035390003249189" target="_blank" rel="noopener noreferrer">[译]Flutter Favorite之路由包go_router - 基础篇<ExternalLinkIcon/></a></li>
+<li><a href="https://juejin.cn/post/7047035390003249189" target="_blank" rel="noopener noreferrer">[译]Flutter Favorite 之路由包 go_router - 基础篇<ExternalLinkIcon/></a></li>
 <li><a href="https://gorouter.dev/" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a></li>
-<li><a href="https://blog.51cto.com/jianguo/5258729" target="_blank" rel="noopener noreferrer">使用 GoRouter ：Go 与 Push的区别<ExternalLinkIcon/></a></li>
+<li><a href="https://blog.51cto.com/jianguo/5258729" target="_blank" rel="noopener noreferrer">使用 GoRouter ：Go 与 Push 的区别<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>

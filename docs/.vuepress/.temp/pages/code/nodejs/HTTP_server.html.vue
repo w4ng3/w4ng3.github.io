@@ -11,8 +11,7 @@ handle<span class="token punctuation">[</span><span class="token string">"/start
 handle<span class="token punctuation">[</span><span class="token string">"/upload"</span><span class="token punctuation">]</span> <span class="token operator">=</span> requestHandlers<span class="token punctuation">.</span>upload<span class="token punctuation">;</span>
 
 server<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span>router<span class="token punctuation">.</span>route<span class="token punctuation">,</span> handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 <template #tab1="{ title, value, isActive }">
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"http"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"url"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -91,11 +90,11 @@ exports<span class="token punctuation">.</span>upload <span class="token operato
 exports<span class="token punctuation">.</span>route <span class="token operator">=</span> route<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://oss.w2gd.top/blog/httpserver.gif" alt="post请求"></p>
+<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/httpserver.gif" alt="post请求"></p>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
-<li><a href="https://www.nodebeginner.org/index-zh-cn.html" target="_blank" rel="noopener noreferrer">Node入门<ExternalLinkIcon/></a></li>
-<li><a href="https://cloud.tencent.com/developer/article/1410703" target="_blank" rel="noopener noreferrer">module.exports 、exports、export、export default的区别<ExternalLinkIcon/></a></li>
+<li><a href="https://www.nodebeginner.org/index-zh-cn.html" target="_blank" rel="noopener noreferrer">Node 入门<ExternalLinkIcon/></a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1410703" target="_blank" rel="noopener noreferrer">module.exports 、exports、export、export default 的区别<ExternalLinkIcon/></a></li>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Asynchronous/Promises" target="_blank" rel="noopener noreferrer">如何使用 Promise<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>

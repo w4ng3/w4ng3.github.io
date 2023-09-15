@@ -15,7 +15,7 @@ category:
 
 首先，创建数据库
 
-![创建数据库](http://img.w2gd.top/up/20230201191627.png)
+![创建数据库](http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201191627.png)
 
 然后创建 node 项目，配置 package.json
 
@@ -44,7 +44,7 @@ category:
 
 项目结构如下
 :::center
-![项目结构](http://img.w2gd.top/up/20230201211233.png)
+![项目结构](http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201211233.png)
 :::
 
 ## 连接数据库
@@ -264,5 +264,5 @@ export const createIdea = (req, res) => {
 
 将文件上传到 git 仓库后下载压缩包，或者在服务器上用 git 拉取，解压后，用宝塔面板的侧边栏的网站模块，添加 Node 项目即可。
 :::center
-<img src="http://img.w2gd.top/up/20230201213043.png" height="500"/>
+<img src="http://w2gd.oss-cn-shanghai.aliyuncs.com/up/20230201213043.png" height="500"/>
 :::
