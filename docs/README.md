@@ -4,10 +4,10 @@ layout: Blog
 icon: home
 title: 主页
 heroImage: https://riddler.oss-cn-shanghai.aliyuncs.com/blog/joker.png
-heroText: warden@王東
-bgImage: https://riddler.oss-cn-shanghai.aliyuncs.com/GoTham/GoTham2.png
+heroText: 』」symbol「『
+bgImage: https://riddler.oss-cn-shanghai.aliyuncs.com/up/1221156.jpg
 heroFullScreen: true
-tagline: 什么都看在眼里，而什么都漠然视之
+tagline: 整个都处在一个"骑墙〞状态，一切都是模糊的
 projects:
   # - icon: javascript
   #   name: WEB前端

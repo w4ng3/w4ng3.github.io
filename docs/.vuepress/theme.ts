@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://riddler.oss-cn-shanghai.aliyuncs.com/blog/joker.png",
+  logo: "https://riddler.oss-cn-shanghai.aliyuncs.com/up/1179448.png",
 
   repo: "https://github.com/wardendon?tab=repositories",
 
@@ -35,8 +35,8 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word"],
 
   blog: {
-    // roundAvatar: true,
-    description: "一位前台端菜实习生",
+    roundAvatar: true,
+    description: "不要温和地走进那个良夜...",
     intro: "/intro.html",
     medias: {
       Gmail: "mailto:w2gdong@gmail.com",
