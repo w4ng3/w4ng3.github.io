@@ -40,7 +40,7 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       Gmail: "mailto:w2gdong@gmail.com",
-      Zhihu: "https://www.zhihu.com/people/shacoooooooooo",
+      // Zhihu: "https://www.zhihu.com/people/shacoooooooooo",
       GitHub: "https://github.com/wardendon",
     },
   },
@@ -52,12 +52,6 @@ export default hopeTheme({
       "/black/farewell/2021TheirLetter.html": ["2021"],
       "/black/farewell/2022TheirLetter.html": ["2022"],
       "/literary/sigh/山入安记.html": ["joker"],
-      "/knowledge/spiritual/996、内卷、打工人：马克思为什么是对的": ["joker"],
-      "/knowledge/spiritual/金融帝国主义如何剥削全世界.html": ["joker"],
-      "/knowledge/spiritual/资本主义的本质是什么？": ["joker"],
-      "/knowledge/spiritual/从基金到比特币，金融资本如何隐形剥削所有打工人？": [
-        "joker",
-      ],
     },
   },
 

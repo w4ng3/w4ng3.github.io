@@ -14,20 +14,10 @@ projects:
   #   desc:
   #   link: https://v3.cn.vuejs.org/
 
-  # - icon: dart
-  #   name: Flutter
-  #   desc:
-  #   link: http://laomengit.com/
-
-  # - icon: java
-  #   name: JAVA
-  #   desc:
-  #   link: https://spring.io/
-
-  - icon: module
-    name: 黑铁时代
-    desc: 黑铁时代的象征是那支鹅毛笔
-    link: /black/
+  # - icon: module
+  #   name: 黑铁时代
+  #   desc: 黑铁时代的象征是那支鹅毛笔
+  #   link: /black/
 
   - icon: mesh
     name: 寻找无双
@@ -39,5 +29,5 @@ projects:
     desc: 轻逸、迅速、繁复、易见
     link: /literary/
 
-footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 赣ICP备2022005928号</a> | <a href="/about/site.html">关于网站</a>'
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: NULL</a> | <a href="/about/site.html">关于网站</a>'
 ---
