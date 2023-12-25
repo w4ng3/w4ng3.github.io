@@ -1,11 +1,12 @@
 <template><div><h1 id="异步组件" tabindex="-1"><a class="header-anchor" href="#异步组件" aria-hidden="true">#</a> 异步组件</h1>
-<div class="custom-container tip"><p class="custom-container-title">需求</p>
+<div class="hint-container tip">
+<p class="hint-container-title">需求</p>
 <p>当我们的项目达到一定的规模时，对于某些组件来说，我们并不希望一开始全部加载，而是需要的时候进行加载,或是不必第一时间进行加载；这样的做得目的是为了释放页面的负载，提高页面加载速度，可以很好的提高用户体验。</p>
 </div>
 <p>为了实现这个功能，Vue3 中为我们提供了一个方法，即<code v-pre>defineAsyncComponent</code>，这个方法可以传递两种类型的参数，分别是函数类型和对象类型。</p>
 <h2 id="组件最基本的使用方式" tabindex="-1"><a class="header-anchor" href="#组件最基本的使用方式" aria-hidden="true">#</a> 组件最基本的使用方式</h2>
 <p>此种方式在打包时，会将子组件的内容一起打包进同一个文件中，影响大型、复杂应用的性能</p>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>As</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>As</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
@@ -13,7 +14,7 @@
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="异步组件-基本用法" tabindex="-1"><a class="header-anchor" href="#异步组件-基本用法" aria-hidden="true">#</a> 异步组件（基本用法）</h2>
 <p>在打包时，异步组件会被单独抽离出来，打成一个单独的 chunk,以“异步”的方式加载并渲染一个组件。</p>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Async</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Async</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
@@ -25,10 +26,13 @@
 </blockquote>
 <h3 id="demo-按需加载不同组件" tabindex="-1"><a class="header-anchor" href="#demo-按需加载不同组件" aria-hidden="true">#</a> Demo 按需加载不同组件</h3>
 <p>可根据<code v-pre>props</code>或<code v-pre>route</code>接收的参数来<strong>按需加载</strong>子组件</p>
-<CodeTabs :data='[{"title":"HelloWord.vue"},{"title":"CompA"},{"title":"CompB"},{"title":"App.vue"}]' tab-id="language">
-
-<template #tab0="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+<CodeTabs id="36" :data='[{"id":"HelloWord.vue"},{"id":"CompA"},{"id":"CompB"},{"id":"App.vue"}]' tab-id="language">
+<template #title0="{ value, isActive }">HelloWord.vue</template>
+<template #title1="{ value, isActive }">CompA</template>
+<template #title2="{ value, isActive }">CompB</template>
+<template #title3="{ value, isActive }">App.vue</template>
+<template #tab0="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">import</span> <span class="token punctuation">{</span> defineAsyncComponent<span class="token punctuation">,</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> props <span class="token operator">=</span> <span class="token function">defineProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   <span class="token literal-property property">msg</span><span class="token operator">:</span> String<span class="token punctuation">,</span>
@@ -57,22 +61,22 @@ div
       | count is {{ count }}
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab1="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pug<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<template #tab1="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pug<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 a(href="https://vuejs.org/" target="_blank")
   img.logo.vue(src="../assets/vue.svg" alt="Vue logo")
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab2="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pug<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<template #tab2="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pug<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 a(href="https://vitejs.dev" target="_blank")
   img.logo(src="/vite.svg" alt="Vite logo")
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab3="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+<template #tab3="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">import</span> HelloWorld <span class="token keyword">from</span> <span class="token string">"./components/HelloWorld.vue"</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
@@ -83,7 +87,7 @@ div.flex
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/asyncComp.png" alt="asyncComp.png"></p>
+<figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/asyncComp.png" alt="asyncComp.png" tabindex="0" loading="lazy"><figcaption>asyncComp.png</figcaption></figure>
 <h2 id="defineasynccomponent-函数" tabindex="-1"><a class="header-anchor" href="#defineasynccomponent-函数" aria-hidden="true">#</a> defineAsyncComponent 函数</h2>
 <p>通常在异步加载组件时，我们要考虑以下几个方面：</p>
 <ul>
@@ -95,7 +99,7 @@ div.flex
 <p>Vue 封装了<code v-pre>defineAsyncComponent</code>函数来实现友好的用户接口，从而降低用户层面的使用复杂度</p>
 <h2 id="异步组件-高阶用法" tabindex="-1"><a class="header-anchor" href="#异步组件-高阶用法" aria-hidden="true">#</a> 异步组件（高阶用法）</h2>
 <p>defineAsyncComponent 方法可以接收一个<code v-pre>对象</code>作为参数，该对象中有如下几个参数：</p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineAsyncComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineAsyncComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> AsyncComp <span class="token operator">=</span> <span class="token function">defineAsyncComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   <span class="token comment">// 工厂函数</span>
@@ -133,12 +137,15 @@ div.flex
 <p>suspensible：异步组件可以退出<code v-pre>&lt;Suspense&gt;</code>控制，并始终控制自己的加载状态。具体可以<a href="https://v3.cn.vuejs.org/guide/component-dynamic-async.html#%E4%B8%8E-suspense-%E4%B8%80%E8%B5%B7%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener noreferrer">参考文档<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="demo-延迟与超时" tabindex="-1"><a class="header-anchor" href="#demo-延迟与超时" aria-hidden="true">#</a> Demo 延迟与超时</h3>
-<div style="text-align: center"><p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/async_load_error.gif" alt="Error与Loading组件"></p>
+<div style="text-align:center">
+<figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/async_load_error.gif" alt="Error与Loading组件" tabindex="0" loading="lazy"><figcaption>Error与Loading组件</figcaption></figure>
 </div>
-<CodeTabs :data='[{"title":"HomeView.vue"},{"title":"LoadComp.vue"},{"title":"ErrorComp.vue"}]' tab-id="language">
-
-<template #tab0="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<CodeTabs id="104" :data='[{"id":"HomeView.vue"},{"id":"LoadComp.vue"},{"id":"ErrorComp.vue"}]' tab-id="language">
+<template #title0="{ value, isActive }">HomeView.vue</template>
+<template #title1="{ value, isActive }">LoadComp.vue</template>
+<template #title2="{ value, isActive }">ErrorComp.vue</template>
+<template #tab0="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>AsyncComp</span> <span class="token attr-name">msg</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>异步组件<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
@@ -167,16 +174,16 @@ div.flex
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab1="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<template #tab1="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>n-spin</span> <span class="token attr-name">size</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>large<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">#description</span><span class="token punctuation">></span></span> Loading~ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>n-spin</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab2="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<template #tab2="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>n-result</span> <span class="token attr-name">status</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>404<span class="token punctuation">"</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>404 资源不存在<span class="token punctuation">"</span></span> <span class="token attr-name">description</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>生活总归带点荒谬<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">#footer</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>n-button</span><span class="token punctuation">></span></span>找点乐子吧<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>n-button</span><span class="token punctuation">></span></span>
@@ -187,8 +194,8 @@ div.flex
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
 <h3 id="demo-重试机制" tabindex="-1"><a class="header-anchor" href="#demo-重试机制" aria-hidden="true">#</a> Demo 重试机制</h3>
-<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/async_retry.gif" alt=""></p>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/async_retry.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>logo-img</span> <span class="token punctuation">/></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hello-world</span> <span class="token attr-name">msg</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Welcome to Your Vue.js App<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
@@ -249,3 +256,5 @@ div.flex
 <li><a href="https://v3.cn.vuejs.org/api/global-api.html#defineasynccomponent" target="_blank" rel="noopener noreferrer">Vue.js 官网-defineasynccomponent<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
+

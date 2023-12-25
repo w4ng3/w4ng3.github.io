@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 icon: home
 title: 主页
 heroImage: https://riddler.oss-cn-shanghai.aliyuncs.com/blog/joker.png

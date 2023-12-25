@@ -1,13 +1,14 @@
-<template><div><div class="custom-container info"><p class="custom-container-title">油猴脚本是什么？</p>
+<template><div><div class="hint-container info">
+<p class="hint-container-title">油猴脚本是什么？</p>
 <p>油猴脚本（Tampermonkey）是一个流行的浏览器扩展，可以运行用户编写的扩展脚本，来实现各式各样的功能，比如去广告、修改样式、下载视频等。</p>
 </div>
 <h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
 <p><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">Chrome应用商店：Tampermonkey<ExternalLinkIcon/></a></p>
 <p>安装完成后，点击浏览器右上角出现的油猴插件，添加新脚本</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/b3bcbb7ca7880a042998f8643e8994a4.png" alt="模版内容"></p>
+<figure><img src="https://img-blog.csdnimg.cn/img_convert/b3bcbb7ca7880a042998f8643e8994a4.png" alt="模版内容" tabindex="0" loading="lazy"><figcaption>模版内容</figcaption></figure>
 <p>模板中会预设部分元数据，用于定义脚本的名称、版本号、更新方式、运行页面、权限等功能</p>
 <p>常见的元数据包含：</p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// @name - 油猴脚本的名称</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// @name - 油猴脚本的名称</span>
 <span class="token comment">// @namespace 脚本的命名空间，用于确定脚本的唯一性</span>
 <span class="token comment">// @version 脚本的版本号，用于脚本的更新</span>
 <span class="token comment">// @description 脚本的描述信息</span>
@@ -21,7 +22,7 @@
 <span class="token comment">// @icon 用于指定脚本的图标，可以设置为图片 URL 地址或 base64 的字符串</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="简单入门" tabindex="-1"><a class="header-anchor" href="#简单入门" aria-hidden="true">#</a> 简单入门</h2>
 <h3 id="定时刷新" tabindex="-1"><a class="header-anchor" href="#定时刷新" aria-hidden="true">#</a> 定时刷新</h3>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">randomNum</span><span class="token punctuation">(</span><span class="token parameter">start<span class="token punctuation">,</span> end</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">randomNum</span><span class="token punctuation">(</span><span class="token parameter">start<span class="token punctuation">,</span> end</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> Math<span class="token punctuation">.</span><span class="token function">round</span><span class="token punctuation">(</span><span class="token number">1000</span> <span class="token operator">*</span> <span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token punctuation">(</span>end <span class="token operator">-</span> start<span class="token punctuation">)</span> <span class="token operator">+</span> start<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
@@ -36,7 +37,7 @@
   <span class="token punctuation">}</span><span class="token punctuation">,</span> time<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="自动答题" tabindex="-1"><a class="header-anchor" href="#自动答题" aria-hidden="true">#</a> 自动答题</h3>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// ==UserScript==</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// ==UserScript==</span>
 <span class="token comment">// @name         百度题库答题：自动点击选项做题</span>
 <span class="token comment">// @namespace    http://tampermonkey.net/</span>
 <span class="token comment">// @version      0.1</span>
@@ -97,3 +98,5 @@
 <li><a href="https://blog.csdn.net/Dome_/article/details/124792380" target="_blank" rel="noopener noreferrer">速编写一个油猴脚本<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
+

@@ -1,4 +1,5 @@
-<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<template><div><div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>Web 端常见的上传方法是用户在浏览器或 App 端上传文件到应用服务器，应用服务器再把文件上传到 OSS。这种方式需通过应用服务器中转，传输效率明显低于数据直传至 OSS 的方式。</p>
 <p>数据直传至 OSS 是利用 OSS 的 PostObject 接口，使用表单上传方式上传文件至 OSS。</p>
 </div>
@@ -10,21 +11,22 @@
 <li>
 <p>设置跨域资源共享
 在 OSS 的<code v-pre>Bucket - 权限管理 - 跨域设置 - 创建规则</code></p>
-<div style="text-align: center"><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/20220808231525.png" style="height:400px;"/>
+<div style="text-align:center">
+<img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/20220808231525.png" style="height:400px;"/>
 </div>
 </li>
 <li>
 <p>安装 SDK 开发包</p>
 </li>
 </ul>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>pnpm add ali-oss
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>pnpm add ali-oss
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
 <li>获取 AccessKey
 打开阿里云 OSS，鼠标移到用户头像处，出现<code v-pre>AccessKey管理</code>入口，验证后获取<code v-pre>accessKeyId</code>和<code v-pre>accessKeySecret</code></li>
 </ul>
 <h3 id="代码实现" tabindex="-1"><a class="header-anchor" href="#代码实现" aria-hidden="true">#</a> 代码实现</h3>
 <p>我的使用场景是在 vue 项目中结合 Naive-ui 框架的上传组件来实现功能。</p>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NUpload</span>
     <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span>
     <span class="token attr-name">:default-upload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span>
@@ -78,7 +80,7 @@
   <span class="token property">border-radius</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/1659968721000.gif" alt="上传图片到oss"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/1659968721000.gif" alt="上传图片到oss" tabindex="0" loading="lazy"><figcaption>上传图片到oss</figcaption></figure>
 <h3 id="自己封装上传工具" tabindex="-1"><a class="header-anchor" href="#自己封装上传工具" aria-hidden="true">#</a> 自己封装上传工具</h3>
 <p>也可以不安装<code v-pre>ali-oss</code>，自己封装上传工具,定制 policy。
 <a href="https://github.com/wardendon/uploadFileToOSS" target="_blank" rel="noopener noreferrer">代码仓库<ExternalLinkIcon/></a></p>
@@ -94,3 +96,5 @@
 <li><a href="https://codeantenna.com/a/wuAMIhSFIQ" target="_blank" rel="noopener noreferrer">vue 上传图片到 oss / uniapp 上传图片到 oss<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
+

@@ -1,5 +1,6 @@
 <template><div><h1 id="从基金到比特币-金融资本如何隐形剥削所有打工人" tabindex="-1"><a class="header-anchor" href="#从基金到比特币-金融资本如何隐形剥削所有打工人" aria-hidden="true">#</a> 从基金到比特币，金融资本如何隐形剥削所有打工人？</h1>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>本文为 B 站 UP 主 <code v-pre>学院派Academia</code> 的视频 ——<a href="https://www.bilibili.com/video/BV1V5411A7e2?vd_source=6fb4f119e10cb3a77160be52b35e5bd9" target="_blank" rel="noopener noreferrer">【金融资本论】从基金到比特币，金融资本如何隐形剥削所有打工人？<ExternalLinkIcon/></a>—— 文案。<br>
 金融最大的危害只是让你亏钱吗？不，美国最新的马克思学派研究告诉我们，金融化将重塑劳工结构、规训工人阶级，最终无限放大资本的杠杆和话语权。这场战争，我们无人可以置身事外。</p>
 </div>
@@ -45,3 +46,5 @@
 <p>视频：<a href="https://www.bilibili.com/video/BV1V5411A7e2?vd_source=6fb4f119e10cb3a77160be52b35e5bd9" target="_blank" rel="noopener noreferrer">【金融资本论】从基金到比特币，金融资本如何隐形剥削所有打工人？<ExternalLinkIcon/></a><br>
 文案：<a href="http://anvelpro.xyz/library/academia5/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>
+
+

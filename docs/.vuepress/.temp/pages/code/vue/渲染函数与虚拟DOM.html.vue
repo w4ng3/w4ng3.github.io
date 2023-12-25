@@ -11,9 +11,9 @@
 </blockquote>
 <h2 id="about" tabindex="-1"><a class="header-anchor" href="#about" aria-hidden="true">#</a> About</h2>
 <h3 id="h-函数" tabindex="-1"><a class="header-anchor" href="#h-函数" aria-hidden="true">#</a> h 函数</h3>
-<details class="custom-container details"><summary>h() 参数</summary>
+<details class="hint-container details"><summary>h() 参数</summary>
 <p><code v-pre>h()</code> 函数是一个用于创建 <code v-pre>VNode</code> 的实用程序。也许可以更准确地将其命名为 <code v-pre>createVNode()</code>，但由于频繁使用和简洁，它被称为 <code v-pre>h()</code> 。它接受三个参数：</p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// @returns {VNode}</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// @returns {VNode}</span>
 <span class="token function">h</span><span class="token punctuation">(</span>
   <span class="token comment">// {String | Object | Function} tag</span>
   <span class="token comment">// 一个 HTML 标签名、一个组件、一个异步组件、或</span>
@@ -55,11 +55,13 @@
 <h3 id="使用-javascript-代替模板功能" tabindex="-1"><a class="header-anchor" href="#使用-javascript-代替模板功能" aria-hidden="true">#</a> 使用 JavaScript 代替模板功能</h3>
 <p><a href="https://v3.cn.vuejs.org/guide/render-function.html#%E4%BD%BF%E7%94%A8-javascript-%E4%BB%A3%E6%9B%BF%E6%A8%A1%E6%9D%BF%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">🔎 官方文档<ExternalLinkIcon/></a></p>
 <h2 id="demo-锚点标题-js" tabindex="-1"><a class="header-anchor" href="#demo-锚点标题-js" aria-hidden="true">#</a> Demo 锚点标题.js</h2>
-<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/render.gif" alt="锚点标题"></p>
-<CodeTabs :data='[{"title":"AnchoredHeading.js"},{"title":"h.scss"},{"title":"RenderView.vue"}]' tab-id="language">
-
-<template #tab0="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> ref<span class="token punctuation">,</span> h<span class="token punctuation">,</span> defineComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
+<figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/render.gif" alt="锚点标题" tabindex="0" loading="lazy"><figcaption>锚点标题</figcaption></figure>
+<CodeTabs id="43" :data='[{"id":"AnchoredHeading.js"},{"id":"h.scss"},{"id":"RenderView.vue"}]' tab-id="language">
+<template #title0="{ value, isActive }">AnchoredHeading.js</template>
+<template #title1="{ value, isActive }">h.scss</template>
+<template #title2="{ value, isActive }">RenderView.vue</template>
+<template #tab0="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> ref<span class="token punctuation">,</span> h<span class="token punctuation">,</span> defineComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
 <span class="token comment">// 引入样式文件</span>
 <span class="token keyword">import</span> <span class="token string">"../style/h.scss"</span><span class="token punctuation">;</span>
 <span class="token doc-comment comment">/** 递归地从子节点获取文本 */</span>
@@ -104,8 +106,8 @@
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab1="{ title, value, isActive }">
-<div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token keyword">@each</span> <span class="token variable">$header</span><span class="token punctuation">,</span> <span class="token variable">$size</span> in <span class="token punctuation">(</span><span class="token property">h1</span><span class="token punctuation">:</span> 5rem<span class="token punctuation">,</span> <span class="token property">h2</span><span class="token punctuation">:</span> 4em<span class="token punctuation">,</span> <span class="token property">h3</span><span class="token punctuation">:</span> 3em<span class="token punctuation">,</span> <span class="token property">h4</span><span class="token punctuation">:</span> 2rem<span class="token punctuation">,</span> <span class="token property">h5</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<template #tab1="{ value, isActive }">
+<div class="language-scss line-numbers-mode" data-ext="scss"><pre v-pre class="language-scss"><code><span class="token keyword">@each</span> <span class="token variable">$header</span><span class="token punctuation">,</span> <span class="token variable">$size</span> in <span class="token punctuation">(</span><span class="token property">h1</span><span class="token punctuation">:</span> 5rem<span class="token punctuation">,</span> <span class="token property">h2</span><span class="token punctuation">:</span> 4em<span class="token punctuation">,</span> <span class="token property">h3</span><span class="token punctuation">:</span> 3em<span class="token punctuation">,</span> <span class="token property">h4</span><span class="token punctuation">:</span> 2rem<span class="token punctuation">,</span> <span class="token property">h5</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token selector"><span class="token variable">#{$header}</span> </span><span class="token punctuation">{</span>
     <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token variable">$size</span><span class="token punctuation">;</span>
     <span class="token property">line-height</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span>
@@ -116,8 +118,8 @@
   <span class="token property">color</span><span class="token punctuation">:</span> yellowgreen<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab2="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<template #tab2="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>AnchoredHeading</span> <span class="token attr-name">:level</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>如果在冬夜<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>AnchoredHeading</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>AnchoredHeading</span> <span class="token attr-name">:level</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>一个旅人<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>AnchoredHeading</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>AnchoredHeading</span> <span class="token attr-name">:level</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>走在马尔堡市郊外<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>AnchoredHeading</span><span class="token punctuation">></span></span>
@@ -130,8 +132,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
 <h2 id="demo-在-setup-surge-里使用" tabindex="-1"><a class="header-anchor" href="#demo-在-setup-surge-里使用" aria-hidden="true">#</a> Demo 在 setup surge 里使用</h2>
-<RenderComp />
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+<RenderComp /><div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">import</span> <span class="token punctuation">{</span> ref<span class="token punctuation">,</span> h <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> msg <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -154,6 +155,7 @@
 <li><a href="https://www.zhihu.com/question/436260027/answer/1647182157" target="_blank" rel="noopener noreferrer">为什么 Vue3 的组件库都在使用 jsx/tsx？<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
 
 <script setup>
   import RenderComp from '@MyComponent/RenderComp.vue'

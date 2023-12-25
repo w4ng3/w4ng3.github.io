@@ -35,10 +35,11 @@
 <li>Theme类是通过InheritedWidget实现的典型案例</li>
 </ul>
 <p>以Flutter工程模板中的计数器为例，来说明InheritedWidget的使用方法</p>
-<div style="text-align: center"><p><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920144110.gif" alt="Img"></p>
+<div style="text-align:center">
+<figure><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920144110.gif" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
 </div>
-<details class="custom-container details"><summary>创建父组件</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/counter_demo_page.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>创建父组件</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/counter_demo_page.dart'</span></span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/cupertino.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">CounterContainer</span> <span class="token keyword">extends</span> <span class="token class-name">InheritedWidget</span> <span class="token punctuation">{</span>
@@ -61,8 +62,8 @@
 <span class="token punctuation">}</span>
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<details class="custom-container details"><summary>子孙组件获取父组件的传值</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/counter_container.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>子孙组件获取父组件的传值</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/counter_container.dart'</span></span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">CounterDemoPage</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
@@ -147,10 +148,11 @@
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
 <h2 id="notification" tabindex="-1"><a class="header-anchor" href="#notification" aria-hidden="true">#</a> Notification</h2>
-<div style="text-align: center"><p><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920150429.gif" alt="Img"></p>
+<div style="text-align:center">
+<figure><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920150429.gif" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
 </div>
-<details class="custom-container details"><summary>抽离出一个子 widget 用来发通知</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>抽离出一个子 widget 用来发通知</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">CustomNotification</span> <span class="token keyword">extends</span> <span class="token class-name">Notification</span> <span class="token punctuation">{</span>
   <span class="token keyword">final</span> <span class="token class-name">String</span> msg<span class="token punctuation">;</span>
@@ -170,8 +172,8 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<details class="custom-container details"><summary>通知父组件</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/custom_notification.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>通知父组件</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/custom_notification.dart'</span></span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">NotificationDemoPage</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
@@ -215,11 +217,12 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
 <h2 id="event-bus" tabindex="-1"><a class="header-anchor" href="#event-bus" aria-hidden="true">#</a> event_bus</h2>
 <p>不止于 <code v-pre>父传子</code> 和<code v-pre>子传父</code>，可任意传，兄弟传，表亲传</p>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>flutter pub add event_bus
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div style="text-align: center"><p><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920151600.gif" alt="Img"></p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>flutter pub add event_bus
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div style="text-align:center">
+<figure><img src="@source/code/flutter/FILES/kua-zu-jian-chuan-zhi.md/img-20220920151600.gif" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
 </div>
-<details class="custom-container details"><summary>定义消息类</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:event_bus/event_bus.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>定义消息类</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:event_bus/event_bus.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">CustomEvent</span> <span class="token punctuation">{</span>
   <span class="token class-name">String</span> msg<span class="token punctuation">;</span>
@@ -228,8 +231,8 @@
 
 <span class="token class-name">EventBus</span> eventBus <span class="token operator">=</span> <span class="token class-name">EventBus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<details class="custom-container details"><summary>接收页</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'dart:async'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>接收页</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'dart:async'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/cutom_event.dart'</span></span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/event_bus2_page.dart'</span></span><span class="token punctuation">;</span>
@@ -296,8 +299,8 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<details class="custom-container details"><summary>发送页</summary>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/cutom_event.dart'</span></span><span class="token punctuation">;</span>
+<details class="hint-container details"><summary>发送页</summary>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:demo_codelab/pages/widget/zjcz/cutom_event.dart'</span></span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">EventBus2</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
@@ -328,7 +331,10 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>该demo 中还包含了<code v-pre>页面关闭时告知上一页面</code> 的回调方法，在 <code v-pre>Navigator.of(context).push</code>的 then 里</p>
 </div>
 </div></template>
+
+

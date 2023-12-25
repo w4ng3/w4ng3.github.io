@@ -16,8 +16,9 @@
 <p>带着这些问题，我们终于迎来了本次课程的主角—— <strong>Flutter</strong>。</p>
 <p>Flutter 是构建 Google 物联网操作系统 Fuchsia 的 SDK，主打<strong>跨平台、高保真、高性能</strong>。开发者可以通过 Dart 语言开发 App，一套代码可以同时运行在 iOS 和 Android 平台。 Flutter 使用 Native 引擎渲染视图，并提供了丰富的组件和接口，这无疑为开发者和用户都提供了良好的体验。</p>
 <p>从 2017 年 5 月，谷歌公司发布的了 Alpha 版本的 Flutter，到 2022年5月发布的 Flutter 3.0，Flutter 正在赢得越来越多的关注。下面这张图展示了Flutter的前世今生。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/9e9b14ba.png" alt="img"></p>
-<div style="text-align: center"><p>图1 Flutter 发展时间线</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/9e9b14ba.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图1 Flutter 发展时间线</p>
 </div>
 <p>很多人开始感慨，跨平台技术似乎终于迎来了最佳解决方案。那么，接下来我们就从原理层面去看看，Flutter 是如何解决既有跨平台开发方案问题的。</p>
 <h2 id="_2-flutter-是怎么运转的" tabindex="-1"><a class="header-anchor" href="#_2-flutter-是怎么运转的" aria-hidden="true">#</a> 2. Flutter 是怎么运转的？</h2>
@@ -31,8 +32,9 @@
 <p>在计算机系统中，图像的显示需要 CPU、GPU 和显示器一起配合完成：CPU 负责图像数据计算，GPU 负责图像数据渲染，而显示器则负责最终图像显示。</p>
 <p>CPU 把计算好的、需要显示的内容交给 GPU，由 GPU 完成渲染后放入帧缓冲区，随后视频控制器根据垂直同步信号（VSync）以每秒 60 次的速度，从帧缓冲区读取帧数据交由显示器完成图像显示。</p>
 <p>操作系统在呈现图像时遵循了这种机制，而 Flutter 作为跨平台开发框架也采用了这种底层方案，下面这张示意图解释了 Flutter 的绘制原理。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/84bad9ba.png" alt="img"></p>
-<div style="text-align: center"><p>图 2 Flutter 绘制原理</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/84bad9ba.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 2 Flutter 绘制原理</p>
 </div>
 <p>可以看到，Flutter 关注如何尽可能快地在两个硬件时钟的 VSync 信号之间计算并合成视图数据，然后通过 Skia 交给 GPU 渲染：UI 线程使用 Dart 来构建视图结构数据，这些数据会在 GPU 线程进行图层合成，随后交给 Skia 引擎加工成 GPU 数据，而这些数据会通过 OpenGL 最终提供给 GPU 渲染。</p>
 <p>在进一步学习 Flutter 之前，我们有必要了解下构建 Flutter 的关键技术，即 <strong>Skia 和 Dart。</strong></p>
@@ -61,8 +63,9 @@
 <h2 id="_5-flutter-的原理" tabindex="-1"><a class="header-anchor" href="#_5-flutter-的原理" aria-hidden="true">#</a> 5. Flutter 的原理</h2>
 <p>在了解了 Flutter 的基本运作机制后，我们再来深入了解一下 Flutter 的实现原理。</p>
 <p>首先，我们来看一下 Flutter 的架构图。通过这张图以及对应的解读，我们应该在开始学习的时候就建立起对 Flutter 的整体印象，能够从框架设计和实现原理的高度去理解 Flutter 区别其他跨平台解决方案的关键所在，为后面的学习打好基础，而不是直接一上来就陷入语言和框架的功能细节“泥潭”而无法自拔。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/img-20220911203249.png" alt="Img"></p>
-<div style="text-align: center"><p>图 3 Flutter 架构图</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/img-20220911203249.png" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
+<div style="text-align:center">
+<p>图 3 Flutter 架构图</p>
 </div>
 <p>备注：此图引自<a href="https://docs.flutter.dev/resources/architectural-overview" target="_blank" rel="noopener noreferrer"> Flutter System Overview<ExternalLinkIcon/></a></p>
 <p>Flutter 架构采用分层设计，从下到上分为三层，依次为：<strong>Embedder、Engine、Framework</strong></p>
@@ -75,23 +78,27 @@
 <p>页面中的各界面元素（Widget）以树的形式组织，即控件树。Flutter 通过控件树中的每个控件创建不同类型的渲染对象，组成渲染对象树。而渲染对象树在 Flutter 的展示过程分为四个阶段：布局、绘制、合成和渲染。</p>
 <h3 id="_5-1-布局" tabindex="-1"><a class="header-anchor" href="#_5-1-布局" aria-hidden="true">#</a> <strong>5.1 布局</strong></h3>
 <p>Flutter 采用深度优先机制遍历渲染对象树，决定渲染对象树中各渲染对象在屏幕上的位置和尺寸。在布局过程中，渲染对象树中的每个渲染对象都会接收父对象的布局约束参数，决定自己的大小，然后父对象按照控件逻辑决定各个子对象的位置，完成布局过程。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/d5bf47d4.png" alt="img"></p>
-<div style="text-align: center"><p>图 4 Flutter 布局过程</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/d5bf47d4.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 4 Flutter 布局过程</p>
 </div>
 <p>为了防止因子节点发生变化而导致整个控件树重新布局，Flutter 加入了一个机制——布局边界（Relayout Boundary），可以在某些节点自动或手动地设置布局边界，当边界内的任何对象发生重新布局时，不会影响边界外的对象，反之亦然。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/4e5e9ebc.png" alt="img"></p>
-<div style="text-align: center"><p>图 5 Flutter 布局边界</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/4e5e9ebc.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 5 Flutter 布局边界</p>
 </div>
 <h3 id="_5-2-绘制" tabindex="-1"><a class="header-anchor" href="#_5-2-绘制" aria-hidden="true">#</a> <strong>5.2 绘制</strong></h3>
 <p>布局完成后，渲染对象树中的每个节点都有了明确的尺寸和位置。Flutter 会把所有的渲染对象绘制到不同的图层上。与布局过程一样，绘制过程也是深度优先遍历，而且总是先绘制自身，再绘制子节点。</p>
 <p>以下图为例：节点 1 在绘制完自身后，会再绘制节点 2，然后绘制它的子节点 3、4 和 5，最后绘制节点 6。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/f5cf7377.png" alt="img"></p>
-<div style="text-align: center"><p>图 6 Flutter 绘制示例</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/f5cf7377.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 6 Flutter 绘制示例</p>
 </div>
 <p>可以看到，由于一些其他原因（比如，视图手动合并）导致 2 的子节点 5 与它的兄弟节点 6 处于了同一层，这样会导致当节点 2 需要重绘的时候，与其无关的节点 6 也会被重绘，带来性能损耗。</p>
 <p>为了解决这一问题，Flutter 提出了与布局边界对应的机制——重绘边界（Repaint Boundary）。在重绘边界内，Flutter 会强制切换新的图层，这样就可以避免边界内外的互相影响，避免无关内容置于同一图层引起不必要的重绘。</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/ec5453e3.png" alt="img"></p>
-<div style="text-align: center"><p>图 7 Flutter 重绘边界</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/ec5453e3.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 7 Flutter 重绘边界</p>
 </div>
 <p>重绘边界的一个典型场景是 Scrollview。ScrollView 滚动的时候需要刷新视图内容，从而触发内容重绘。而当滚动内容重绘时，一般情况下其他内容是不需要重绘的，这时候重绘边界就派上用场了。</p>
 <h3 id="_5-3-合成和渲染" tabindex="-1"><a class="header-anchor" href="#_5-3-合成和渲染" aria-hidden="true">#</a> <strong>5.3 合成和渲染</strong></h3>
@@ -103,11 +110,14 @@
 <p>那么我们<strong>学习 Flutter 都需要掌握哪些知识</strong>呢？</p>
 <p>按照 App 的开发流程（开发、调试测试、发布与线上运维），本课程将 Flutter 的技术栈进行了划分，里面几乎包含了 Flutter 开发需要的所有知识点。掌握了这些知识点后，你也就具备了企业级应用开发的必要技能。</p>
 <p>这些知识点，如下图所示：</p>
-<p><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/78e5fee9.jpeg" alt="img"></p>
-<div style="text-align: center"><p>图 8 Flutter 知识体系</p>
+<figure><img src="@source/code/flutter/FILES/flutterguan-jian-ji-shu.md/78e5fee9.jpeg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<div style="text-align:center">
+<p>图 8 Flutter 知识体系</p>
 </div>
 <p>有了这张图，你是否感觉到学习 Flutter 的路线变得更加清晰了呢？</p>
 <h2 id="_7-小结" tabindex="-1"><a class="header-anchor" href="#_7-小结" aria-hidden="true">#</a> 7. 小结</h2>
 <p>本篇了解了 Flutter 的历史背景与运行机制，并以界面渲染过程为例，从布局、绘制、合成和渲染四个阶段讲述了 Flutter 的实现原理。此外，还介绍了构建 Flutter 底层的关键技术：Skia 与 Dart，它们是 Flutter 有别于其他跨平台开发方案的核心所在。</p>
 <p>最后梳理了一张 Flutter 学习思维导图，围绕一个应用的迭代周期介绍了 Flutter 相关的知识点。希望你对 Flutter 背后的设计原理和知识体系有所了解，对 Flutter 有一个整体感知。</p>
 </div></template>
+
+

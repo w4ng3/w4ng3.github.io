@@ -57,7 +57,8 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      autoExcerpt: true,
+      // autoExcerpt: true,
+      excerptLength: 0,
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，
@@ -80,25 +81,27 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      // enableAll: true, // 全部开启
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
       align: true,
       codetabs: true,
       demo: true,
+      figure: true,
       flowchart: true,
       footnote: true,
-      imageMark: true,
+      imgLazyload: true,
+      imgMark: true,
+      imgSize: true,
+      mathjax: true,
       mermaid: true,
+      revealJs: true,
       sub: true,
       sup: true,
-      tex: true,
-      vpre: true,
+      vPre: true
     },
     copyright: {
       global: true,
     },
-    components: ["PDF", "Badge", "CodePen"],
+    components:{
+      components:["PDF", "Badge", "CodePen"]
+    },
   },
 });

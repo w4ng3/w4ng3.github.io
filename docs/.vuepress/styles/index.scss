@@ -1,10 +1,10 @@
-.blog-hero {
-  h1 {
+.vp-blog-hero {
+  &-title{
     font-style: italic;
     color: #f07c82;
     font-size: 50px !important;
   }
-  .description {
+  &-description {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: #fbfcf8;
     font-size: 25px !important;

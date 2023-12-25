@@ -1,4 +1,5 @@
-<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<template><div><div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>本文为 B 站 UP 主 <code v-pre>学院派Academia</code> 的视频 ——<a href="https://www.bilibili.com/video/BV1Jt4y1B72f" target="_blank" rel="noopener noreferrer"> 资本主义的本质是什么？2 万字超硬核马克思解析【硬核社会学】<ExternalLinkIcon/></a>—— 文案。<br>
 该视频由学院派 UP 主雁王 Karl 研究 / 撰写，Rena 配音 / 制作。</p>
 </div>
@@ -153,3 +154,5 @@
 <p>视频：<a href="https://www.bilibili.com/video/BV1Jt4y1B72f" target="_blank" rel="noopener noreferrer"> 资本主义的本质是什么？2 万字超硬核马克思解析【硬核社会学】<ExternalLinkIcon/></a><br>
 文案：<a href="http://anvelpro.xyz/library/academia3/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>
+
+

@@ -1,4 +1,5 @@
-<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<template><div><div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>这篇也是学院派 Academia 的，原文已经发布在了微信公众号上，有版权声明，故不转载。</p>
 </div>
 <h2 id="文章" tabindex="-1"><a class="header-anchor" href="#文章" aria-hidden="true">#</a> 文章</h2>
@@ -22,3 +23,5 @@
 <h2 id="来源" tabindex="-1"><a class="header-anchor" href="#来源" aria-hidden="true">#</a> 来源</h2>
 <p><a href="http://anvelpro.xyz/library/academia2/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>
+
+

@@ -5,19 +5,22 @@
 <li><code v-pre>更新</code>（在视图树中存在）： Widget 的状态更新，主要由 3 个方法触发：setState、didchangeDependencies 与 didUpdateWidget。</li>
 <li><code v-pre>销毁</code>（从视图树中移除）：组件被移除或是页面销毁的时候，系统会调用 deactivate 和 dispose 这两个方法，来移除或销毁组件</li>
 </ul>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png" alt="Img"></p>
-<div style="text-align: center"><p>State生命周期图</p>
+<figure><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144546.png" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
+<div style="text-align:center">
+<p>State生命周期图</p>
 </div>
 <hr>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png" alt="Img"></p>
-<div style="text-align: center"><p>几种常见场景下State生命周期图</p>
+<figure><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911144830.png" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
+<div style="text-align:center">
+<p>几种常见场景下State生命周期图</p>
 </div>
 <hr>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png" alt="Img"></p>
-<div style="text-align: center"><p>State生命周期中方法调用对比</p>
+<figure><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145244.png" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
+<div style="text-align:center">
+<p>State生命周期中方法调用对比</p>
 </div>
 <h2 id="app的生命周期" tabindex="-1"><a class="header-anchor" href="#app的生命周期" aria-hidden="true">#</a> App的生命周期</h2>
-<p><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145438.png" alt="Img"></p>
+<figure><img src="@source/code/flutter/FILES/flutterde-sheng-ming-zhou-qi.md/img-20220911145438.png" alt="Img" tabindex="0" loading="lazy"><figcaption>Img</figcaption></figure>
 <ul>
 <li>有时我们需要在对应的 App 生命周期事件中做相应处理，比如 App 从后台进入前台、从前台退到后台，或是在 UI 绘制完成后做一些处理。</li>
 <li>原生：重写 Activity、ViewController 生命周期回调方法，或是注册应用程序的相关通知，来监听 App 的生命周期并做相应的处理</li>
@@ -29,7 +32,7 @@
 </li>
 </ul>
 <h2 id="demo-监听state生命周期" tabindex="-1"><a class="header-anchor" href="#demo-监听state生命周期" aria-hidden="true">#</a> Demo 监听State生命周期</h2>
-<div class="language-dart ext-dart line-numbers-mode"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
+<div class="language-dart line-numbers-mode" data-ext="dart"><pre v-pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string-literal"><span class="token string">'package:flutter/material.dart'</span></span><span class="token punctuation">;</span>
 <span class="token comment">/// @Description  生命周期</span>
 <span class="token keyword">class</span> <span class="token class-name">Page1</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
   <span class="token keyword">const</span> <span class="token class-name">Page1</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">Key</span><span class="token operator">?</span> key<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span> key<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -125,3 +128,5 @@
 <span class="token punctuation">}</span>
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

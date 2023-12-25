@@ -1,4 +1,5 @@
-<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<template><div><div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>本文为B站UP主<code v-pre>学院派Academia</code>的视频 ——<a href="https://www.bilibili.com/video/BV18z4y1C7rX?vd_source=6fb4f119e10cb3a77160be52b35e5bd9" target="_blank" rel="noopener noreferrer">【硬核社会学】996、内卷、打工人：马克思为什么是对的（上）<ExternalLinkIcon/></a>—— 文案。</p>
 </div>
 <p>2020 年的今天，作为一个理性的人，你很难不承认的一个事实是：</p>
@@ -127,3 +128,5 @@
 <p>视频：<a href="https://www.bilibili.com/video/BV18z4y1C7rX?vd_source=6fb4f119e10cb3a77160be52b35e5bd9" target="_blank" rel="noopener noreferrer">【硬核社会学】996、内卷、打工人：马克思为什么是对的（上）<ExternalLinkIcon/></a><br>
 文案：<a href="http://anvelpro.xyz/library/academia1/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>
+
+

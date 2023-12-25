@@ -16,7 +16,7 @@ export default sidebar(
         text: "无端太息",
         icon: "creative",
         prefix: "sigh/",
-        collapsable: true,
+        collapsible: true,
         children: "structure",
       }],
     "/knowledge/":[
@@ -25,7 +25,7 @@ export default sidebar(
         text: "当代精神文明建设考",
         icon: "creative",
         prefix: "spiritual/",
-        collapsable: false,
+        collapsible: false,
         children: "structure",
       }],
     "/black/": [
@@ -34,7 +34,7 @@ export default sidebar(
         text: "告别",
         icon: "creative",
         prefix: "farewell/",
-        collapsable: true,
+        collapsible: true,
         children: "structure",
       }],
   }

@@ -1,4 +1,5 @@
-<template><div><div class="custom-container info"><p class="custom-container-title">hook(钩子 🪝)</p>
+<template><div><div class="hint-container info">
+<p class="hint-container-title">hook(钩子 🪝)</p>
 <p>hook 本质上是一个函数，是一种编程机制<br>
 作用是将 setup 函数中使用的<code v-pre>Composition API</code>(ref、reactive、computed、watch、生命周期)进行了封装，提供了一种更明确的方式来组织代码，使得代码能重用，更重要的是，它允许不同的逻辑部分进行通信、协同工作。</p>
 </div>
@@ -17,10 +18,11 @@
 <h2 id="demo-自定义-hook-函数" tabindex="-1"><a class="header-anchor" href="#demo-自定义-hook-函数" aria-hidden="true">#</a> Demo 自定义 hook 函数</h2>
 <h3 id="收集用户鼠标点击的页面坐标" tabindex="-1"><a class="header-anchor" href="#收集用户鼠标点击的页面坐标" aria-hidden="true">#</a> 收集用户鼠标点击的页面坐标</h3>
 <h2 style="color:pink">X: {{ x }} 💚 Y: {{ y }}</h2>
-<CodeTabs :data='[{"title":"useMousePosition.js"},{"title":"HomeView.vue"}]' tab-id="language">
-
-<template #tab0="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// hooks/useMousePosition.js</span>
+<CodeTabs id="53" :data='[{"id":"useMousePosition.js"},{"id":"HomeView.vue"}]' tab-id="language">
+<template #title0="{ value, isActive }">useMousePosition.js</template>
+<template #title1="{ value, isActive }">HomeView.vue</template>
+<template #tab0="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// hooks/useMousePosition.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> ref<span class="token punctuation">,</span> onMounted<span class="token punctuation">,</span> onUnmounted <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vue"</span><span class="token punctuation">;</span>
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
   <span class="token comment">// 初始化坐标数据</span>
@@ -46,8 +48,8 @@
   <span class="token keyword">return</span> <span class="token punctuation">{</span> x<span class="token punctuation">,</span> y <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab1="{ title, value, isActive }">
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<template #tab1="{ value, isActive }">
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Vue logo<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/logo.png<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>x: {{ x }}, y: {{ y }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
@@ -68,7 +70,7 @@
 <p>VueUse 是 vue3 的一个 hook 库，帮我们封装了一些常用的功能。
 <a href="https://vueuse.org/guide/" target="_blank" rel="noopener noreferrer">官网指南<ExternalLinkIcon/></a></p>
 <p>这里也是使用了一个<code v-pre>VueUse</code>中的获取鼠标坐标的 hook: <code v-pre>useMouse</code>，并且用<code v-pre>useTransition</code>给响应性变量施加过度动画。</p>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Vue logo<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/logo.png<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>x: {{ Math.round(pointX) }}, y: {{ Math.round(pointY) }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
@@ -85,7 +87,7 @@
   <span class="token literal-property property">transition</span><span class="token operator">:</span> TransitionPresets<span class="token punctuation">.</span>easeInOutCubic<span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/vue-use.gif" alt="demo:vue-use.gif"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/vue-use.gif" alt="demo:vue-use.gif" tabindex="0" loading="lazy"><figcaption>demo:vue-use.gif</figcaption></figure>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/462631261" target="_blank" rel="noopener noreferrer">简单理解 VUE3 hook<ExternalLinkIcon/></a></li>
@@ -94,6 +96,7 @@
 <li><a href="https://www.vue-js.com/topic/6114829f120d99003158dad7" target="_blank" rel="noopener noreferrer">VueUse 中的这 5 个函数，也太好用了吧<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
 
 <script setup>
 import useMousePosition from '@Hooks/useMousePosition'

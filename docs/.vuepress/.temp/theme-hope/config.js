@@ -1,27 +1,30 @@
 import { defineClientConfig } from "@vuepress/client";
+import { VPLink } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-shared@2.0.0-rc.6_vuepress-vite@2.0.0-rc.0_vuepress-webpack@2.0.0-rc.0_vuepress@2.0.0-rc.0/node_modules/vuepress-shared/lib/client/index.js";
 
-import CommonWrapper from "@theme-hope/components/CommonWrapper";
-import HomePage from "@theme-hope/components/HomePage";
-import NormalPage from "@theme-hope/components/NormalPage";
-import Navbar from "@theme-hope/module/navbar/components/Navbar";
-import Sidebar from "@theme-hope/module/sidebar/components/Sidebar";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { useScrollPromise } from "@theme-hope/composables";
-import { injectDarkMode, setupDarkMode } from "@theme-hope/module/outlook/composables";
-import { setupSidebarItems } from "@theme-hope/module/sidebar/composables";
+import { defineAutoCatalogGetter } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-auto-catalog@2.0.0-rc.6_sass-loader@13.3.2_vuepress-vite@2.0.0-rc.0_vuepress-_xzdf3kj6wd7wsfdaf47ev7cy74/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { h } from "vue"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import Slide from "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2._v7greqqnuks66f25u2a37bcdsa/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.87/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.6_flowchart.ts@3.0.0_markdown-it@13.0.2_mathjax-full@3.2.2_merma_xfpozybaj6ihebintyabrmb4qu/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
+defineAutoCatalogGetter((meta) => {
+  const title = meta.t;
+  const shouldIndex = meta.I !== false;
+  const icon = meta.i;
 
-import BloggerInfo from "@theme-hope/module/blog/components/BloggerInfo";
-import BlogHome from "@theme-hope/module/blog/components/BlogHome";
-import BlogPage from "@theme-hope/module/blog/components/BlogPage";
-import { setupBlog } from "@theme-hope/module/blog/composables";
-import "/Users/w2gd/Desktop/wardendon.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.87/node_modules/vuepress-theme-hope/lib/client/module/blog/styles/layout.scss";
-
-import GloablEncrypt from "@theme-hope/module/encrypt/components/GloablEncrypt";
-import LocalEncrypt from "@theme-hope/module/encrypt/components/LocalEncrypt";
-
+  return shouldIndex ? {
+    title,
+    content: icon ? () =>[h(HopeIcon, { icon }), title] : null,
+    order: meta.O,
+    index: meta.I,
+  } : null;
+});
 
 export default defineClientConfig({
   enhance: ({ app, router }) => {
@@ -34,28 +37,29 @@ export default defineClientConfig({
     };
 
     // inject global properties
-    injectDarkMode(app);
+    injectDarkmode(app);
 
-    // register to inject styles
-    app.component("CommonWrapper", CommonWrapper);
-    app.component("HomePage", HomePage);
-    app.component("NormalPage", NormalPage);
-    app.component("Navbar", Navbar);
-    app.component("Sidebar", Sidebar);
+    // provide HopeIcon as global component
+    app.component("HopeIcon", HopeIcon);
+    // provide VPLink as global component
+    app.component("VPLink", VPLink);
 
-    
     app.component("BloggerInfo", BloggerInfo);
-    app.component("BlogHome", BlogHome);
-    app.component("BlogPage", BlogPage);
-    
-    app.component("GloablEncrypt", GloablEncrypt);
+    app.component("GlobalEncrypt", GlobalEncrypt);
     app.component("LocalEncrypt", LocalEncrypt);
-    
   },
   setup: () => {
-    setupDarkMode();
+    setupDarkmode();
     setupSidebarItems();
     setupBlog();
-    
   },
+  layouts: {
+    Layout,
+    NotFound,
+    BlogCategory,
+    BlogHome,
+    BlogType,
+    Timeline,
+    Slide,
+  }
 });

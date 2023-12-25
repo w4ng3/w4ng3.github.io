@@ -1,4 +1,5 @@
-<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<template><div><div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>本文为 B 站 UP 主 <code v-pre>学院派Academia</code> 的视频 ——<a href="https://www.bilibili.com/video/BV1SN41197Ri" target="_blank" rel="noopener noreferrer">【金融资本论】金融帝国主义如何剥削全世界？<ExternalLinkIcon/></a>—— 文案。</p>
 </div>
 <p>从 P2P、花呗、基金热潮，到比特币、白酒股、显卡潮鞋市场，过去五年，我们见证了整个人类社会在互联网之下的泛金融化革命。然而，我们却没有看到真正的危险所在。早在百年前，马克思学派就已经系统地解剖了资本主义朝金融化迈进的复杂系统进程。而在今天，研究这个命题可能真正决定了我们的生死存亡。</p>
@@ -42,3 +43,5 @@
 <p>视频：<a href="https://www.bilibili.com/video/BV1SN41197Ri" target="_blank" rel="noopener noreferrer">【金融资本论】金融帝国主义如何剥削全世界？<ExternalLinkIcon/></a><br>
 文案：<a href="http://anvelpro.xyz/library/academia4/" target="_blank" rel="noopener noreferrer">转载于Velpro514 @坠茵落溷<ExternalLinkIcon/></a></p>
 </div></template>
+
+

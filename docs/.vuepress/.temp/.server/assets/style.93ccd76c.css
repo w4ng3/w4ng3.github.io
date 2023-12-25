@@ -9022,7 +9022,7 @@ button.sidebar-heading {
 .sidebar-group .sidebar-group .sidebar-heading {
   font-size: 1em;
 }
-.sidebar-group:not(.collapsable) .sidebar-heading:not(.clickable) {
+.sidebar-group:not(.collapsible) .sidebar-heading:not(.clickable) {
   color: inherit;
   cursor: auto;
 }

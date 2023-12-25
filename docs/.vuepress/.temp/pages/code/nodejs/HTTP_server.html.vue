@@ -1,7 +1,10 @@
-<template><div><CodeTabs :data='[{"title":"index.js"},{"title":"server.js"},{"title":"requestHandles.js"},{"title":"router.js"}]' tab-id="language">
-
-<template #tab0="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> server <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"./utils/server"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<template><div><CodeTabs id="0" :data='[{"id":"index.js"},{"id":"server.js"},{"id":"requestHandles.js"},{"id":"router.js"}]' tab-id="language">
+<template #title0="{ value, isActive }">index.js</template>
+<template #title1="{ value, isActive }">server.js</template>
+<template #title2="{ value, isActive }">requestHandles.js</template>
+<template #title3="{ value, isActive }">router.js</template>
+<template #tab0="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> server <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"./utils/server"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> router <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"./router"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> requestHandlers <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"./utils/requestHandlers"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
@@ -12,8 +15,8 @@ handle<span class="token punctuation">[</span><span class="token string">"/uploa
 
 server<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span>router<span class="token punctuation">.</span>route<span class="token punctuation">,</span> handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab1="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"http"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<template #tab1="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"http"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"url"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword">function</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token parameter">route<span class="token punctuation">,</span> handle</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -40,8 +43,8 @@ server<span class="token punctuation">.</span><span class="token function">start
 
 exports<span class="token punctuation">.</span>start <span class="token operator">=</span> start<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab2="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> exec <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"child_process"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>exec<span class="token punctuation">;</span>
+<template #tab2="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> exec <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"child_process"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>exec<span class="token punctuation">;</span>
 <span class="token keyword">let</span> querystring <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"querystring"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token comment">// 处理POST请求</span>
@@ -75,8 +78,8 @@ exports<span class="token punctuation">.</span>start <span class="token operator
 exports<span class="token punctuation">.</span>start <span class="token operator">=</span> start<span class="token punctuation">;</span>
 exports<span class="token punctuation">.</span>upload <span class="token operator">=</span> upload<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
-<template #tab3="{ title, value, isActive }">
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">route</span><span class="token punctuation">(</span><span class="token parameter">handle<span class="token punctuation">,</span> pathname<span class="token punctuation">,</span> response<span class="token punctuation">,</span> postData</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<template #tab3="{ value, isActive }">
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">route</span><span class="token punctuation">(</span><span class="token parameter">handle<span class="token punctuation">,</span> pathname<span class="token punctuation">,</span> response<span class="token punctuation">,</span> postData</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"About to route a request for "</span> <span class="token operator">+</span> pathname<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> handle<span class="token punctuation">[</span>pathname<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token string">"function"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     handle<span class="token punctuation">[</span>pathname<span class="token punctuation">]</span><span class="token punctuation">(</span>response<span class="token punctuation">,</span> postData<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -90,7 +93,7 @@ exports<span class="token punctuation">.</span>upload <span class="token operato
 exports<span class="token punctuation">.</span>route <span class="token operator">=</span> route<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/httpserver.gif" alt="post请求"></p>
+<figure><img src="https://riddler.oss-cn-shanghai.aliyuncs.com/blog/httpserver.gif" alt="post请求" tabindex="0" loading="lazy"><figcaption>post请求</figcaption></figure>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h2>
 <ul>
 <li><a href="https://www.nodebeginner.org/index-zh-cn.html" target="_blank" rel="noopener noreferrer">Node 入门<ExternalLinkIcon/></a></li>
@@ -98,3 +101,5 @@ exports<span class="token punctuation">.</span>route <span class="token operator
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Asynchronous/Promises" target="_blank" rel="noopener noreferrer">如何使用 Promise<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
+

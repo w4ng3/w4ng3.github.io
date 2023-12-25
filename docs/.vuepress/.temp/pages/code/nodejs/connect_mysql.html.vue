@@ -1,11 +1,12 @@
 <template><div><h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>pnpm add --save mysql2
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="custom-container tip"><p class="custom-container-title">mysql2相比mysqls的优势</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>pnpm add --save mysql2
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">
+<p class="hint-container-title">mysql2相比mysqls的优势</p>
 <p>mysql2的性能更高，支持PreparedStatement，多次查询性能更高，书写SQL更简单；自带Promise包装器，可以直接使用async/await语法；和大部分的mysqls库兼容。且被sequlize支持。</p>
 </div>
 <h2 id="连接数据库" tabindex="-1"><a class="header-anchor" href="#连接数据库" aria-hidden="true">#</a> 连接数据库</h2>
 <p><a href="https://blog.csdn.net/qq_45040919/article/details/110139354" target="_blank" rel="noopener noreferrer">在Node.js中如何使用mysql2<ExternalLinkIcon/></a></p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> mysql <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"mysql2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> mysql <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"mysql2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token comment">// 创建连接对象</span>
 <span class="token keyword">const</span> connection <span class="token operator">=</span> mysql<span class="token punctuation">.</span><span class="token function">createConnection</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
@@ -48,7 +49,7 @@ connection<span class="token punctuation">.</span><span class="token function">e
 <p>那由谁来做这个转换呢？就是ORM框架，Sequelize就是这种ORM框架，可以让我们读写JS对象，它帮我们把对象变成表中的每行。</p>
 <p><a href="https://github.com/demopark/sequelize-docs-Zh-CN" target="_blank" rel="noopener noreferrer">Sequelize Docs 中文版<ExternalLinkIcon/></a></p>
 <h3 id="demo-crud" tabindex="-1"><a class="header-anchor" href="#demo-crud" aria-hidden="true">#</a> demo CRUD</h3>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> Sequelize<span class="token punctuation">,</span> Model<span class="token punctuation">,</span> DataTypes <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"sequelize"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> Sequelize<span class="token punctuation">,</span> Model<span class="token punctuation">,</span> DataTypes <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"sequelize"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> sequelize <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Sequelize</span><span class="token punctuation">(</span><span class="token string">"db_soft"</span><span class="token punctuation">,</span> <span class="token string">"root"</span><span class="token punctuation">,</span> <span class="token string">"123456"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">host</span><span class="token operator">:</span> <span class="token string">"localhost"</span><span class="token punctuation">,</span>
@@ -121,3 +122,5 @@ Book<span class="token punctuation">.</span><span class="token function">init</s
 <li><a href="https://juejin.cn/post/6920948406055616526#heading-5" target="_blank" rel="noopener noreferrer">《使用nodejs连接mysql数据库》<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
+
+

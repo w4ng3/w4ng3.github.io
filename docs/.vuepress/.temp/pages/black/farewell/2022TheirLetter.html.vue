@@ -1,5 +1,5 @@
 <template><div><h2 id="_1月21日-河北寻亲男孩刘学州留遗书自杀身亡" tabindex="-1"><a class="header-anchor" href="#_1月21日-河北寻亲男孩刘学州留遗书自杀身亡" aria-hidden="true">#</a> 1月21日 河北寻亲男孩刘学州留遗书自杀身亡</h2>
-<details class="custom-container details"><summary>出生被抛弃，幼年遭欺凌，长大遭网暴</summary>
+<details class="hint-container details"><summary>出生被抛弃，幼年遭欺凌，长大遭网暴</summary>
 <p>哈喽，大家好，我是刘学州</p>
 <p>我也不知道自己此时此刻是怀着一种怎样的心情去写下的这段话。</p>
 <p>简单的来描述一下我自己吧，学生、一个努力发光的人、坚强男孩、出生被父母卖掉做彩礼、四岁养父母双亡、二年级开始寄宿制学校、校园欺凌受害者、男老师猥亵、寻亲男孩被二次遗弃、被生父母添油加醋颠倒黑白被“网暴”、假笑男孩</p>
@@ -96,13 +96,13 @@
 <p><strong>最后，谢谢你可以见证我的人生终点，谢谢你可以看完</strong>。</p>
 </details>
 <h2 id="_2月16日-41岁男子海口公园自缢" tabindex="-1"><a class="header-anchor" href="#_2月16日-41岁男子海口公园自缢" aria-hidden="true">#</a> 2月16日 41岁男子海口公园自缢</h2>
-<details class="custom-container details"><summary>遗书</summary>
+<details class="hint-container details"><summary>遗书</summary>
 <p>感谢你们的辛苦，不用浪费任何资源调查，是我心里出现了问题，</p>
 <p>自杀 自杀 自杀</p>
 <p>请不要打电话给我父母</p>
 </details>
 <h2 id="_8月-一男子在朋友圈留下遗书后服药自杀-网友刷到后报警救下" tabindex="-1"><a class="header-anchor" href="#_8月-一男子在朋友圈留下遗书后服药自杀-网友刷到后报警救下" aria-hidden="true">#</a> 8月 一男子在朋友圈留下遗书后服药自杀，网友刷到后报警救下</h2>
-<details class="custom-container details"><summary>遗书</summary>
+<details class="hint-container details"><summary>遗书</summary>
 <p>我不需要墓碑，</p>
 <p>我想自由自在</p>
 <p>不被束缚</p>
@@ -116,3 +116,5 @@
 <p>是我自己的问题。</p>
 </details>
 </div></template>
+
+

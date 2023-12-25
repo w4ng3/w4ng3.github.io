@@ -128,7 +128,7 @@
 </blockquote>
 <p>  踩榻榻米跳楼前留言：榻榻米我用鞋踩过，用抹布擦干净。</p>
 <h2 id="_11-28-25岁摄影师鹿道森在微博公开发表长文遗书后失联" tabindex="-1"><a class="header-anchor" href="#_11-28-25岁摄影师鹿道森在微博公开发表长文遗书后失联" aria-hidden="true">#</a> 11/28  25岁摄影师鹿道森在微博公开发表长文遗书后失联</h2>
-<details class="custom-container details"><summary>《无需为他立碑，只愿玫瑰年年为他盛放》</summary>
+<details class="hint-container details"><summary>《无需为他立碑，只愿玫瑰年年为他盛放》</summary>
 <p>嗨，我是鹿道森</p>
 <p>这是最后一次这么介绍自己了</p>
 <p>今天是我出生的日子</p>
@@ -169,3 +169,5 @@
 <p>这封遗书，谢谢你看完，就此划上句点。</p>
 </details>
 </div></template>
+
+
