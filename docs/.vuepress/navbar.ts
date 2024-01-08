@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  { text: "文笏", icon: "article", link: "/literary/"},
+  { text: "文笏", icon: "article", link: "/literary/" },
   { text: "使用指南", icon: "creative", link: "/guide/" },
   {
     text: "代码笔记",
@@ -14,6 +14,7 @@ export default navbar([
       { text: "TypeScript", icon: "typescript", link: "ts/" },
       { text: "Node.js", icon: "nodeJS", link: "nodejs/" },
       { text: "Flutter", icon: "dart", link: "flutter/" },
+      { text: "踩坑记录", icon: "javascript", link: "hole/" },
     ],
   },
 ]);

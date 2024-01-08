@@ -5,8 +5,6 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /slide.html
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/slide.html.vue")),
-  // path: /black/
-  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/markdown.html
@@ -19,14 +17,10 @@ export const pagesComponents = {
   "v-78726316": defineAsyncComponent(() => import(/* webpackChunkName: "v-78726316" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/light.html.vue")),
   // path: /literary/swift.html
   "v-190648d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-190648d0" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/swift.html.vue")),
+  // path: /black/
+  "v-76f78449": defineAsyncComponent(() => import(/* webpackChunkName: "v-76f78449" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/index.html.vue")),
   // path: /knowledge/
   "v-003c11ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-003c11ac" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/index.html.vue")),
-  // path: /black/farewell/2020TheirLetter.html
-  "v-0a7c4342": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a7c4342" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2020TheirLetter.html.vue")),
-  // path: /black/farewell/2021TheirLetter.html
-  "v-4b6bbc60": defineAsyncComponent(() => import(/* webpackChunkName: "v-4b6bbc60" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2021TheirLetter.html.vue")),
-  // path: /black/farewell/2022TheirLetter.html
-  "v-c7d4cb3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-c7d4cb3e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2022TheirLetter.html.vue")),
   // path: /code/flutter/Flutter_resource.html
   "v-c8265628": defineAsyncComponent(() => import(/* webpackChunkName: "v-c8265628" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/flutter/Flutter_resource.html.vue")),
   // path: /code/flutter/Flutter%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.html
@@ -43,6 +37,10 @@ export const pagesComponents = {
   "v-53e4b768": defineAsyncComponent(() => import(/* webpackChunkName: "v-53e4b768" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/flutter/route.html.vue")),
   // path: /code/flutter/%E8%B7%A8%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC.html
   "v-c34a56ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-c34a56ec" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/flutter/跨组件传值.html.vue")),
+  // path: /code/hole/
+  "v-5b158086": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b158086" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/hole/index.html.vue")),
+  // path: /code/hole/%E8%90%A4%E7%9F%B3UIKit%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98.html
+  "v-219e657e": defineAsyncComponent(() => import(/* webpackChunkName: "v-219e657e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/hole/萤石UIKit跨域问题.html.vue")),
   // path: /code/js/Array.html
   "v-5d00dcdd": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d00dcdd" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/js/Array.html.vue")),
   // path: /code/js/Map_Set.html
@@ -89,6 +87,12 @@ export const pagesComponents = {
   "v-ce9f40b4": defineAsyncComponent(() => import(/* webpackChunkName: "v-ce9f40b4" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/渲染函数与虚拟DOM.html.vue")),
   // path: /code/vue/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%BD%E8%B1%A1%E7%BB%84%E4%BB%B6.html
   "v-b8031ba4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b8031ba4" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/自定义抽象组件.html.vue")),
+  // path: /posts/article/useComponentsInMd.html
+  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
+  // path: /posts/diary/%E5%AF%92%E5%86%AC%E6%97%A5%E5%AF%84.html
+  "v-da7fc0f0": defineAsyncComponent(() => import(/* webpackChunkName: "v-da7fc0f0" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/diary/寒冬日寄.html.vue")),
+  // path: /posts/reship/%E6%B2%89%E9%BB%98%E5%86%9C%E5%B7%A5%E3%80%81%E7%8B%97%E6%99%BA%E5%AE%98%E5%83%9A%E3%80%81%E9%AA%97%E5%BB%B7%E6%9D%96%E7%9A%84%E5%AA%92%E4%BD%93%E6%8E%AE%E5%AE%A2%EF%BC%9A2023%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E6%B7%B7%E4%B9%B1.html
+  "v-b6f5f854": defineAsyncComponent(() => import(/* webpackChunkName: "v-b6f5f854" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/reship/沉默农工、狗智官僚、骗廷杖的媒体掮客：2023为何如此混乱.html.vue")),
   // path: /literary/sigh/%E5%B1%B1%E5%85%A5%E5%AE%89%E8%AE%B0.html
   "v-5c6e816c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c6e816c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/山入安记.html.vue")),
   // path: /knowledge/spiritual/996%E3%80%81%E5%86%85%E5%8D%B7%E3%80%81%E6%89%93%E5%B7%A5%E4%BA%BA%EF%BC%9A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AF%B9%E7%9A%84.html
@@ -101,26 +105,20 @@ export const pagesComponents = {
   "v-73bc1031": defineAsyncComponent(() => import(/* webpackChunkName: "v-73bc1031" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/资本主义的本质是什么？.html.vue")),
   // path: /knowledge/spiritual/%E9%87%91%E8%9E%8D%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A6%82%E4%BD%95%E5%89%A5%E5%89%8A%E5%85%A8%E4%B8%96%E7%95%8C.html
   "v-5e2c641c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e2c641c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/金融帝国主义如何剥削全世界.html.vue")),
-  // path: /posts/article/useComponentsInMd.html
-  "v-31297eae": defineAsyncComponent(() => import(/* webpackChunkName: "v-31297eae" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/useComponentsInMd.html.vue")),
-  // path: /posts/diary/%E5%AF%92%E5%86%AC%E6%97%A5%E5%AF%84.html
-  "v-da7fc0f0": defineAsyncComponent(() => import(/* webpackChunkName: "v-da7fc0f0" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/diary/寒冬日寄.html.vue")),
-  // path: /posts/reship/%E6%B2%89%E9%BB%98%E5%86%9C%E5%B7%A5%E3%80%81%E7%8B%97%E6%99%BA%E5%AE%98%E5%83%9A%E3%80%81%E9%AA%97%E5%BB%B7%E6%9D%96%E7%9A%84%E5%AA%92%E4%BD%93%E6%8E%AE%E5%AE%A2%EF%BC%9A2023%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E6%B7%B7%E4%B9%B1.html
-  "v-b6f5f854": defineAsyncComponent(() => import(/* webpackChunkName: "v-b6f5f854" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/reship/沉默农工、狗智官僚、骗廷杖的媒体掮客：2023为何如此混乱.html.vue")),
+  // path: /black/farewell/2020TheirLetter.html
+  "v-0a7c4342": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a7c4342" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2020TheirLetter.html.vue")),
+  // path: /black/farewell/2021TheirLetter.html
+  "v-4b6bbc60": defineAsyncComponent(() => import(/* webpackChunkName: "v-4b6bbc60" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2021TheirLetter.html.vue")),
+  // path: /black/farewell/2022TheirLetter.html
+  "v-c7d4cb3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-c7d4cb3e" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/2022TheirLetter.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/404.html.vue")),
-  // path: /black/farewell/
-  "v-b13e68ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-b13e68ec" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/index.html.vue")),
   // path: /code/
   "v-146a1089": defineAsyncComponent(() => import(/* webpackChunkName: "v-146a1089" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/index.html.vue")),
   // path: /code/utils/
   "v-1e0ecb67": defineAsyncComponent(() => import(/* webpackChunkName: "v-1e0ecb67" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/utils/index.html.vue")),
   // path: /code/vue/
   "v-8eb7e91c": defineAsyncComponent(() => import(/* webpackChunkName: "v-8eb7e91c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/code/vue/index.html.vue")),
-  // path: /literary/sigh/
-  "v-21020526": defineAsyncComponent(() => import(/* webpackChunkName: "v-21020526" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/index.html.vue")),
-  // path: /knowledge/spiritual/
-  "v-2196422c": defineAsyncComponent(() => import(/* webpackChunkName: "v-2196422c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/index.html.vue")),
   // path: /posts/article/
   "v-0d1b1fee": defineAsyncComponent(() => import(/* webpackChunkName: "v-0d1b1fee" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/article/index.html.vue")),
   // path: /posts/
@@ -129,6 +127,12 @@ export const pagesComponents = {
   "v-0da95c01": defineAsyncComponent(() => import(/* webpackChunkName: "v-0da95c01" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/diary/index.html.vue")),
   // path: /posts/reship/
   "v-f38232ea": defineAsyncComponent(() => import(/* webpackChunkName: "v-f38232ea" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/posts/reship/index.html.vue")),
+  // path: /literary/sigh/
+  "v-21020526": defineAsyncComponent(() => import(/* webpackChunkName: "v-21020526" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/literary/sigh/index.html.vue")),
+  // path: /knowledge/spiritual/
+  "v-2196422c": defineAsyncComponent(() => import(/* webpackChunkName: "v-2196422c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/knowledge/spiritual/index.html.vue")),
+  // path: /black/farewell/
+  "v-b13e68ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-b13e68ec" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/black/farewell/index.html.vue")),
   // path: /category/
   "v-5bc93818": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bc93818" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/index.html.vue")),
   // path: /tag/
@@ -151,6 +155,10 @@ export const pagesComponents = {
   "v-36d728aa": defineAsyncComponent(() => import(/* webpackChunkName: "v-36d728aa" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/flutter/index.html.vue")),
   // path: /tag/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/
   "v-1daa6b4d": defineAsyncComponent(() => import(/* webpackChunkName: "v-1daa6b4d" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/快速上手/index.html.vue")),
+  // path: /category/%E8%B8%A9%E5%9D%91/
+  "v-1fec16af": defineAsyncComponent(() => import(/* webpackChunkName: "v-1fec16af" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/踩坑/index.html.vue")),
+  // path: /tag/%E7%9B%91%E6%8E%A7/
+  "v-24a45428": defineAsyncComponent(() => import(/* webpackChunkName: "v-24a45428" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/tag/监控/index.html.vue")),
   // path: /category/javascript/
   "v-e2bac56c": defineAsyncComponent(() => import(/* webpackChunkName: "v-e2bac56c" */"/Users/w2gd/Desktop/wardendon.github.io/docs/.vuepress/.temp/pages/category/javascript/index.html.vue")),
   // path: /tag/demo/
