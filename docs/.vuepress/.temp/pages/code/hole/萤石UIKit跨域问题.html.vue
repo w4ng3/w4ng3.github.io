@@ -1,10 +1,10 @@
-<template><div><h2 id="web-worker-跨源访问问题" tabindex="-1"><a class="header-anchor" href="#web-worker-跨源访问问题" aria-hidden="true">#</a> Web Worker 跨源访问问题</h2>
-<p>使用萤石开放平台的 <code v-pre>ezopen JS SDK</code> 接入 web 页面的监控视频时，代码打包后部署到服务器上出现这个 <code v-pre>DOMException: Failed to construct 'Worker'...</code> 错误。</p>
+<template><div><p>使用萤石开放平台的 <code v-pre>ezopen JS SDK</code> 接入 web 页面的监控视频时，代码打包后部署到服务器上出现这个 <code v-pre>DOMException: Failed to construct 'Worker'...</code> 错误。</p>
 <!-- more -->
+<h2 id="web-worker-跨源访问问题" tabindex="-1"><a class="header-anchor" href="#web-worker-跨源访问问题" aria-hidden="true">#</a> Web Worker 跨源访问问题</h2>
 <figure><img src="https://cdn.jsdelivr.net/gh/wardendon/wiki-image@main/img/202401082104545.png" alt="cannot be accessed from origin '..'" tabindex="0" loading="lazy"><figcaption>cannot be accessed from origin '..'</figcaption></figure>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers#Spawning_a_worker" target="_blank" rel="noopener noreferrer">Mozilla 文档说<ExternalLinkIcon/></a>，Web Worker 必须遵守同源策略，并使用 CORS 来允许跨源访问。</p>
 <p>我实际测试的结果是：使用域名 + https 协议访问部署的网站没有问题，萤石的视频流正常获取，但是使用 ip 地址访问就出现上面的错误。</p>
-<p>让甲方提供域名，甲方不愿意，说只就用 ip 访问网站。</p>
+<p>让甲方提供域名，甲方不愿意，说就只用 ip 访问网站。</p>
 <p>好吧，查询文档，UIKit 的<a href="https://open.ys7.com/doc/zh/uikit/uikit_javascript.html" target="_blank" rel="noopener noreferrer">旧版文档<ExternalLinkIcon/></a>里的监控模式配置说明里提到一个<code v-pre>decoderPath</code>属性，填写解码器绝对路径，就是说部署的时候要把 ezuikit 的源码放入服务器，然后将文件路径作为属性值，那么调用的时候就 是同源的了。</p>
 <p>但是我开发时 是按照<a href="https://open.ys7.com/help/1772" target="_blank" rel="noopener noreferrer">新版文档<ExternalLinkIcon/></a>开发的，文档里的初始化参数说明里根本没有<code v-pre>decoderPath</code>字段，也没有类似含义的字段，node_modules 里找源码搜索也搜不到这个变量。</p>
 <p>最终在 EZUIKit-JavaScript-npm 的 github 仓库里找到了<a href="https://github.com/Ezviz-OpenBiz/EZUIKit-JavaScript-npm/blob/master/demos/base-demo/localDecoder.html" target="_blank" rel="noopener noreferrer">本地解码库示例<ExternalLinkIcon/></a>。</p>

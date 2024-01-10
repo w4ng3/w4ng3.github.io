@@ -4,6 +4,7 @@ icon: javascript
 index: true
 category:
   - 踩坑
+article: false
 ---
 
 ::: info 犯错误乃是取得进步所必须交付的学费

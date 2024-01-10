@@ -7,11 +7,11 @@ tag:
   - 监控
 ---
 
-## Web Worker 跨源访问问题
-
 使用萤石开放平台的 `ezopen JS SDK` 接入 web 页面的监控视频时，代码打包后部署到服务器上出现这个 `DOMException: Failed to construct 'Worker'...` 错误。
 
 <!-- more -->
+
+## Web Worker 跨源访问问题
 
 ![cannot be accessed from origin '..'](https://cdn.jsdelivr.net/gh/wardendon/wiki-image@main/img/202401082104545.png)
 
@@ -19,7 +19,7 @@ tag:
 
 我实际测试的结果是：使用域名 + https 协议访问部署的网站没有问题，萤石的视频流正常获取，但是使用 ip 地址访问就出现上面的错误。
 
-让甲方提供域名，甲方不愿意，说只就用 ip 访问网站。
+让甲方提供域名，甲方不愿意，说就只用 ip 访问网站。
 
 好吧，查询文档，UIKit 的[旧版文档](https://open.ys7.com/doc/zh/uikit/uikit_javascript.html)里的监控模式配置说明里提到一个`decoderPath`属性，填写解码器绝对路径，就是说部署的时候要把 ezuikit 的源码放入服务器，然后将文件路径作为属性值，那么调用的时候就 是同源的了。
 
