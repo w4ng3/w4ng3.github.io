@@ -1,6 +1,6 @@
 ---
-title: 主要功能与配置演示
-index: false
+title: 软件指北
+index: true
 icon: creative
 category:
   - 使用指南
